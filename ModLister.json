@@ -170,10 +170,10 @@
   {
     "n": "CraftTweaker JEI Support",
     "v": "2.0.3",
-    "f": "CraftTweaker2-1.12-4.1.20.571.jar",
+    "f": "CraftTweaker2-1.12-4.1.20.573.jar",
     "a": "",
     "u": "",
-    "m": "9bfef8039c804b320f8cb0d3532badeb"
+    "m": "3dfc497685256e6d1d0ac01de26497e0"
   },
   {
     "n": "CraftTweaker Utils",
@@ -186,18 +186,18 @@
   {
     "n": "CraftTweaker2",
     "v": "4.1.20",
-    "f": "CraftTweaker2-1.12-4.1.20.571.jar",
+    "f": "CraftTweaker2-1.12-4.1.20.573.jar",
     "a": "StanHebben, Jaredlll08",
     "u": "http://minetweaker3.powerofbytes.com",
-    "m": "9bfef8039c804b320f8cb0d3532badeb"
+    "m": "3dfc497685256e6d1d0ac01de26497e0"
   },
   {
     "n": "CT-GUI",
     "v": "1.0.0",
-    "f": "CraftTweaker2-1.12-4.1.20.571.jar",
+    "f": "CraftTweaker2-1.12-4.1.20.573.jar",
     "a": "",
     "u": "",
-    "m": "9bfef8039c804b320f8cb0d3532badeb"
+    "m": "3dfc497685256e6d1d0ac01de26497e0"
   },
   {
     "n": "CTM",
@@ -609,11 +609,11 @@
   },
   {
     "n": "TerraFirmaCraft",
-    "v": "1.0.11.140",
-    "f": "TerraFirmaCraft-MC1.12.2-1.0.11.140.jar",
+    "v": "1.1.0.142",
+    "f": "TerraFirmaCraft-MC1.12.2-1.1.0.142.jar",
     "a": "Dries007, AlcatrazEscapee, Bunsan, et. al.",
     "u": "https://tng.terrafirmacraft.com/Main_Page",
-    "m": "2b28b51425ca3d64750e81a08549507c"
+    "m": "1bd5557d7a017927b398434cedc3bae6"
   },
   {
     "n": "TFC Aged Drinks",
