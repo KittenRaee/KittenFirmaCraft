@@ -1,0 +1,738 @@
+[
+  {
+    "n": "Alternating Flux",
+    "v": "0.12.2-2",
+    "f": "alternatingflux-0.12.2-2.jar",
+    "a": "AntiBlueQuirk",
+    "u": "",
+    "m": "a3221919c55f5cae56f1fb902cd159b2"
+  },
+  {
+    "n": "AppleSkin",
+    "v": "1.0.9",
+    "f": "AppleSkin-mc1.12-1.0.9.jar",
+    "a": "squeek",
+    "u": "",
+    "m": "0e0af1e6f80ea2ee7ecfc2f8f44b897b"
+  },
+  {
+    "n": "AutoRegLib",
+    "v": "1.3-32",
+    "f": "AutoRegLib-1.3-32.jar",
+    "a": "Vazkii",
+    "u": "http://www.vazkii.us",
+    "m": "4e5a4b881c27b1e4502a9a16c00882ad"
+  },
+  {
+    "n": "B.A.S.E",
+    "v": "3.13.0",
+    "f": "base-1.12.2-3.13.0.jar",
+    "a": "SkySom, Lanse505, Jared, EwyBoy",
+    "u": "http://minecraft.curseforge.com/projects/b-a-s-e",
+    "m": "caae1ceb2cbcdc7bd7a6acf078788faf"
+  },
+  {
+    "n": "BackTools",
+    "v": "7.0.1",
+    "f": "BackTools-1.12.2-7.0.1.jar",
+    "a": "iChun",
+    "u": "http://ichun.me/mods/back-tools/",
+    "m": "a075276ecae1692fb7a9b09f6e5222a5"
+  },
+  {
+    "n": "Bauble Of Undying",
+    "v": "1.0.1",
+    "f": "BaubleOfUndying-1.12-1.0.1.jar",
+    "a": "InsomniaKitten",
+    "u": "",
+    "m": "0b6b06faf3a2d923112f12fca74740bc"
+  },
+  {
+    "n": "Baubles",
+    "v": "1.5.2",
+    "f": "Baubles-1.12-1.5.2.jar",
+    "a": "Azanor",
+    "u": "http://www.minecraftforum.net/topic/2535073-baubles",
+    "m": "944dec4ef3fbfd4d498d94a7047af201"
+  },
+  {
+    "n": "Better Advancements",
+    "v": "0.1.0.77",
+    "f": "BetterAdvancements-1.12.2-0.1.0.77.jar",
+    "a": "way2muchnoise",
+    "u": "https://github.com/way2muchnoise/BetterAdvancements",
+    "m": "9009a4d080caf4d31e4ef8edba1f90cf"
+  },
+  {
+    "n": "Better Builder\u0027s Wands",
+    "v": "0.13.2",
+    "f": "BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar",
+    "a": "Portablejim",
+    "u": "",
+    "m": "fb4283f63a9129ef4611cc92e36de18d"
+  },
+  {
+    "n": "Better Foliage",
+    "v": "2.3.1",
+    "f": "BetterFoliage-MC1.12-2.3.1.jar",
+    "a": "octarine-noise (code), Meringue (textures)",
+    "u": "",
+    "m": "fe8b72e0045c06136ca64f736090ac7a"
+  },
+  {
+    "n": "BiblioCraft",
+    "v": "2.4.5",
+    "f": "BiblioCraft[v2.4.5][MC1.12.2].jar",
+    "a": "Joseph \u0027Nuchaz\u0027 Sinclair",
+    "u": "http://www.bibliocraftmod.com",
+    "m": "5b9f1a1543a1fdf687fe4761e3d63ed4"
+  },
+  {
+    "n": "BnBGamingCore",
+    "v": "0.11.0",
+    "f": "minecraft.jar",
+    "a": "blargerist, superckl",
+    "u": "http://bloodnbonesgaming.com/",
+    "m": ""
+  },
+  {
+    "n": "BNBGamingLib",
+    "v": "2.17.6",
+    "f": "BNBGamingLib-1.12.2-2.17.6.jar",
+    "a": "Blargerist, superckl",
+    "u": "http://bloodnbonesgaming.com/",
+    "m": "fb9e9974b8c2cb9ee7ca9d29ef72dfbf"
+  },
+  {
+    "n": "Bountiful Baubles",
+    "v": "0.0.1",
+    "f": "Bountiful Baubles-1.12.2-0.1.6.jar",
+    "a": "CursedFlames",
+    "u": "",
+    "m": "135662f01e2b1cf4a6eadfb38f61dbbc"
+  },
+  {
+    "n": "Chunk Pregenerator",
+    "v": "2.1",
+    "f": "Chunk Pregenerator V1.12-2.2.jar",
+    "a": "",
+    "u": "",
+    "m": "432b582c936e0c627ce8a6102939e474"
+  },
+  {
+    "n": "CoFH Core",
+    "v": "4.6.6",
+    "f": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
+    "a": "Team CoFH",
+    "u": "http://www.teamcofh.com",
+    "m": "f147d3b87f97bb317e1c37cba0dde002"
+  },
+  {
+    "n": "Colytra",
+    "v": "1.2.0.4",
+    "f": "colytra-1.12.2-1.2.0.4.jar",
+    "a": "C4",
+    "u": "",
+    "m": "9f9470149a389cfb30de0f9dc6d8fe89"
+  },
+  {
+    "n": "Comforts",
+    "v": "1.4.1.3",
+    "f": "comforts-1.12.2-1.4.1.3.jar",
+    "a": "C4",
+    "u": "",
+    "m": "47b49d007c3e337c294822cb34e59c4c"
+  },
+  {
+    "n": "ContentTweaker",
+    "v": "1.12.2-4.9.1",
+    "f": "ContentTweaker-1.12.2-4.9.1.jar",
+    "a": "SkySom",
+    "u": "teamacronymcoders.com",
+    "m": "a36b092d9ed0900b7143f4a14a12fba8"
+  },
+  {
+    "n": "Controlling",
+    "v": "3.0.9",
+    "f": "Controlling-3.0.9.jar",
+    "a": "Jaredlll08",
+    "u": "",
+    "m": "1ad468d60a3e7501e25ca7cb666c62bc"
+  },
+  {
+    "n": "CoroUtil Library",
+    "v": "1.12.1-1.2.37",
+    "f": "coroutil-1.12.1-1.2.37.jar",
+    "a": "Corosus",
+    "u": "http://Coros.us/",
+    "m": "350c216784bb54cffc538325ab52d4cc"
+  },
+  {
+    "n": "CraftTweaker JEI Support",
+    "v": "2.0.3",
+    "f": "CraftTweaker2-1.12-4.1.20.571.jar",
+    "a": "",
+    "u": "",
+    "m": "9bfef8039c804b320f8cb0d3532badeb"
+  },
+  {
+    "n": "CraftTweaker Utils",
+    "v": "0.6",
+    "f": "crafttweakerutils-0.6.jar",
+    "a": "",
+    "u": "",
+    "m": "4ae4df824591846a3fddda428817253b"
+  },
+  {
+    "n": "CraftTweaker2",
+    "v": "4.1.20",
+    "f": "CraftTweaker2-1.12-4.1.20.571.jar",
+    "a": "StanHebben, Jaredlll08",
+    "u": "http://minetweaker3.powerofbytes.com",
+    "m": "9bfef8039c804b320f8cb0d3532badeb"
+  },
+  {
+    "n": "CT-GUI",
+    "v": "1.0.0",
+    "f": "CraftTweaker2-1.12-4.1.20.571.jar",
+    "a": "",
+    "u": "",
+    "m": "9bfef8039c804b320f8cb0d3532badeb"
+  },
+  {
+    "n": "CTM",
+    "v": "MC1.12.2-1.0.2.31",
+    "f": "CTM-MC1.12.2-1.0.2.31.jar",
+    "a": "tterrag, Drullkus, minecreatr",
+    "u": "https://minecraft.curseforge.com/projects/ctm",
+    "m": "77a8bb5486c97e3eaa6f45e5bd768864"
+  },
+  {
+    "n": "Debark",
+    "v": "0.1.2",
+    "f": "Debark-0.1.2.jar",
+    "a": "asie",
+    "u": "https://charset.asie.pl/",
+    "m": "3ae43134317b3f1d71f3def390489f90"
+  },
+  {
+    "n": "Default Options",
+    "v": "9.2.8",
+    "f": "DefaultOptions_1.12.2-9.2.8.jar",
+    "a": "BlayTheNinth",
+    "u": "http://blay09.net",
+    "m": "5510673c0fad1e3b6617b3d97d54b3d5"
+  },
+  {
+    "n": "Ding",
+    "v": "1.0.2",
+    "f": "Ding-1.12.2-1.0.2.jar",
+    "a": "",
+    "u": "http://ichun.me/mods/ding/",
+    "m": "a53653c887baf2c82ceb55663e22a2a7"
+  },
+  {
+    "n": "Dynamic Surroundings",
+    "v": "3.6.1.0",
+    "f": "DynamicSurroundings-1.12.2-3.6.1.0.jar",
+    "a": "",
+    "u": "https://dynamicsurroundings.readthedocs.io",
+    "m": "1a0d50a34941865ff091a492e0612502"
+  },
+  {
+    "n": "Elevator Mod",
+    "v": "1.3.14",
+    "f": "ElevatorMod-1.12.2-1.3.14.jar",
+    "a": "VsnGamer",
+    "u": "https://minecraft.curseforge.com/projects/openblocks-elevator",
+    "m": "3726325984b2f3d35ee284fcaeed21c1"
+  },
+  {
+    "n": "Engineer\u0027s Doors",
+    "v": "0.8.0",
+    "f": "engineers_doors-1.12.2-0.8.0.jar",
+    "a": "Nihiltres",
+    "u": "",
+    "m": "631f58b289270004917bfcb8b1f2bedf"
+  },
+  {
+    "n": "Extended Mod Config",
+    "v": "v1.0",
+    "f": "coroutil-1.12.1-1.2.37.jar",
+    "a": "",
+    "u": "",
+    "m": "350c216784bb54cffc538325ab52d4cc"
+  },
+  {
+    "n": "Extended Renderer",
+    "v": "v1.0",
+    "f": "coroutil-1.12.1-1.2.37.jar",
+    "a": "",
+    "u": "",
+    "m": "350c216784bb54cffc538325ab52d4cc"
+  },
+  {
+    "n": "FastWorkbench",
+    "v": "1.7.3",
+    "f": "FastWorkbench-1.12.2-1.7.3.jar",
+    "a": "Shadows_of_Fire",
+    "u": "",
+    "m": "b55a31e4193204572acf05f78e0deedc"
+  },
+  {
+    "n": "FlameLib",
+    "v": "1.0.0",
+    "f": "FlameLib-1.12.2-0.0.7.jar",
+    "a": "CursedFlames",
+    "u": "",
+    "m": "bab320a7ce88a6bd231ab6a9282a36d8"
+  },
+  {
+    "n": "FoamFix",
+    "v": "0.10.10-1.12.2",
+    "f": "foamfix-0.10.10-1.12.2.jar",
+    "a": "asiekierka",
+    "u": "http://asie.pl/Projects/Minecraft/Mods/FoamFix",
+    "m": "bba94f1ee252fcfbd2d52779f5c2f2b1"
+  },
+  {
+    "n": "FoamFixCore",
+    "v": "7.7.4",
+    "f": "minecraft.jar",
+    "a": "asie",
+    "u": "",
+    "m": ""
+  },
+  {
+    "n": "Forge Mod Loader",
+    "v": "8.0.99.99",
+    "f": "forge-1.12.2-14.23.5.2854.jar",
+    "a": "cpw, LexManos, Player",
+    "u": "https://github.com/MinecraftForge/FML/wiki",
+    "m": ""
+  },
+  {
+    "n": "iChunUtil",
+    "v": "7.2.2",
+    "f": "iChunUtil-1.12.2-7.2.2.jar",
+    "a": "iChun",
+    "u": "http://ichun.me/mods/ichunutil/",
+    "m": "bf13a2044ece544b449c7dc6f8aa40af"
+  },
+  {
+    "n": "Immersive Engineering",
+    "v": "0.12-92",
+    "f": "ImmersiveEngineering-0.12-92.jar",
+    "a": "BluSunrize, Damien A.W. Hazard",
+    "u": "https://github.com/BluSunrize/ImmersiveEngineering",
+    "m": "732d7fb7d99480fc4a8885667567b54b"
+  },
+  {
+    "n": "Immersive Petroleum",
+    "v": "1.1.9",
+    "f": "immersivepetroleum-1.12.2-1.1.9.jar",
+    "a": "Flaxbeard",
+    "u": "https://github.com/Flaxbeard/ImmersivePetroleum",
+    "m": "57ba127778e579d10d705f9f8359d2e0"
+  },
+  {
+    "n": "Immersive Technology",
+    "v": "1.7.60",
+    "f": "MCTImmersiveTechnology-1.12.2-1.7.60.jar",
+    "a": "TGstyle, Kurtchekov",
+    "u": "https://www.curseforge.com/minecraft/mc-mods/mct-immersive-technology",
+    "m": "c14d9938c529d41cca249931ddf4d9cc"
+  },
+  {
+    "n": "JEI Integration",
+    "v": "1.6.0",
+    "f": "jeiintegration_1.12.2-1.6.0.jar",
+    "a": "SnowShock35",
+    "u": "https://curseforge.com/minecraft/mc-mods/jei-integration",
+    "m": "591f2eef8dc65ebc6850bce0acd88f41"
+  },
+  {
+    "n": "JourneyMap",
+    "v": "1.12.2-5.7.1",
+    "f": "journeymap-1.12.2-5.7.1.jar",
+    "a": "techbrew, mysticdrew",
+    "u": "http://journeymap.info",
+    "m": "8160b970fc14cff30dff2785bb9f964c"
+  },
+  {
+    "n": "JourneyMapDefaults",
+    "v": "1.12-0.0.2",
+    "f": "journeymapdefaults-1.0.jar",
+    "a": "BinaryCraft",
+    "u": "",
+    "m": "ca31d3265e17ba53644be979be226506"
+  },
+  {
+    "n": "Just Enough Items",
+    "v": "4.15.0.293",
+    "f": "jei_1.12.2-4.15.0.293.jar",
+    "a": "mezz",
+    "u": "https://github.com/mezz/JustEnoughItems",
+    "m": "32541b3176b0d4b24af71836a52bc070"
+  },
+  {
+    "n": "Just Enough Pattern Banners",
+    "v": "1.2.1",
+    "f": "jepb-1.12-1.2.1.jar",
+    "a": "Lorexe",
+    "u": "",
+    "m": "ba498b8ea379552750f191c5c158fd40"
+  },
+  {
+    "n": "Just Enough Petroleum",
+    "v": "0.1",
+    "f": "JustEnoughPetroleum-0.1.jar",
+    "a": "BordListian",
+    "u": "",
+    "m": "490c5fc3becfa64f3c25a38105796554"
+  },
+  {
+    "n": "Just Enough Resources",
+    "v": "0.9.2.60",
+    "f": "JustEnoughResources-1.12.2-0.9.2.60.jar",
+    "a": "way2muchnoise",
+    "u": "",
+    "m": "87a4666549a60d8fb423883dd4ee6232"
+  },
+  {
+    "n": "Keyboard Wizard",
+    "v": "1.12.2-1.7.3",
+    "f": "keywizard-1.12.2-1.7.3.jar",
+    "a": "MrNerdy42",
+    "u": "",
+    "m": "c00876e68a57bff1f23d72e881903793"
+  },
+  {
+    "n": "Let Sleeping Dogs Lie",
+    "v": "1.0.2",
+    "f": "LetSleepingDogsLie-1.12.2-1.0.2.jar",
+    "a": "",
+    "u": "http://ichun.me/",
+    "m": "0a7ce22acfbf9fca1afa70717173fc4b"
+  },
+  {
+    "n": "Login Shield",
+    "v": "1.12.2-3-g7c6e7ac",
+    "f": "Login_Shield-1.12.2-3-g7c6e7ac.jar",
+    "a": "Glasspelican",
+    "u": "",
+    "m": "9c045292a533e793fc5d8365e87d8fb8"
+  },
+  {
+    "n": "Minecraft",
+    "v": "1.12.2",
+    "f": "minecraft.jar",
+    "a": "",
+    "u": "",
+    "m": ""
+  },
+  {
+    "n": "Minecraft Coder Pack",
+    "v": "9.42",
+    "f": "minecraft.jar",
+    "a": "",
+    "u": "http://www.modcoderpack.com/website/",
+    "m": ""
+  },
+  {
+    "n": "Minecraft Forge",
+    "v": "14.23.5.2854",
+    "f": "forge-1.12.2-14.23.5.2854.jar",
+    "a": "LexManos, cpw, fry",
+    "u": "http://minecraftforge.net",
+    "m": ""
+  },
+  {
+    "n": "Mineral Tracker",
+    "v": "${version}",
+    "f": "MineralTracker-0.8.3.jar",
+    "a": "LordFokas",
+    "u": "https://www.curseforge.com/minecraft/mc-mods/mineral-tracker",
+    "m": "073bc0ba06784b8734777da580eb92a5"
+  },
+  {
+    "n": "Mod Tweaker",
+    "v": "4.0.18",
+    "f": "modtweaker-4.0.18.jar",
+    "a": "Jaredlll08",
+    "u": "https://minecraft.curseforge.com/projects/ModTweaker",
+    "m": "d117e26e6b578b18d25848f578e86c3b"
+  },
+  {
+    "n": "ModLister",
+    "v": "1.12.2-3.2.4",
+    "f": "ModLister-1.12.2-3.2.4.jar",
+    "a": "iChun, Quetzi",
+    "u": "http://www.modlister.com/",
+    "m": "b4662cbed9a05357fbd4238fe90916bb"
+  },
+  {
+    "n": "More Sound Config",
+    "v": "1.0.4",
+    "f": "moresoundconfig-1.0.4.jar",
+    "a": "ichttt",
+    "u": "",
+    "m": "14e0bce12838471d2a83cb1e29c99571"
+  },
+  {
+    "n": "More Sound Config Core",
+    "v": "1.0.0",
+    "f": "minecraft.jar",
+    "a": "ichttt",
+    "u": "",
+    "m": ""
+  },
+  {
+    "n": "MoreTweaker",
+    "v": "1.0.16",
+    "f": "MoreTweaker-1.0.16.jar",
+    "a": "noeppi_noeppi",
+    "u": "",
+    "m": "ff4b7a0d4f37e564c5ee4b0d485ae5a4"
+  },
+  {
+    "n": "Mouse Tweaks",
+    "v": "2.10",
+    "f": "MouseTweaks-2.10-mc1.12.2.jar",
+    "a": "YaLTeR",
+    "u": "http://www.minecraftforum.net/topic/1518185-",
+    "m": "e4dcbf47c3f99a780681e3a3a9fcf9e9"
+  },
+  {
+    "n": "MTLib",
+    "v": "3.0.6",
+    "f": "MTLib-3.0.6.jar",
+    "a": "Jaredlll08",
+    "u": "",
+    "m": "b46748362c046d70b821121331246aa5"
+  },
+  {
+    "n": "OreLib Support Library",
+    "v": "3.6.0.1",
+    "f": "OreLib-1.12.2-3.6.0.1.jar",
+    "a": "",
+    "u": "https://github.com/OreCruncher/OreLib/wiki",
+    "m": "00cce3b240365458adcad3e77782358a"
+  },
+  {
+    "n": "OversizedItemInStorageArea",
+    "v": "2.1.1",
+    "f": "OversizedItemInStorageArea-2.1.1.jar",
+    "a": "DoubleDoorDev, Claycorp",
+    "u": "",
+    "m": "0aa64222c06260cefa7279bd30216577"
+  },
+  {
+    "n": "Paths",
+    "v": "1.0",
+    "f": "paths-1.6.1.jar",
+    "a": "Tfarecnim",
+    "u": "",
+    "m": "1d2e5d3998eb79dfff631d85f93629f7"
+  },
+  {
+    "n": "Phosphor Lighting Engine",
+    "v": "1.12.2-0.2.6",
+    "f": "phosphor-1.12.2-0.2.6+build50-universal.jar",
+    "a": "Angeline (@jellysquid)",
+    "u": "https://minecraft.curseforge.com/projects/phosphor",
+    "m": "9892af4ac4f8ca4222138a245592227c"
+  },
+  {
+    "n": "Placebo",
+    "v": "1.6.0",
+    "f": "Placebo-1.12.2-1.6.0.jar",
+    "a": "Shadows_of_Fire",
+    "u": "",
+    "m": "a9ecfa296b2b1203ed5a68ed6c01833a"
+  },
+  {
+    "n": "Quark",
+    "v": "r1.6-179",
+    "f": "Quark-r1.6-179.jar",
+    "a": "Vazkii, wiiv",
+    "u": "http://www.vazkii.us",
+    "m": "dfcfa70d244f0435a5ff2b28037a324b"
+  },
+  {
+    "n": "Railcraft",
+    "v": "12.0.0",
+    "f": "railcraft-12.0.0.jar",
+    "a": "CovertJaguar",
+    "u": "http://railcraft.info/",
+    "m": "b6f0592e8f5c24d07fe065f1c97c8fda"
+  },
+  {
+    "n": "Redstone Flux",
+    "v": "2.1.1",
+    "f": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
+    "a": "Team CoFH",
+    "u": "http://www.teamcofh.com",
+    "m": "93b1715f05be1878da93fca36dd37f2a"
+  },
+  {
+    "n": "Resource Loader",
+    "v": "1.5.3",
+    "f": "ResourceLoader-MC1.12.1-1.5.3.jar",
+    "a": "lumien",
+    "u": "",
+    "m": "51141e882f96ce756b9b3d25f2acdf57"
+  },
+  {
+    "n": "Shadowfacts\u0027 Forgelin",
+    "v": "1.8.4",
+    "f": "Forgelin-1.8.4.jar",
+    "a": "shadowfacts",
+    "u": "https://github.com/shadowfacts/Forgelin",
+    "m": "2da79fce72265eab0541e565636d389d"
+  },
+  {
+    "n": "Sound Filters",
+    "v": "0.12_for_1.12",
+    "f": "SoundFilters-0.12_for_1.12.jar",
+    "a": "Tmtravlr",
+    "u": "",
+    "m": "afbdb448f432b5f7fff4967a1163d858"
+  },
+  {
+    "n": "SwingThroughGrass",
+    "v": "1.12.2-1.2.3",
+    "f": "stg-1.12.2-1.2.3.jar",
+    "a": "Exidex",
+    "u": "",
+    "m": "b836648006f1451c65d33f7132eec770"
+  },
+  {
+    "n": "TerraFirmaCraft",
+    "v": "1.0.11.140",
+    "f": "TerraFirmaCraft-MC1.12.2-1.0.11.140.jar",
+    "a": "Dries007, AlcatrazEscapee, Bunsan, et. al.",
+    "u": "https://tng.terrafirmacraft.com/Main_Page",
+    "m": "2b28b51425ca3d64750e81a08549507c"
+  },
+  {
+    "n": "TFC Aged Drinks",
+    "v": "1.0.1",
+    "f": "TFCAgedDrinks-1.0.2.jar",
+    "a": "Lumintorious",
+    "u": "",
+    "m": "f153111d2c63973f24ace096d7465361"
+  },
+  {
+    "n": "TFC Metallum",
+    "v": "1.2.5",
+    "f": "TFC-Metallum-MC1.12.2-1.2.5.jar",
+    "a": "DisasterMoo, UnlimatedStone9",
+    "u": "",
+    "m": "00e235786ecc0ba92c5736b7221f5834"
+  },
+  {
+    "n": "TFC Rocks+",
+    "v": "1.3.1",
+    "f": "tfc_rocksplus-1.3.1.jar",
+    "a": "Mrthomas20121",
+    "u": "https://github.com/Mrthomas20121/TFC_rockplus",
+    "m": "b3b0f9deaedaa7b39f48aa030f3de852"
+  },
+  {
+    "n": "TFCTech Unofficial",
+    "v": "1.2.11",
+    "f": "TFCTech-Unofficial-MC1.12.2-1.2.11.jar",
+    "a": "DisasterMoo, Abdyman",
+    "u": "https://github.com/TFC-Metallum/TFCTech",
+    "m": "c965f42f5dd666abc6690c4380a7f7c5"
+  },
+  {
+    "n": "Triumph",
+    "v": "3.19.2",
+    "f": "Triumph-1.12.2-3.19.2.jar",
+    "a": "Blargerist",
+    "u": "http://bloodnbonesgaming.com/",
+    "m": "4e2b5b0fb385fb691ec6be3ba067ab58"
+  },
+  {
+    "n": "U Team Core",
+    "v": "2.2.5.147",
+    "f": "u_team_core-1.12.2-2.2.5.147.jar",
+    "a": "HyCraftHD, MrTroble",
+    "u": "https://u-team.info",
+    "m": "09a9a6622665d03e1b3de8bb2aa8c585"
+  },
+  {
+    "n": "UniDict",
+    "v": "1.12.2-2.9.6",
+    "f": "UniDict-1.12.2-2.9.6.jar",
+    "a": "WanionCane",
+    "u": "http://minecraft.curseforge.com/projects/unidict",
+    "m": "997757ba2a263a6da929f4735455c018"
+  },
+  {
+    "n": "Unlimited Chisel Works",
+    "v": "0.3.4",
+    "f": "UnlimitedChiselWorks-0.3.4.jar",
+    "a": "asie",
+    "u": "https://charset.asie.pl/",
+    "m": "bb8322eccf169e62e43e63a051e8ffb2"
+  },
+  {
+    "n": "Unlimited Chisel Works - TFC1 Compat",
+    "v": "0.1.1",
+    "f": "UnlimitedChiselWorks-TFC1-0.1.1.jar",
+    "a": "asie",
+    "u": "https://charset.asie.pl/",
+    "m": "bf7d6caa43d96aaf2a8f7567bf66b879"
+  },
+  {
+    "n": "Useful Backpacks",
+    "v": "1.5.3.59",
+    "f": "useful_backpacks-1.12.2-1.5.3.59.jar",
+    "a": "HyCraftHD",
+    "u": "https://u-team.info/mod/usefulbackpacks",
+    "m": "e83119787316967e6fb2bad95d6227c5"
+  },
+  {
+    "n": "Waila",
+    "v": "1.8.26",
+    "f": "Hwyla-1.8.26-B41_1.12.2.jar",
+    "a": "ProfMobius, TehNut",
+    "u": "",
+    "m": "bca1c069d9171d331d211d24e8a3b770"
+  },
+  {
+    "n": "WanionLib",
+    "v": "1.12.2-2.4",
+    "f": "WanionLib-1.12.2-2.4.jar",
+    "a": "WanionCane",
+    "u": "http://minecraft.curseforge.com/projects/wanionlib",
+    "m": "98eaacdc2b62a0d1bd47fefa2308713c"
+  },
+  {
+    "n": "Waterflasks",
+    "v": "1.7",
+    "f": "waterflasks-1.7.jar",
+    "a": "Gaelmare",
+    "u": "github.com/Gaelmare/waterflasks",
+    "m": "831777b91bef261f9eb09b2eab42419f"
+  },
+  {
+    "n": "What Are We Looking At",
+    "v": "2.6.275",
+    "f": "Wawla-1.12.2-2.6.275.jar",
+    "a": "Darkhax",
+    "u": "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at",
+    "m": "3762f87395a87af86e9552c6d7ca7e06"
+  },
+  {
+    "n": "Zombie Awareness",
+    "v": "1.12.1-1.11.16",
+    "f": "zombieawareness-1.12.1-1.11.16.jar",
+    "a": "Corosus",
+    "u": "",
+    "m": "8ce18704698c263fbf59cf2475917a38"
+  }
+]
