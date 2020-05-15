@@ -1,4 +1,3 @@
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
@@ -20,13 +19,13 @@ import mods.jei.JEI;
 
     // Rails
     var rcRails = {
-        standardRail : <railcraft:rail>,
+        standardRail : <railcraft:rail:0>,
         advancedRail : <railcraft:rail:1>,
         highspeedRail : <railcraft:rail:3>,
         reinforcedRail : <railcraft:rail:4>,
         electricRail : <railcraft:rail:5>,
-    };
-    JEI.removeandhide();
+    } as IItemStack[string];
+
 
 
 // Stone Tie
