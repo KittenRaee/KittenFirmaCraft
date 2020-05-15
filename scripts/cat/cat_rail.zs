@@ -25,6 +25,7 @@ import mods.jei.JEI;
         reinforcedRail : <railcraft:rail:4>,
         electricRail : <railcraft:rail:5>,
     } as IItemStack[string];
+    mods.jei.JEI.removeAndHide(<railcraft:rail:2>, true);
 
 
 
