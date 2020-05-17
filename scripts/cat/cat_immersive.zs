@@ -8,7 +8,28 @@ import mods.terrafirmacraft.ClayKnapping;
 import mods.terrafirmacraft.Heating;
 import mods.immersiveengineering.BlastFurnace;
 
-// Messing with Plates
+
+recipes.replaceAllOccurences(<immersiveengineering:material:3>, <tfctech:metal/aluminium_rod>);
+recipes.replaceAllOccurences(<immersiveengineering:material:1>, <tfctech:metal/wrought_iron_rod>);
 
 // Wrought Iron to Steel
 mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <ore:ingotWroughtIron>, 2000, <immersiveengineering:material:7>);
+
+// IE tools to TFC
+recipes.remove(<immersiveengineering:tool:0>, false);
+recipes.remove(<immersiveengineering:tool:1>, false);
+
+recipes.addShaped(
+    "tfc_ie_hammer",
+    <immersiveengineering:tool:0>,
+    [
+        [<tfc:metal/hammer_head/wrought_iron>],
+        [<ore:stickTreatedWood>]
+    ]
+);
+recipes.addShaped(
+    "tfc_ie_cutters",
+    <immersiveengineering:tool:1>,
+    [[<tfc:metal/knife_blade/wrought_iron>, <tfc:metal/knife_blade/wrought_iron>],
+     [<ore:stickTreatedWood>, <ore:stickTreatedWood>]]
+);

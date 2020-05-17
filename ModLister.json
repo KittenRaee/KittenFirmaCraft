@@ -208,6 +208,14 @@
     "m": "77a8bb5486c97e3eaa6f45e5bd768864"
   },
   {
+    "n": "D3 Commands",
+    "v": "1.4.2",
+    "f": "D3Commands-1.4.2.jar",
+    "a": "DoubleDoorDevelopment, Dries007, Claycorp",
+    "u": "",
+    "m": "a85ea19effcf08ef953ae6d79471a909"
+  },
+  {
     "n": "Debark",
     "v": "0.1.2",
     "f": "Debark-0.1.2.jar",
@@ -566,6 +574,14 @@
     "a": "CovertJaguar",
     "u": "http://railcraft.info/",
     "m": "b6f0592e8f5c24d07fe065f1c97c8fda"
+  },
+  {
+    "n": "Rebind Narrator",
+    "v": "1.0.0",
+    "f": "rebindnarrator-1.0.jar",
+    "a": "quaternary",
+    "u": "",
+    "m": "db9720e0781c5779681f8e7b41f8f291"
   },
   {
     "n": "Redstone Flux",

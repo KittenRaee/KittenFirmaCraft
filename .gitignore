@@ -37,4 +37,7 @@ usernamecache.json
 config/splash.properties
 config/jei/worldSettings.cfg
 config/splash.properties
-journeymap/
+journeymap/*
+mineraltracker/*
+config/jei/worldSettings.cfg
+config/splash.properties
