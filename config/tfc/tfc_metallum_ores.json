@@ -95,8 +95,8 @@
     "height": 10,
     "shape": "cluster",
     "rarity": 120,
-    "minimum_height": 5,
-    "maximum_height": 128,
+    "minimum_height": 1,
+    "maximum_height": 5,
     "density": 70,
     "base_rocks": [
       "tfc:metamorphic",
@@ -110,8 +110,8 @@
     "height": 12,
     "shape": "cluster",
     "rarity": 140,
-    "minimum_height": 5,
-    "maximum_height": 128,
+    "minimum_height": 1,
+    "maximum_height": 5,
     "density": 70,
     "base_rocks": [
       "tfc:igneous_extrusive"

@@ -1,0 +1,22 @@
+//Set icon item
+setIcon(<tfc:rock/rhyolite>)
+
+//Set title String
+setTitle("Knapping")
+
+//Set description String
+setDescription("Tools will help you survive, make some!")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:KFE/root")
+
+//Set the position
+setPos(35,0)
+
+//Hide the connection lines, so I can have a pretty shape
+
+//Adds criteria named "madeStoneAxe" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("madeStoneAxe", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<ore:axeHead>)

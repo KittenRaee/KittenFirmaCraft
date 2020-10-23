@@ -12,7 +12,7 @@ setDescription("Acquire flint")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(80,65)
+setPos(104,113)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()

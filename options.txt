@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.8
 gamma:1.0
 saturation:0.0
-renderDistance:16
+renderDistance:20
 guiScale:2
 particles:0
 bobView:true
@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:[]
+resourcePacks:["TFC Connected 0.2.zip","TFC-TNG Soft Paths.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -113,6 +113,14 @@ key_quark.emote.zombie:0
 key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
+key_key.death_history:22
+key_doubleslabs.key.toggleVerticalSlabPlacement:58
+key_Camera left:203:ALT
+key_Camera right:205:ALT
+key_Camera closer:200:ALT
+key_Camera farther:208:ALT
+key_Swap shoulder:24
+key_key.backpack:48:SHIFT
 key_key.jei.toggleOverlay:26
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -126,31 +134,27 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:30:CONTROL
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_bbw.key.mode:36
-key_bbw.key.fluidmode:33:ALT
-key_Options Gui:0
-key_key.cofh.multimode:0
-key_key.colytra.toggle.desc:34
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:0
 key_waila.keybind.liquid:0
 key_waila.keybind.recipe:0
 key_waila.keybind.usage:0
-key_keywizard.keybind.openKeyboardWizard:65
-key_options.narrator:0
 key_tfc.key.craft:46
 key_tfc.key.placeblock:47
 key_tfc.key.itemmode:50
 key_tfc.key.stack:45
+key_bbw.key.mode:36
+key_bbw.key.fluidmode:33:ALT
+key_Options Gui:0
+key_key.cofh.multimode:0
+key_key.colytra.toggle.desc:34
+key_keywizard.keybind.openKeyboardWizard:65
+key_options.narrator:0
 key_keybind.railcraft.loco.reverse:73
 key_keybind.railcraft.loco.faster:78
 key_keybind.railcraft.loco.slower:74
 key_keybind.railcraft.loco.mode:55
 key_keybind.railcraft.loco.whistle:0
-key_railcraft.keybind.aura.tuning:25
-key_railcraft.keybind.aura.signalling:23
-key_railcraft.keybind.aura.surveying:24
-key_railcraft.keybind.aura.worldspike:67
 key_key.journeymap.zoom_in:0
 key_key.journeymap.zoom_out:0
 key_key.journeymap.minimap_type:0

@@ -1,14 +1,11 @@
-longRod
 rod
 scrap
 gem
 inductor
 drawPlate
-door
 rackwheelPiece
 bucket
 block
-bowlMount
 ring
 orePoor
 gear
@@ -24,7 +21,7 @@ ingot
 stick
 sheet
 sleeve
-fencegate
+bowlMount
 rackwheel
 slab
 screw

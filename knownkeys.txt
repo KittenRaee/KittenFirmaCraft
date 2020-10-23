@@ -111,3 +111,8 @@ key.journeymap.fullscreen.north
 key.journeymap.fullscreen.south
 key.journeymap.fullscreen.east
 key.journeymap.fullscreen.west
+quark.keybind.toggleAutojump
+quark.keybind.changeHotbar
+quark.keybind.playerSort
+key.cofh.multimode
+options.narrator

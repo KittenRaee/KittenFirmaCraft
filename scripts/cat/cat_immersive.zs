@@ -8,12 +8,23 @@ import mods.terrafirmacraft.ClayKnapping;
 import mods.terrafirmacraft.Heating;
 import mods.immersiveengineering.BlastFurnace;
 
+// Replace IE materials with TFC
 
 recipes.replaceAllOccurences(<immersiveengineering:material:3>, <tfctech:metal/aluminium_rod>);
 recipes.replaceAllOccurences(<immersiveengineering:material:1>, <tfctech:metal/wrought_iron_rod>);
+recipes.replaceAllOccurences(<immersiveengineering:material:4>, <tfc:crop/product/jute_fiber>);
+recipes.remove(<immersiveengineering:material:5>, false);
+recipes.replaceAllOccurences(<immersiveengineering:material:5>, <tfc:crop/product/burlap_cloth>);
 
 // Wrought Iron to Steel
 mods.immersiveengineering.BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <ore:ingotWroughtIron>, 2000, <immersiveengineering:material:7>);
+
+// Remove IE tools
+recipes.remove(<immersiveengineering:pickaxe_steel>, false);
+recipes.remove(<immersiveengineering:shovel_steel>, false);
+recipes.remove(<immersiveengineering:axe_steel>, false);
+recipes.remove(<immersiveengineering:hoe_steel>, false);
+recipes.remove(<immersiveengineering:sword_steel>, false);
 
 // IE tools to TFC
 recipes.remove(<immersiveengineering:tool:0>, false);
