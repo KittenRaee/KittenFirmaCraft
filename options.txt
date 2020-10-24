@@ -86,12 +86,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_keybind.railcraft.cart.bed:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -110,11 +104,16 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.death_history:22
-key_doubleslabs.key.toggleVerticalSlabPlacement:58
 key_Camera left:203:ALT
 key_Camera right:205:ALT
 key_Camera closer:200:ALT
@@ -155,6 +154,10 @@ key_keybind.railcraft.loco.faster:78
 key_keybind.railcraft.loco.slower:74
 key_keybind.railcraft.loco.mode:55
 key_keybind.railcraft.loco.whistle:0
+key_railcraft.keybind.aura.tuning:25
+key_railcraft.keybind.aura.signalling:23
+key_railcraft.keybind.aura.surveying:24
+key_railcraft.keybind.aura.worldspike:67
 key_key.journeymap.zoom_in:0
 key_key.journeymap.zoom_out:0
 key_key.journeymap.minimap_type:0
