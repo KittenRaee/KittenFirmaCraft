@@ -4,5 +4,4 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
-railcraft:trackman
 immersiveengineering:engineer

@@ -353,11 +353,11 @@
   },
   {
     "n": "Fantastic Lib",
-    "v": "1.12.2.038",
-    "f": "FantasticLib-1.12.2.038.jar",
+    "v": "1.12.2.039",
+    "f": "FantasticLib-1.12.2.039.jar",
     "a": "Laike_Endaril",
     "u": "",
-    "m": "9ab4593478afec03c4351b8305b57aff"
+    "m": "a8dcd85b3b1210af29a45e38ae808650"
   },
   {
     "n": "FastWorkbench",
@@ -810,10 +810,10 @@
   {
     "n": "TFC Medicinal",
     "v": "1.0.0",
-    "f": "TFCMedicinal-1.0.1.jar",
+    "f": "TFCMedicinal-1.0.2.jar",
     "a": "Lumintorious",
     "u": "",
-    "m": "79334d48823ed02ee16f078517a7b11e"
+    "m": "70321565f52cddc2602bd70840647703"
   },
   {
     "n": "TFC Metallum",
