@@ -2420,9 +2420,6 @@ quark:chainmail_helmet
 quark:chainmail_chestplate
 quark:chainmail_leggings
 quark:chainmail_boots
-quark:root_dye
-quark:root_dye_1
-quark:root_dye_2
 quark:elytra_dyeing
 quark:firework_cloning
 quark:iron_ladder
@@ -2450,10 +2447,13 @@ quark:glass_item_frame
 quark:map_pinning
 quark:rune
 quark:horse_whistle
-quark:redstone_randomizer
-quark:redstone_inductor
+quark:root_dye
+quark:root_dye_1
+quark:root_dye_2
 quark:slabs_to_stairs
 quark:stairs_to_blocks
+quark:redstone_randomizer
+quark:redstone_inductor
 bibliocraft:enchantedatlas
 bibliocraft:enchantedatlasalt
 colytra:elytra_to_bauble_recipe
