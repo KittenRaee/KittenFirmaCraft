@@ -158,10 +158,10 @@ tfc:yaktfc
 tfc:blackbeartfc
 tfc:cougartfc
 tfc:coyotetfc
-quark:chest_passenger
-quark:seat
 quark:archaeologist
 quark:crab
+quark:seat
+quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
