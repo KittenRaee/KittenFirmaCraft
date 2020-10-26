@@ -40,3 +40,4 @@ journeymap/*
 mineraltracker/*
 config/fantasticlib/*
 *.disabled
+WailaErrorOutput.txt
