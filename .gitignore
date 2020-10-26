@@ -39,3 +39,4 @@ config/jei/worldSettings.cfg
 journeymap/*
 mineraltracker/*
 config/fantasticlib/*
+*.disabled
