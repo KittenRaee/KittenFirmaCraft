@@ -4,29 +4,13 @@ Sulfur
 HighCarbonSteel
 	ingotHighCarbonSteel
 
-Platinum
-	stripPlatinum
-	boltPlatinum
-	stickLongPlatinum
-	stickPlatinum
-	screwPlatinum
-	sheetPlatinum
-	scrapPlatinum
-	gearPlatinum
-	rackwheelPlatinum
-	dustPlatinum
-	nuggetPlatinum
-	platePlatinum
-	rackwheelPiecePlatinum
-	wirePlatinum
-	ingotPlatinum
+Coal
+	gemCoal
+	dustCoal
 
 Tin
-	oreTin
 	sleeveTin
-	orePoorTin
 	stripTin
-	blockTin
 	boltTin
 	stickLongTin
 	stickTin
@@ -44,7 +28,6 @@ Tin
 
 Nickel
 	oreNickel
-	orePoorNickel
 	slabSheetmetalNickel
 	stripNickel
 	blockNickel
@@ -58,7 +41,6 @@ Nickel
 	blockSheetmetalNickel
 	gearNickel
 	rackwheelNickel
-	fenceNickel
 	dustNickel
 	nuggetNickel
 	plateNickel
@@ -68,7 +50,6 @@ Nickel
 
 Invar
 	stripInvar
-	blockInvar
 	boltInvar
 	stickLongInvar
 	stickInvar
@@ -89,6 +70,7 @@ Salt
 
 Steel
 	scaffoldingSteel
+	fenceSteel
 	rodSteel
 	sleeveSteel
 	slabSheetmetalSteel
@@ -105,7 +87,6 @@ Steel
 	blockSheetmetalSteel
 	gearSteel
 	rackwheelSteel
-	fenceSteel
 	dustSteel
 	nuggetSteel
 	plateSteel
@@ -131,10 +112,7 @@ Osmium
 	ingotOsmium
 
 Zinc
-	oreZinc
-	orePoorZinc
 	stripZinc
-	blockZinc
 	boltZinc
 	stickLongZinc
 	stickZinc
@@ -164,7 +142,6 @@ Electrum
 	blockSheetmetalElectrum
 	gearElectrum
 	rackwheelElectrum
-	fenceElectrum
 	dustElectrum
 	nuggetElectrum
 	plateElectrum
@@ -172,11 +149,17 @@ Electrum
 	wireElectrum
 	ingotElectrum
 
+AnyBronze
+	sheetAnyBronze
+	scrapAnyBronze
+	dustAnyBronze
+	nuggetAnyBronze
+	ingotAnyBronze
+
 Iron
 	ringIron
 	rodIron
 	oreIron
-	orePoorIron
 	slabSheetmetalIron
 	blockIron
 	stickIron
@@ -184,7 +167,6 @@ Iron
 	scrapIron
 	blockSheetmetalIron
 	gearIron
-	fenceIron
 	dustIron
 	nuggetIron
 	plateIron
@@ -229,7 +211,6 @@ Aluminium
 
 Bronze
 	stripBronze
-	blockBronze
 	boltBronze
 	stickLongBronze
 	stickBronze
@@ -249,6 +230,9 @@ HOPGraphite
 	dustHOPGraphite
 	ingotHOPGraphite
 
+Coke
+	dustCoke
+
 Constantan
 	slabSheetmetalConstantan
 	stripConstantan
@@ -263,7 +247,6 @@ Constantan
 	blockSheetmetalConstantan
 	gearConstantan
 	rackwheelConstantan
-	fenceConstantan
 	dustConstantan
 	nuggetConstantan
 	plateConstantan
@@ -274,7 +257,6 @@ Constantan
 Brass
 	sleeveBrass
 	stripBrass
-	blockBrass
 	boltBrass
 	stickLongBrass
 	stickBrass
@@ -305,7 +287,6 @@ Uranium
 	blockSheetmetalUranium
 	gearUranium
 	rackwheelUranium
-	fenceUranium
 	dustUranium
 	nuggetUranium
 	plateUranium
@@ -313,13 +294,25 @@ Uranium
 	wireUranium
 	ingotUranium
 
-Coal
-	gemCoal
-	dustCoal
+Platinum
+	stripPlatinum
+	boltPlatinum
+	stickLongPlatinum
+	stickPlatinum
+	screwPlatinum
+	sheetPlatinum
+	scrapPlatinum
+	gearPlatinum
+	rackwheelPlatinum
+	dustPlatinum
+	nuggetPlatinum
+	platePlatinum
+	rackwheelPiecePlatinum
+	wirePlatinum
+	ingotPlatinum
 
 Silver
 	oreSilver
-	orePoorSilver
 	slabSheetmetalSilver
 	stripSilver
 	blockSilver
@@ -333,7 +326,6 @@ Silver
 	blockSheetmetalSilver
 	gearSilver
 	rackwheelSilver
-	fenceSilver
 	dustSilver
 	nuggetSilver
 	plateSilver
@@ -343,7 +335,6 @@ Silver
 
 Lead
 	oreLead
-	orePoorLead
 	slabSheetmetalLead
 	stripLead
 	blockLead
@@ -357,7 +348,6 @@ Lead
 	blockSheetmetalLead
 	gearLead
 	rackwheelLead
-	fenceLead
 	dustLead
 	nuggetLead
 	plateLead
@@ -368,7 +358,6 @@ Lead
 Gold
 	rodGold
 	oreGold
-	orePoorGold
 	slabSheetmetalGold
 	stripGold
 	blockGold
@@ -381,7 +370,6 @@ Gold
 	blockSheetmetalGold
 	gearGold
 	rackwheelGold
-	fenceGold
 	dustGold
 	nuggetGold
 	plateGold
@@ -392,7 +380,6 @@ Gold
 Copper
 	inductorCopper
 	oreCopper
-	orePoorCopper
 	slabSheetmetalCopper
 	stripCopper
 	blockCopper
@@ -406,7 +393,6 @@ Copper
 	blockSheetmetalCopper
 	gearCopper
 	rackwheelCopper
-	fenceCopper
 	dustCopper
 	nuggetCopper
 	plateCopper

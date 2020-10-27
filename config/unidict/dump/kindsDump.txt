@@ -7,7 +7,6 @@ rackwheelPiece
 bucket
 block
 ring
-orePoor
 gear
 bolt
 strip
