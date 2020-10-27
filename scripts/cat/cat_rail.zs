@@ -28,7 +28,6 @@ import mods.immersiveengineering.MetalPress;
     } as IItemStack[string];
     JEI.removeAndHide(<railcraft:rail:2>, true);
 
-recipes.replaceAllOccurences(<ore:ingotBronze>, <ore:ingotAnyBronze>);
 
 // Stone Tie
     // Knapping
@@ -43,16 +42,15 @@ MetalPress.addRecipe(<railcraft:tie:1>, <ore:rock>, <immersiveengineering:mold:2
 
 // Wooden Tie
     // Remove recipe
-
 recipes.remove(
     <railcraft:tie:0>, 
     true
 );
 
     // Barrel
-
 Barrel.addRecipe("creosote_tie", <ore:lumber> * 4, <liquid:creosote> * 250, <railcraft:tie:0> * 4, 8);
 
 // Removes
 
 recipes.remove(<railcraft:tool_magnifying_glass>, false);
+JEI.removeAndHide(<railcraft:gear:*>);
