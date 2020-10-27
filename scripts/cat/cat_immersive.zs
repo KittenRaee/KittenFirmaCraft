@@ -8,6 +8,7 @@ import mods.terrafirmacraft.Anvil;
 import mods.terrafirmacraft.ClayKnapping;
 import mods.terrafirmacraft.Heating;
 import mods.immersiveengineering.BlastFurnace;
+import mods.unidict.api.newShapedRecipeTemplate;
 
 // Fix oredict
 val oreDictWire = <ore:wireAluminium>;

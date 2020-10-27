@@ -127,6 +127,19 @@ recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_ir
         <tfc:cobble/mylonite>
     );
 
+// Remove logs from oredict
+    val oreDictLog = <ore:logWood>;
+    val oreDictDebark = <ore:debarkedLogWood>;
+
+    oreDictLog.remove(
+        <minecraft:log:*>,
+        <minecraft:log2:*>
+    );
+    oreDictDebark.remove(
+        <debark:debarked_log_minecraft_log:*>
+    );
+
+
 // Remove blocks
     recipes.removeShapeless(<immersiveengineering:metal:*>, [<immersiveengineering:storage:*>]); 
     // ingots
