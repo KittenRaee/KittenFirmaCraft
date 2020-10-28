@@ -13,5 +13,4 @@ var zsItem = VanillaFactory.createItem("zs_item");
 zsItem.maxStackSize = 8;
 zsItem.rarity = "rare";
 zsItem.beaconPayment = true;
-};
 zsItem.register();

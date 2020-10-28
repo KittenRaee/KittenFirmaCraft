@@ -1,5 +1,6 @@
 #priority 99
 #modloaded tfc
+#modloaded tfctech
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.terrafirmacraft.ItemRegistry;
@@ -130,6 +131,7 @@ recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_ir
 // Remove logs from oredict
     val oreDictLog = <ore:logWood>;
     val oreDictDebark = <ore:debarkedLogWood>;
+    val oreDictPlank = <ore:plankWood>;
 
     oreDictLog.remove(
         <minecraft:log:*>,
@@ -138,7 +140,9 @@ recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_ir
     oreDictDebark.remove(
         <debark:debarked_log_minecraft_log:*>
     );
-
+    oreDictPlank.remove(
+        <minecraft:planks:*>
+    );
 
 // Remove blocks
     recipes.removeShapeless(<immersiveengineering:metal:*>, [<immersiveengineering:storage:*>]); 
