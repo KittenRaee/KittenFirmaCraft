@@ -3,13 +3,14 @@ import mods.jei.JEI;
 
 //#REMOVE Recipes
     recipes.remove(<signpost:blockbase>);
+    recipes.remove(<signpost:itembrush>);
+    recipes.remove(<signpost:blockpostoak>);
+    recipes.remove(<signpost:blockbigpostoak>);
     JEI.removeAndHide(<signpost:blockbasemodel0>);
     JEI.removeAndHide(<signpost:blockbasemodel1>);
     JEI.removeAndHide(<signpost:blockbasemodel2>);
     JEI.removeAndHide(<signpost:blockbasemodel3>);
     JEI.removeAndHide(<signpost:blockbasemodel4>);
-    recipes.remove(<signpost:itembrush>);
-    recipes.remove(<signpost:blockpostoak>);
     JEI.removeAndHide(<signpost:blockpostspruce>);
     JEI.removeAndHide(<signpost:blockpostbirch>);
     JEI.removeAndHide(<signpost:blockpostjungle>);
@@ -17,7 +18,6 @@ import mods.jei.JEI;
     JEI.removeAndHide(<signpost:blockpostbigoak>);
     JEI.removeAndHide(<signpost:blockpostiron>);
     JEI.removeAndHide(<signpost:blockpoststone>);
-    recipes.remove(<signpost:blockbigpostoak>);
     JEI.removeAndHide(<signpost:blockbigpostspruce>);
     JEI.removeAndHide(<signpost:blockbigpostbirch>);
     JEI.removeAndHide(<signpost:blockbigpostjungle>);

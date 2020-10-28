@@ -5,11 +5,12 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.terrafirmacraft.ItemRegistry;
 import mods.terrafirmacraft.Welding;
+import mods.terrafirmacraft.Quern;
 import mods.unidict.api.newShapedRecipeTemplate;
 
 // CAST IRON
-<minecraft:iron_ingot>.displayName = "Cast Iron Ingot";
-recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_iron>);
+    <minecraft:iron_ingot>.displayName = "Cast Iron Ingot";
+    recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_iron>);
 
 // Coal coke in forge
     ItemRegistry.registerFuel(<ore:fuelCoke>, 3600, 1550, true, true);
@@ -144,6 +145,23 @@ recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_ir
         <minecraft:planks:*>
     );
 
+// Add Glowstone
+    val oreIngotRadioactive = <ore:ingotRadioactive>;
+    val oreGlowOre = <ore:glowOre>;
+
+    oreIngotRadioactive.add(
+        <tfc:metal/ingot/thorium>
+    );
+    oreGlowOre.add(
+        <tfc:ore/carobbiite>,
+        <tfc:ore/rhodochrosite>,
+        <tfc:ore/arsenic>
+    );
+
+    Quern.addRecipe("glowstoneGrind", <ore:glowOre>, <minecraft:glowstone_dust> * 4);
+
+    
+
 // Remove blocks
     recipes.removeShapeless(<immersiveengineering:metal:*>, [<immersiveengineering:storage:*>]); 
     // ingots
@@ -163,13 +181,13 @@ recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_ir
     Welding.addRecipe("goldenCarrotWeld", <tfc:food/carrot>, <tfc:metal/double_ingot/gold>,     <minecraft:golden_carrot>, 2);
 
 // Add blocks back in
-    newShapedRecipeTemplate("block", 1,
-        [
-            ["doubleIngot", "doubleIngot"],
-            ["doubleIngot", "doubleIngot"]        
-        ]
-    );
-    newShapedRecipeTemplate("doubleIngot", 4,
+//    newShapedRecipeTemplate("block", 1,
+//        [
+//            ["doubleIngot", "doubleIngot"],
+//            ["doubleIngot", "doubleIngot"]        
+//        ]
+//    );
+    newShapedRecipeTemplate("ingot", 8,
         [
             ["block"]
         ]
