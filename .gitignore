@@ -41,3 +41,4 @@ mineraltracker/*
 config/fantasticlib/*
 *.disabled
 WailaErrorOutput.txt
+config/jei/bookmarks.ini
