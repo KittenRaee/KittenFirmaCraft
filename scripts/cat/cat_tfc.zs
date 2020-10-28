@@ -187,8 +187,8 @@ import mods.unidict.api.newShapedRecipeTemplate;
 //            ["doubleIngot", "doubleIngot"]        
 //        ]
 //    );
-    newShapedRecipeTemplate("ingot", 8,
-        [
-            ["block"]
-        ]
-    );
+//    newShapedRecipeTemplate("ingot", 8,
+//        [
+//            ["block"]
+//        ]
+//    );
