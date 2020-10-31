@@ -42,3 +42,4 @@ config/fantasticlib/*
 *.disabled
 WailaErrorOutput.txt
 config/jei/bookmarks.ini
+config/pregenerator/PregenConfig.cfg
