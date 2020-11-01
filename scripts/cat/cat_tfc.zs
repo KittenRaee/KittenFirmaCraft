@@ -135,7 +135,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
     val cobbleIgnousAny = <ore:cobbleIgnousAny>;
     val rockIgneousAny = <ore:rockIgneousAny>;
     val brickIgneousAny = <ore:brickIgneousAny>;
-    val stoneIgneousAny = <ore:stoneIgneousAny>;
+    val rawIgneousAny = <ore:rawIgneousAny>;
 
     smoothIgneousAny.addAll(<ore:smoothIgneousExtrusive>);
     smoothIgneousAny.addAll(<ore:smoothIgneousIntrusive>);
@@ -149,8 +149,9 @@ import mods.unidict.api.newShapedRecipeTemplate;
     brickIgneousAny.addAll(<ore:brickIgneousExtrusive>);
     brickIgneousAny.addAll(<ore:brickIgneousIntrusive>);
 
-    stoneIgneousAny.addAll(<ore:stoneIgneousExtrusive>);
-    stoneIgneousAny.addAll(<ore:stoneIgneousIntrusive>);
+    rawIgneousAny.addAll(<ore:stoneIgneousExtrusive>);
+    rawIgneousAny.addAll(<ore:stoneIgneousIntrusive>);
+
 
 // Remove logs from oredict
     val oreDictLog = <ore:logWood>;
@@ -218,8 +219,8 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
 // TFC Medicinal mortar and pestle fix
     recipes.remove(<tfcmedicinal:mpestle>);
-    recipes.addShapeless("medicinalMortarAndPestle", <tfcmedicinal:mpestle>, [
-        <ore:rockIgneousAny>, <ore:chisel>,
-        <ore:stoneIgneousAny>, <ore:hammer>
-    ]);
+    recipes.addShapeless("medicinalMortarAndPestleIntrusive", <tfcmedicinal:mpestle>, [<ore:rockIgneousIntrusive>, <ore:chisel>, <ore:stoneIgneousIntrusive>, <ore:hammer>]);
+    recipes.addShapeless("medicinalMortarAndPestleExtrusive", <tfcmedicinal:mpestle>, [<ore:rockIgneousExtrusive>, <ore:chisel>, <ore:stoneIgneousExtrusive>, <ore:hammer>]);
+//    recipes.addShapeless("medicinalMortarAndPestleAny", <tfcmedicinal:mpestle>, [<ore:rockIgneousAny>, <ore:chisel>, <ore:rawIgneousAny>, <ore:hammer>]);
+
     
