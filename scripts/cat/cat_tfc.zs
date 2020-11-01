@@ -219,7 +219,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
 // TFC Medicinal mortar and pestle fix
     recipes.remove(<tfcmedicinal:mpestle>);
     recipes.addShapeless("medicinalMortarAndPestle", <tfcmedicinal:mpestle>, [
-        [<ore:rockIgneousAny>, <ore:chisel>],
-        [<ore:stoneIgneousAny>, <ore:hammer>]
+        <ore:rockIgneousAny>, <ore:chisel>,
+        <ore:stoneIgneousAny>, <ore:hammer>
     ]);
     
