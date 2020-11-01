@@ -2,7 +2,7 @@
 #modloaded engineersdecor;
 import crafttweaker.item.IItemStack;
 
-val stairsFour = [
+var stairsFour = [
     <minecraft:brick_stairs>,
     <immersiveengineering:stone_decoration_stairs_hempcrete>,
     <immersiveengineering:stone_decoration_stairs_concrete>,
@@ -19,7 +19,7 @@ val stairsFour = [
     <immersiveengineering:aluminum_scaffolding_stairs2>
 ] as IItemStack[];
 
-val stairsSix = [
+var stairsSix = [
     <engineersdecor:clinker_brick_stairs>,
     <engineersdecor:clinker_brick_stained_stairs>,
     <engineersdecor:slag_brick_stairs>,
