@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -86,7 +86,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_keybind.railcraft.cart.bed:0
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -105,6 +104,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.chestSort:0
 key_quark.keybind.chestDropoff:0
@@ -119,7 +119,6 @@ key_Camera right:205:ALT
 key_Camera closer:200:ALT
 key_Camera farther:208:ALT
 key_Swap shoulder:24
-key_key.backpack:48:SHIFT
 key_key.jei.toggleOverlay:26
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0

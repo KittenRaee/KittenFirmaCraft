@@ -33,5 +33,5 @@ recipes.addShapeless(
 );
 
 
-Barrel.addRecipe("tfc_hammock_clear", <comforts:hammock:*>, <liquid:hot_water> * 1000, <comforts:hammock:0>, null, 2);
-Barrel.addRecipe("tfc_bag_clear", <comforts:sleeping_bag:*>, <liquid:hot_water> * 1000, <comforts:sleeping_bag:0>, null, 2);
+Barrel.addRecipe("tfc_hammock_clear", <comforts:hammock:*>, <liquid:lye> * 1000, <comforts:hammock:0>, null, 2);
+Barrel.addRecipe("tfc_bag_clear", <comforts:sleeping_bag:*>, <liquid:lye> * 1000, <comforts:sleeping_bag:0>, null, 2);
