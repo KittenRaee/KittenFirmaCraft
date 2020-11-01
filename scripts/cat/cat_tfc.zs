@@ -1,6 +1,7 @@
 #priority 99
 #modloaded tfc
 #modloaded tfctech
+#modloaded tfcmedicinal
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.terrafirmacraft.ItemRegistry;
@@ -129,6 +130,28 @@ import mods.unidict.api.newShapedRecipeTemplate;
         <tfc:cobble/mylonite>
     );
 
+// Igneous any
+    val smoothIgneousAny = <ore:smoothIgneousAny>;
+    val cobbleIgnousAny = <ore:cobbleIgnousAny>;
+    val rockIgneousAny = <ore:rockIgneousAny>;
+    val brickIgneousAny = <ore:brickIgneousAny>;
+    val stoneIgneousAny = <ore:stoneIgneousAny>;
+
+    smoothIgneousAny.addAll(<ore:smoothIgneousExtrusive>);
+    smoothIgneousAny.addAll(<ore:smoothIgneousIntrusive>);
+
+    cobbleIgnousAny.addAll(<ore:cobbleIgneousExtrusive>);
+    cobbleIgnousAny.addAll(<ore:cobbleIgneousIntrusive>);  
+
+    rockIgneousAny.addAll(<ore:rockIgneousExtrusive>);
+    rockIgneousAny.addAll(<ore:rockIgneousIntrusive>);
+
+    brickIgneousAny.addAll(<ore:brickIgneousExtrusive>);
+    brickIgneousAny.addAll(<ore:brickIgneousIntrusive>);
+
+    stoneIgneousAny.addAll(<ore:stoneIgneousExtrusive>);
+    stoneIgneousAny.addAll(<ore:stoneIgneousIntrusive>);
+
 // Remove logs from oredict
     val oreDictLog = <ore:logWood>;
     val oreDictDebark = <ore:debarkedLogWood>;
@@ -192,3 +215,11 @@ import mods.unidict.api.newShapedRecipeTemplate;
 //            ["block"]
 //        ]
 //    );
+
+// TFC Medicinal mortar and pestle fix
+    recipes.remove(<tfcmedicinal:mpestle>);
+    recipes.addShapeless("medicinalMortarAndPestle", <tfcmedicinal:mpestle>, [
+        [<ore:rockIgneousAny>, <ore:chisel>],
+        [<ore:stoneIgneousAny>, <ore:hammer>]
+    ]);
+    
