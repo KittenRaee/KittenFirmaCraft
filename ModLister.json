@@ -769,11 +769,11 @@
   },
   {
     "n": "TerraFirmaThings",
-    "v": "1.0.2",
-    "f": "terrafirmathings-1.0.2.jar",
+    "v": "1.1.0",
+    "f": "terrafirmathings-1.1.0.jar",
     "a": "Lyeoj",
     "u": "",
-    "m": "6d7266e04a4d4a1eeb09affd85bf3c8a"
+    "m": "448fafd8891fd0c301b2aa33f377460b"
   },
   {
     "n": "TFC Aged Drinks",
@@ -786,10 +786,10 @@
   {
     "n": "TFC Medicinal",
     "v": "1.0.0",
-    "f": "TFCMedicinal-1.0.2.jar",
+    "f": "TFCMedicinal-1.0.4.jar",
     "a": "Lumintorious",
     "u": "",
-    "m": "70321565f52cddc2602bd70840647703"
+    "m": "042f515332391084750263ed73ccf0ad"
   },
   {
     "n": "TFC Metallum",
