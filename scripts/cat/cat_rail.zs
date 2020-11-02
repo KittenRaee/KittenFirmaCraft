@@ -1,4 +1,6 @@
-
+#modloaded railcraft
+#modloaded tfc
+#modloaded tfctech
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
