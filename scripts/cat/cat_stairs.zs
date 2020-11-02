@@ -93,8 +93,8 @@ import crafttweaker.item.IItemStack;
     }
 
     for i, item in material {
-        if (item.definition.id.startsWith("<engineersdecor:>")) {
-            recipes.remove(item, [
+        if (loadedMods["engineersdecor"].items has item) {
+            recipes.removeShaped(item, [
                 [stair[i], stair[i]],
                 [stair[i], stair[i]]
             ]);
