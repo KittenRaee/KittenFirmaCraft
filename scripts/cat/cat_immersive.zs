@@ -17,10 +17,10 @@ import mods.unidict.api.newShapedRecipeTemplate;
 // Fix oredict
     val oreDictWire = <ore:wireAluminium>;
     val oreDictRod = <ore:stickAluminium>;
-    
+
     oreDictWire.addAll(<ore:wireAluminum>);
     oreDictRod.addAll(<ore:stickAluminum>);
-    
+
 // Replace IE materials with TFC
     recipes.replaceAllOccurences(<immersiveengineering:material:3>, <tfctech:metal/aluminium_rod>);
     recipes.replaceAllOccurences(<immersiveengineering:material:1>, <tfctech:metal/wrought_iron_rod>);
@@ -61,12 +61,30 @@ import mods.unidict.api.newShapedRecipeTemplate;
     recipes.replaceAllOccurences(<immersiveengineering:material:22>, <tfctech:metal/aluminium_wire>);
     JEI.removeAndHide(<immersiveengineering:material:22>);
 
-
 // Epandable post
     recipes.remove(<immersiveposts:postbase>);
-    recipes.addShaped("immersivepostBase", <immersiveposts:postbase>, [
+    recipes.addShaped("immersive_post_base", <immersiveposts:postbase>, [
         [<ore:brick>,   null,               <ore:brick>],
         [<ore:brick>,   <ore:cobblestone>,  <ore:brick>],
         [<ore:brick>,   <ore:cobblestone>,  <ore:brick>]
     ]);
     #<immersiveposts:postbase>  <ore:brick>  <ore:cobblestone>
+
+// Coke brick
+    recipes.remove(<immersiveengineering:stone_decoration>);
+    recipes.addShaped("coke_brick_tfc", <immersiveengineering:stone_decoration>, [
+        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,            <tfc:ceramics/fire_clay>],
+        [<tfc:mortar>,              <ore:stoneMetamorphic>,  <tfc:mortar>],
+        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,            <tfc:ceramics/fire_clay>]
+    ]);
+
+    recipes.remove(<immersiveengineering:stone_decoration:1>);
+    recipes.addShaped("blast_brick_tfc", <immersiveengineering:stone_decoration:1>, [
+        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,          <tfc:ceramics/fire_clay>],
+        [<tfc:mortar>,              <tfc:fire_bricks>,     <tfc:mortar>],
+        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,          <tfc:ceramics/fire_clay>]
+    ]);
+
+// Remove Gunpowder
+recipes.removeByRecipeName("immersiveengineering:material/gunpowder0");
+recipes.removeByRecipeName("immersiveengineering:material/gunpowder1");

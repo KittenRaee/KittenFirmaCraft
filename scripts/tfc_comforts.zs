@@ -1,3 +1,5 @@
+#modloaded comforts
+#modloaded tfc
 import mods.terrafirmacraft.Barrel;
 
 recipes.remove(<comforts:hammock:*>, false);
@@ -33,5 +35,5 @@ recipes.addShapeless(
 );
 
 
-Barrel.addRecipe("tfc_hammock_clear", <comforts:hammock:*>, <liquid:lye> * 1000, <comforts:hammock:0>, null, 2);
-Barrel.addRecipe("tfc_bag_clear", <comforts:sleeping_bag:*>, <liquid:lye> * 1000, <comforts:sleeping_bag:0>, null, 2);
+Barrel.addRecipe("tfc_hammock_clear", <comforts:hammock:*>, <liquid:lye> * 125, <comforts:hammock:0>, null, 2);
+Barrel.addRecipe("tfc_bag_clear", <comforts:sleeping_bag:*>, <liquid:lye> * 125, <comforts:sleeping_bag:0>, null, 2);

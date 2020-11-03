@@ -56,26 +56,26 @@ import crafttweaker.item.IItemStack;
     ] as IItemStack[];
 
     val name = [
-        "brick",
-        "hempcrete",
-        "concrete",
-        "concrete_leaded",
-        "concrete_tile",
-        "treated_planks",
-        "treated_vertical",
-        "treated_ornate",
-        "steel_scaffolding1",
-        "steel_scaffolding2",
-        "steel_scaffolding3",
-        "aluminium_scaffolding1",
-        "aluminium_scaffolding2",
-        "aluminium_scaffolding3",
-        "clinker_brick",
-        "clinker_stained",
-        "slag_brick",
-        "rebar_concrete",
-        "rebar_tile",
-        "gas_concrete"
+        "brick",                    //0
+        "hempcrete",                //1
+        "concrete",                 //2
+        "concrete_leaded",          //3
+        "concrete_tile",            //4
+        "treated_planks",           //5
+        "treated_vertical",         //6
+        "treated_ornate",           //7
+        "steel_scaffolding1",       //8
+        "steel_scaffolding2",       //9
+        "steel_scaffolding3",       //10
+        "aluminium_scaffolding1",   //11
+        "aluminium_scaffolding2",   //12
+        "aluminium_scaffolding3",   //13
+        "clinker_brick",            //14
+        "clinker_stained",          //15
+        "slag_brick",               //16
+        "rebar_concrete",           //17
+        "rebar_tile",               //18
+        "gas_concrete"              //19
     ] as string[];
 
     for i, item in stair {
@@ -93,13 +93,19 @@ import crafttweaker.item.IItemStack;
     }
 
     for i, item in material {
-        if (loadedMods["engineersdecor"].items has item) {
+        //if (loadedMods["engineersdecor"].items has item) {
+        if (i >= 14) {
             recipes.removeShaped(item, [
                 [stair[i], stair[i]],
                 [stair[i], stair[i]]
             ]);
         }
     }
+
+    recipes.removeShaped(<engineersdecor:gas_concrete>, [
+                [<engineersdecor:gas_concrete_stairs>, <engineersdecor:gas_concrete_stairs>],
+                [<engineersdecor:gas_concrete_stairs>, <engineersdecor:gas_concrete_stairs>]
+            ]);
 
 //    recipes.addShapedMirrored("brick_stairs",<minecraft:brick_stairs> * 8,[
 //        [<minecraft:brick_block>, null, null],
