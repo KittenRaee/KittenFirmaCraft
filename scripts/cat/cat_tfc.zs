@@ -35,6 +35,19 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
     //recipes.replaceAllOccurences(<ore:sheetBronze>, <ore:sheetAnyBronze>);
 
+// Oredict Fixes
+    val stickIron = <ore:stickIron>;
+    stickIron.addAll(<ore:stickWroughtIron>);
+    stickIron.addAll(<ore:rodIron>);
+
+    val stickGold = <ore:stickGold>;
+    stickGold.addAll(<ore:rodGold>);
+    stickGold.add(<immersiveposts:metal_rods:0>);
+
+    val stickSteel = <ore:stickSteel>;
+    stickSteel.addAll(<ore:rodSteel>);
+
+
 // Smooth rocks by type
     val smoothIgneousExtrusive = <ore:smoothIgneousExtrusive>;
     val smoothIgneousIntrusive = <ore:smoothIgneousIntrusive>;
@@ -185,7 +198,6 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
     Quern.addRecipe("glowstoneGrind", <ore:glowOre>, <minecraft:glowstone_dust> * 4);
 
-    
 
 // Remove blocks
     recipes.removeShapeless(<immersiveengineering:metal:*>, [<immersiveengineering:storage:*>]); 
