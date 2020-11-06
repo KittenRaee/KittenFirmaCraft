@@ -1,4 +1,4 @@
-#priority 99
+#priority 89
 #modloaded tfc
 #modloaded tfctech
 #modloaded tfcmedicinal
@@ -31,6 +31,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
     recipes.replaceAllOccurences(<ore:ingotBronze>, <ore:ingotAnyBronze>);
     recipes.replaceAllOccurences(<ore:sheetBronze>, <ore:sheetAnyBronze>);
+
 
     //recipes.replaceAllOccurences(<ore:sheetBronze>, <ore:sheetAnyBronze>);
 
@@ -223,3 +224,6 @@ import mods.unidict.api.newShapedRecipeTemplate;
     recipes.addShapeless("medicinalMortarAndPestleExtrusive", <tfcmedicinal:mpestle>, [<ore:rockIgneousExtrusive>, <ore:chisel>, <ore:stoneIgneousExtrusive>, <ore:hammer>]);
 //    recipes.addShapeless("medicinalMortarAndPestleAny", <tfcmedicinal:mpestle>, [<ore:rockIgneousAny>, <ore:chisel>, <ore:rawIgneousAny>, <ore:hammer>]);
    
+
+// Random Fixes
+    recipes.replaceAllOccurences(<tfc:brass_mechanisms>, <tfctech:metal/brass_gear>);

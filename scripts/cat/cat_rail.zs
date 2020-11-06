@@ -1,3 +1,4 @@
+#priority 99
 #modloaded railcraft
 #modloaded tfc
 #modloaded tfctech
@@ -58,4 +59,4 @@ Barrel.addRecipe("creosote_tie", <ore:lumber> * 4, <liquid:creosote> * 250, <rai
 recipes.remove(<railcraft:tool_magnifying_glass>, false);
 JEI.removeAndHide(<railcraft:gear:*>);
 recipes.removeByRecipeName("railcraft:cart_steel");
-recipes.removeByRecipeName("crafttweaker:railcraft-cart_bronze-modified");
+recipes.removeByRecipeName("railcraft:cart_bronze");
