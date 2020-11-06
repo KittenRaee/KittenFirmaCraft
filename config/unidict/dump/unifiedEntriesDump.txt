@@ -1,0 +1,395 @@
+Sulfur
+	dustSulfur
+
+HighCarbonSteel
+	ingotHighCarbonSteel
+
+Platinum
+	stripPlatinum
+	boltPlatinum
+	stickLongPlatinum
+	stickPlatinum
+	screwPlatinum
+	sheetPlatinum
+	scrapPlatinum
+	gearPlatinum
+	rackwheelPlatinum
+	dustPlatinum
+	nuggetPlatinum
+	platePlatinum
+	rackwheelPiecePlatinum
+	wirePlatinum
+	ingotPlatinum
+
+Tin
+	sleeveTin
+	stripTin
+	boltTin
+	stickLongTin
+	stickTin
+	screwTin
+	sheetTin
+	scrapTin
+	gearTin
+	rackwheelTin
+	dustTin
+	nuggetTin
+	plateTin
+	rackwheelPieceTin
+	wireTin
+	ingotTin
+
+Nickel
+	oreNickel
+	slabSheetmetalNickel
+	stripNickel
+	blockNickel
+	slabNickel
+	boltNickel
+	stickLongNickel
+	stickNickel
+	screwNickel
+	sheetNickel
+	scrapNickel
+	blockSheetmetalNickel
+	gearNickel
+	rackwheelNickel
+	dustNickel
+	nuggetNickel
+	plateNickel
+	rackwheelPieceNickel
+	wireNickel
+	ingotNickel
+
+Invar
+	stripInvar
+	boltInvar
+	stickLongInvar
+	stickInvar
+	screwInvar
+	sheetInvar
+	scrapInvar
+	gearInvar
+	rackwheelInvar
+	dustInvar
+	nuggetInvar
+	plateInvar
+	rackwheelPieceInvar
+	wireInvar
+	ingotInvar
+
+Salt
+	dustSalt
+
+Steel
+	scaffoldingSteel
+	fenceSteel
+	rodSteel
+	sleeveSteel
+	slabSheetmetalSteel
+	drawPlateSteel
+	stripSteel
+	blockSteel
+	slabSteel
+	boltSteel
+	stickLongSteel
+	stickSteel
+	screwSteel
+	sheetSteel
+	scrapSteel
+	blockSheetmetalSteel
+	gearSteel
+	rackwheelSteel
+	dustSteel
+	nuggetSteel
+	plateSteel
+	rackwheelPieceSteel
+	wireSteel
+	ingotSteel
+
+Osmium
+	stripOsmium
+	boltOsmium
+	stickLongOsmium
+	stickOsmium
+	screwOsmium
+	sheetOsmium
+	scrapOsmium
+	gearOsmium
+	rackwheelOsmium
+	dustOsmium
+	nuggetOsmium
+	plateOsmium
+	rackwheelPieceOsmium
+	wireOsmium
+	ingotOsmium
+
+Zinc
+	stripZinc
+	boltZinc
+	stickLongZinc
+	stickZinc
+	screwZinc
+	sheetZinc
+	scrapZinc
+	gearZinc
+	rackwheelZinc
+	dustZinc
+	nuggetZinc
+	plateZinc
+	rackwheelPieceZinc
+	wireZinc
+	ingotZinc
+
+Electrum
+	slabSheetmetalElectrum
+	stripElectrum
+	blockElectrum
+	slabElectrum
+	boltElectrum
+	stickLongElectrum
+	stickElectrum
+	screwElectrum
+	sheetElectrum
+	scrapElectrum
+	blockSheetmetalElectrum
+	gearElectrum
+	rackwheelElectrum
+	dustElectrum
+	nuggetElectrum
+	plateElectrum
+	rackwheelPieceElectrum
+	wireElectrum
+	ingotElectrum
+
+Iron
+	ringIron
+	rodIron
+	oreIron
+	slabSheetmetalIron
+	blockIron
+	stickIron
+	sheetIron
+	scrapIron
+	blockSheetmetalIron
+	gearIron
+	dustIron
+	nuggetIron
+	plateIron
+	ingotIron
+
+RoseGold
+	stripRoseGold
+	boltRoseGold
+	stickLongRoseGold
+	stickRoseGold
+	screwRoseGold
+	sheetRoseGold
+	scrapRoseGold
+	gearRoseGold
+	rackwheelRoseGold
+	dustRoseGold
+	nuggetRoseGold
+	plateRoseGold
+	rackwheelPieceRoseGold
+	wireRoseGold
+	ingotRoseGold
+
+Obsidian
+	dustObsidian
+
+Aluminium
+	stripAluminium
+	boltAluminium
+	stickLongAluminium
+	stickAluminium
+	screwAluminium
+	sheetAluminium
+	scrapAluminium
+	gearAluminium
+	rackwheelAluminium
+	dustAluminium
+	nuggetAluminium
+	plateAluminium
+	rackwheelPieceAluminium
+	wireAluminium
+	ingotAluminium
+
+Bronze
+	stripBronze
+	boltBronze
+	stickLongBronze
+	stickBronze
+	screwBronze
+	sheetBronze
+	scrapBronze
+	gearBronze
+	rackwheelBronze
+	dustBronze
+	nuggetBronze
+	plateBronze
+	rackwheelPieceBronze
+	wireBronze
+	ingotBronze
+
+HOPGraphite
+	dustHOPGraphite
+	ingotHOPGraphite
+
+Coke
+	dustCoke
+
+Constantan
+	slabSheetmetalConstantan
+	stripConstantan
+	blockConstantan
+	slabConstantan
+	boltConstantan
+	stickLongConstantan
+	stickConstantan
+	screwConstantan
+	sheetConstantan
+	scrapConstantan
+	blockSheetmetalConstantan
+	gearConstantan
+	rackwheelConstantan
+	dustConstantan
+	nuggetConstantan
+	plateConstantan
+	rackwheelPieceConstantan
+	wireConstantan
+	ingotConstantan
+
+Brass
+	sleeveBrass
+	stripBrass
+	boltBrass
+	stickLongBrass
+	stickBrass
+	screwBrass
+	sheetBrass
+	scrapBrass
+	gearBrass
+	rackwheelBrass
+	dustBrass
+	nuggetBrass
+	plateBrass
+	rackwheelPieceBrass
+	wireBrass
+	ingotBrass
+
+Uranium
+	oreUranium
+	slabSheetmetalUranium
+	stripUranium
+	blockUranium
+	slabUranium
+	boltUranium
+	stickLongUranium
+	stickUranium
+	screwUranium
+	sheetUranium
+	scrapUranium
+	blockSheetmetalUranium
+	gearUranium
+	rackwheelUranium
+	dustUranium
+	nuggetUranium
+	plateUranium
+	rackwheelPieceUranium
+	wireUranium
+	ingotUranium
+
+Coal
+	gemCoal
+	dustCoal
+
+Silver
+	oreSilver
+	slabSheetmetalSilver
+	stripSilver
+	blockSilver
+	slabSilver
+	boltSilver
+	stickLongSilver
+	stickSilver
+	screwSilver
+	sheetSilver
+	scrapSilver
+	blockSheetmetalSilver
+	gearSilver
+	rackwheelSilver
+	dustSilver
+	nuggetSilver
+	plateSilver
+	rackwheelPieceSilver
+	wireSilver
+	ingotSilver
+
+Lead
+	oreLead
+	slabSheetmetalLead
+	stripLead
+	blockLead
+	slabLead
+	boltLead
+	stickLongLead
+	stickLead
+	screwLead
+	sheetLead
+	scrapLead
+	blockSheetmetalLead
+	gearLead
+	rackwheelLead
+	dustLead
+	nuggetLead
+	plateLead
+	rackwheelPieceLead
+	wireLead
+	ingotLead
+
+Gold
+	rodGold
+	oreGold
+	slabSheetmetalGold
+	stripGold
+	blockGold
+	boltGold
+	stickLongGold
+	stickGold
+	screwGold
+	sheetGold
+	scrapGold
+	blockSheetmetalGold
+	gearGold
+	rackwheelGold
+	dustGold
+	nuggetGold
+	plateGold
+	rackwheelPieceGold
+	wireGold
+	ingotGold
+
+Copper
+	inductorCopper
+	oreCopper
+	slabSheetmetalCopper
+	stripCopper
+	blockCopper
+	slabCopper
+	boltCopper
+	stickLongCopper
+	stickCopper
+	screwCopper
+	sheetCopper
+	scrapCopper
+	blockSheetmetalCopper
+	gearCopper
+	rackwheelCopper
+	dustCopper
+	nuggetCopper
+	plateCopper
+	rackwheelPieceCopper
+	wireCopper
+	ingotCopper
+
