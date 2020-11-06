@@ -202,7 +202,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
 // Golden produce
     recipes.remove(<minecraft:golden_carrot>);
-    Welding.addRecipe("goldenCarrotWeld", <tfc:food/carrot>, <tfc:metal/double_ingot/gold>,     <minecraft:golden_carrot>, 2);
+#    recipes.addShaped
 
 // Add blocks back in
 //    newShapedRecipeTemplate("block", 1,
