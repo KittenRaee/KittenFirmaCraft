@@ -1,0 +1,15 @@
+{
+  "jaspillite_hematite": {
+    "ore": "tfc:hematite",
+    "width": 10,
+    "height": 5,
+    "shape": "cluster",
+    "rarity": 90,
+    "minimum_height": 128,
+    "maximum_height": 140,
+    "density": 10,
+    "base_rocks": [
+      "tfc:jaspillite"
+    ]
+  }
+}
