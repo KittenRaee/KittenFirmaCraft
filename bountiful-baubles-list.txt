@@ -1,0 +1,29 @@
+Balloon - increased jump height
+Cobalt Shield - functions as a regular shield, and gives knockback immunity
+Obsidian Skull - fire resistance, and immunity to burning
+Obsidian Shield - functions the same as a cobalt shield, and gives fire resistance + immunity to burning
+Sunglasses - immunity to blindness
+Forbidden Fruit - immunity to hunger and nausea
+Vitamins - immunity to weakness and mining fatigue
+Ring of Overclocking - immunity to slowness, +7% move speed
+Shulker Heart - immunity to levitation
+Ring of Free Action - immunity to slowness and levitation, normal movement speed through cobwebs
+Black Dragon Scale - immunity to wither
+Bezoar - immunity to poison
+Mixed Color Dragon Scale - immunity to poison and wither
+Ankh Charm - immunity to blindness, hunger, nausea, weakness, mining fatigue, slowness, levitation, poison, and wither.
+Ankh Shield - functions as both obsidian shield and ankh charm.
+Flywheel Ring - stylish RF storage
+Advanced Flywheel Ring - even more stylish RF storage
+Recall Potion - teleports you to your spawn point
+Magic Mirror - teleports you to your spawn point
+Wormhole Potion - teleports you to other players
+Wormhole Mirror - teleports you to your spawn point or other players
+Lucky Horseshoe - immunity to fall damage
+Gluttony Pendant - eat faster, buff on eating food
+Pride Pendant - buff while at max health
+Wrath Pendant - slight damage increase, buff on dealing critical hit
+Broken Heart - lethal damage decreases max health instead
+Cross Necklace - increased period of invincibility on taking combat damage
+Flare Gun - shoots flares. Requires Albedo.
+Phantom Prism - applies and removes Botania phantom ink. All visible baubles from this mod should be compatible.
