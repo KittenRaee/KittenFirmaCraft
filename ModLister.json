@@ -24,6 +24,14 @@
     "m": "b435860d5cfa23bc53d3b8e120be91d4"
   },
   {
+    "n": "Athenaeum",
+    "v": "1.12.2-1.19.2",
+    "f": "athenaeum-1.12.2-1.19.2.jar",
+    "a": "codetaylor",
+    "u": "",
+    "m": "7b5b3e8a433c8f59f112d0be1d3ca31a"
+  },
+  {
     "n": "AutoRegLib",
     "v": "1.3-32",
     "f": "AutoRegLib-1.3-32.jar",
@@ -264,6 +272,14 @@
     "m": "5510673c0fad1e3b6617b3d97d54b3d5"
   },
   {
+    "n": "Dropt",
+    "v": "1.12.2-1.18.0",
+    "f": "dropt-1.12.2-1.18.0.jar",
+    "a": "codetaylor",
+    "u": "",
+    "m": "a8c9290de5639ef38ccd06e5b68fd97b"
+  },
+  {
     "n": "Dynamic Surroundings",
     "v": "3.6.1.0",
     "f": "DynamicSurroundings-1.12.2-3.6.1.0.jar",
@@ -430,6 +446,14 @@
     "a": "TGstyle, Kurtchekov",
     "u": "https://www.curseforge.com/minecraft/mc-mods/mct-immersive-technology",
     "m": "6bd5049dc79d3f8aaa848a8843e011e3"
+  },
+  {
+    "n": "Inventory Tweaks",
+    "v": "1.63+release.109.220f184",
+    "f": "InventoryTweaks-1.63.jar",
+    "a": "",
+    "u": "https://github.com/Kobata/inventory-tweaks",
+    "m": "1e2e33e5710394252abc4b014bc3dcbd"
   },
   {
     "n": "JEI Integration",
