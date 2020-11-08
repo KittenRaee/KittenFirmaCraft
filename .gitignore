@@ -43,3 +43,4 @@ config/fantasticlib/*
 WailaErrorOutput.txt
 config/jei/bookmarks.ini
 config/pregenerator/PregenConfig.cfg
+~$ModList.xlsx
