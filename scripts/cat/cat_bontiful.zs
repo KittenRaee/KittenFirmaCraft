@@ -128,9 +128,9 @@ val spectralSilt = <bountifulbaubles:spectralsilt>;
 // Pride
     Welding.addRecipe("bountiful_pridePendant", <bountifulbaubles:amuletsinempty>, <tfc:metal/ingot/rose_gold>, <bountifulbaubles:amuletsinpride>, 4);
 // Wrath
-    Welding.addRecipe("bountiful_wrathendant", <bountifulbaubles:amuletsinempty>, <tfc:metal/sword/steel>, <bountifulbaubles:trinketbrokenheart>, 4);
+    Welding.addRecipe("bountiful_wrathPendant", <bountifulbaubles:amuletsinempty>, <tfc:metal/sword/steel>, <bountifulbaubles:amuletsinwrath>, 4);
 // Broken Heart
-    Welding.addRecipe("bountiful_wrathPendant", <bountifulbaubles:amuletsinempty>, <tfc:metal/ingot/red_steel>, <bountifulbaubles:amuletsinwrath>, 4);
+    Welding.addRecipe("bountiful_heartPendant", <bountifulbaubles:amuletsinempty>, <tfc:metal/ingot/red_steel>, <bountifulbaubles:trinketbrokenheart>, 4);
 // Cross Neclace
     Welding.addRecipe("bountiful_crossPendant", <bountifulbaubles:amuletsinempty>, <tfctech:metal/gold_long_rod>, <bountifulbaubles:amuletcross>, 4);
 // Sin
@@ -153,7 +153,7 @@ val spectralSilt = <bountifulbaubles:spectralsilt>;
     ]);
 // Enchanted apple
         recipes.addShaped("bountiful_enchantedApple", <minecraft:golden_apple:1>, [
-        [<tfc:metal/double_sheet/gold>, spectralSilt, <tfc:metal/double_sheet/gold>],
-        [spectralSilt, <minecraft:golden_apple:0>, spectralSilt],
-        [<tfc:metal/double_sheet/gold>, spectralSilt, <tfc:metal/double_sheet/gold>]
+        [spectralSilt, <tfc:metal/double_sheet/gold>, spectralSilt],
+        [<tfc:metal/double_sheet/gold>, <minecraft:golden_apple:0>, <tfc:metal/double_sheet/gold>],
+        [spectralSilt, <tfc:metal/double_sheet/gold>, spectralSilt]
     ]);
