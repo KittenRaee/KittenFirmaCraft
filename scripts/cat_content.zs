@@ -1,3 +1,4 @@
+#author KittenRaee
 #loader contenttweaker
 #norun
 import mods.contenttweaker.VanillaFactory as ctVF;

@@ -1,3 +1,4 @@
+#author KittenRaee
 #priority 99
 #modloaded railcraft
 #modloaded tfc

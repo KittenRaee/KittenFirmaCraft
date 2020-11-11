@@ -1,3 +1,4 @@
+#author KittenRaee
 import crafttweaker.item.IItemStack;
  
 // In order of metadata for wool
