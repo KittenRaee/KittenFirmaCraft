@@ -441,11 +441,11 @@
   },
   {
     "n": "Immersive Technology",
-    "v": "1.8.85",
-    "f": "MCTImmersiveTechnology-1.12.2-1.8.85.jar",
+    "v": "1.8.86",
+    "f": "MCTImmersiveTechnology-1.12.2-1.8.86.jar",
     "a": "TGstyle, Kurtchekov",
     "u": "https://www.curseforge.com/minecraft/mc-mods/mct-immersive-technology",
-    "m": "6bd5049dc79d3f8aaa848a8843e011e3"
+    "m": "f50c33975c8b19a37bfe5a1b69c786f9"
   },
   {
     "n": "Inventory Tweaks",
@@ -841,11 +841,11 @@
   },
   {
     "n": "TFC Tweaker",
-    "v": "1.0.1",
-    "f": "tfctweaker-1.0.1.jar",
+    "v": "1.0.2",
+    "f": "tfctweaker-1.0.2.jar",
     "a": "",
     "u": "",
-    "m": "1227cfad477105918d4777346466fbae"
+    "m": "04088f5167fc4b74008256f4b49bd722"
   },
   {
     "n": "TFCTech Unofficial",
