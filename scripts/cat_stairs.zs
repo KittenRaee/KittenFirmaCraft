@@ -80,7 +80,7 @@ import crafttweaker.item.IItemStack;
     ] as string[];
 
     for i, item in stair {
-        recipes.addShapedMirrored(name[i] + "_restaired", item * 8, [
+        recipes.addShapedMirrored("kittenFix_" + name[i] + "_restaired", item * 8, [
             [material[i],   null,           null],
             [material[i],   material[i],    null],
             [material[i],   material[i],    material[i]]
@@ -88,7 +88,7 @@ import crafttweaker.item.IItemStack;
     }
 
     for i, item in material {
-        recipes.addShapeless(name[i] + "_unstaired", item * 3, [
+        recipes.addShapeless("kittenFix_" + name[i] + "_unstaired", item * 3, [
             stair[i], stair[i], stair[i], stair[i]
         ]);
     }
@@ -103,11 +103,11 @@ import crafttweaker.item.IItemStack;
         }
     }
 
-    recipes.removeShaped(<engineersdecor:gas_concrete>, [
-                [<engineersdecor:gas_concrete_stairs>, <engineersdecor:gas_concrete_stairs>],
-                [<engineersdecor:gas_concrete_stairs>, <engineersdecor:gas_concrete_stairs>]
-            ]);
-
+//    recipes.removeShaped(<engineersdecor:gas_concrete>, [
+//                [<engineersdecor:gas_concrete_stairs>, <engineersdecor:gas_concrete_stairs>],
+//                [<engineersdecor:gas_concrete_stairs>, <engineersdecor:gas_concrete_stairs>]
+//            ]);
+//
 //    recipes.addShapedMirrored("brick_stairs",<minecraft:brick_stairs> * 8,[
 //        [<minecraft:brick_block>, null, null],
 //        [<minecraft:brick_block>, <minecraft:brick_block>, null],
