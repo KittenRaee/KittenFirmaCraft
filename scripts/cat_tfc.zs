@@ -40,13 +40,16 @@ import mods.unidict.api.newShapedRecipeTemplate;
     val stickIron = <ore:stickIron>;
     stickIron.addAll(<ore:stickWroughtIron>);
     stickIron.addAll(<ore:rodIron>);
+    stickIron.add(<tfc:metal/rod/wrought_iron>);
 
     val stickGold = <ore:stickGold>;
     stickGold.addAll(<ore:rodGold>);
     stickGold.add(<immersiveposts:metal_rods:0>);
+    stickIron.add(<tfc:metal/rod/gold>);
 
     val stickSteel = <ore:stickSteel>;
     stickSteel.addAll(<ore:rodSteel>);
+    stickIron.add(<tfc:metal/rod/steel>);
 
 
 // Smooth rocks by type
@@ -190,6 +193,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
     oreIngotRadioactive.add(
         <tfc:metal/ingot/thorium>
+        <tfc:metal/ingot/uranium>
     );
     oreGlowOre.add(
         <tfc:ore/carobbiite>,
@@ -240,3 +244,4 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
 // Random Fixes
     recipes.replaceAllOccurences(<tfc:brass_mechanisms>, <tfctech:metal/brass_gear>);
+    recipes.replaceAllOccurences(<tfc:metal/rod/wrought_iron>, <ore:stickIron>);

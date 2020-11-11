@@ -2,6 +2,10 @@
 #modloaded tfc
 import mods.terrafirmacraft.Barrel;
 
+// TODO
+# comments
+# dyeable comforts
+
 recipes.remove(<comforts:hammock:*>, false);
 recipes.remove(<comforts:sleeping_bag:*>, false);
 

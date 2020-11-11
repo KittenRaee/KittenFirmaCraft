@@ -7,7 +7,7 @@
     "shape": "cluster",
     "rarity": 120,
     "minimum_height": 5,
-    "maximum_height": 128,
+    "maximum_height": 96,
     "density": 70,
     "base_rocks": [
       "tfc:metamorphic",

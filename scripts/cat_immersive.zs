@@ -15,6 +15,8 @@ import mods.terrafirmacraft.Heating;
 import mods.immersiveengineering.BlastFurnace;
 import mods.unidict.api.newShapedRecipeTemplate;
 
+    recipes.remove(<minecraft:string>);
+
 // Fix oredict
     val oreDictWire = <ore:wireAluminium>;
     val oreDictRod = <ore:stickAluminium>;
@@ -89,3 +91,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
 // Remove Gunpowder
 recipes.removeByRecipeName("immersiveengineering:material/gunpowder0");
 recipes.removeByRecipeName("immersiveengineering:material/gunpowder1");
+
+// Concrete to TFC
+    recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete");
+    recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete2");

@@ -247,7 +247,7 @@
     "shape": "cluster",
     "rarity": 160,
     "minimum_height": 5,
-    "maximum_height": 128,
+    "maximum_height": 80,
     "density": 50,
     "base_rocks": [
       "tfc:gabbro"
@@ -260,7 +260,7 @@
     "shape": "sphere",
     "rarity": 150,
     "minimum_height": 5,
-    "maximum_height": 128,
+    "maximum_height": 96,
     "density": 60,
     "base_rocks": [
       "tfc:igneous_extrusive",

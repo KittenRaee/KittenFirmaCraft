@@ -7,6 +7,12 @@ import mods.terrafirmacraft.Anvil;
 import mods.terrafirmacraft.ClayKnapping;
 import mods.terrafirmacraft.Heating;
 
+
+// TODO
+# fix framing boards
+# fix names
+# proofreading
+
 // Config Options:
 
 var bibliocraft_remove_recipes = [

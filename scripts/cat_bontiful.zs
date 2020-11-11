@@ -13,6 +13,11 @@ val recallPot = <bountifulbaubles:potionrecall>;
 val wormholePot = <bountifulbaubles:potionwormhole>;
 val spectralSilt = <bountifulbaubles:spectralsilt>;
 
+// TODO
+# Miner's Ring
+# Balloon
+# Reforging Station
+
 // Registry
     ItemRegistry.registerItemHeat(<minecraft:obsidian>, 0.0125, 1700, true);
     ItemRegistry.registerItemHeat(<bountifulbaubles:trinketobsidianskull>, 0.0125, 1700, true);
@@ -153,8 +158,14 @@ val spectralSilt = <bountifulbaubles:spectralsilt>;
         [<tfc:food/red_apple>]
     ]);
 // Enchanted apple
-        recipes.addShaped("bountiful_enchantedApple", <minecraft:golden_apple:1>, [
+        recipes.addShaped("bountiful_goldenApple2", <minecraft:golden_apple:1>, [
         [spectralSilt, <tfc:metal/double_sheet/gold>, spectralSilt],
         [<tfc:metal/double_sheet/gold>, <minecraft:golden_apple:0>, <tfc:metal/double_sheet/gold>],
         [spectralSilt, <tfc:metal/double_sheet/gold>, spectralSilt]
+    ]);
+// Golden Carrot
+    recipes.addShaped("bountiful_goldenCarrot", <minecraft:golden_carrot>, [
+        [<tfc:metal/sheet/gold>],
+        [spectralSilt],
+        [<tfc:food/carrot>]
     ]);
