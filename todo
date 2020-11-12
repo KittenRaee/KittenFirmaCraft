@@ -40,6 +40,7 @@
     Steel Poles
     Steel Mesh Fence
     Trap Doors
+    Lights
 // Fairy Lights
     Fairy Light
     Flower Light
@@ -75,16 +76,47 @@
     Casings
     Air Tank
     Lubrication System
-    
+    Augers
+    Large Tank
     Bayonet
+    Extended Magazine
+    Focussed Nozzle
+    Scope
+    Flashbulb
+    Shaders
+    Ear Defenders
+    Faraday Set
+    Heavy Shield
+    Steel Armour
+    Plant Oil | TFC seeds
+    Ethanol | TFC foods | Alcohol distilation
+    Biodiesel | Distilation from Plant Oil
+// Immersive Petroleum
+    Portable Generator
+    Asphalt Concrete
+    Motorboat | Reinforced Hull, Icebreaker, Rudders
+    Lubricant Can
+// Immersive Tech
+    Trash Can
+    Valve
+    Reinforced Coke Brick
+// JAFF
+    Fish Hook
+    Fish Bones
+    Fishing Rod
+// Quark
+    Buttons
+    Cave Roots | register
+    Runes
+    Whistle
 // Railcraft
     Crowbar
     Item Loader/Unloader
-    Undercutter Cart
-    Track Relayer Cart
     Signal Label
     Golden Ticket
-    Cart Detectors | mob animal age empty routing tank
+    Cart Detectors | empty, mob, player, animal, age, empty, routing, tank, advanced, train, locomotive
+    Tunnel Bore
+    Track Cart
 // Other mods
     Base Wrench
     Miner's Ring
