@@ -21,3 +21,5 @@ import mods.terrafirmacraft.ItemRegistry;
 // Cooked fish recipes
     mods.terrafirmacraft.Heating.addRecipe("tfc_cod", <minecraft:fish>, <minecraft:cooked_fish>, 190, 480);
 	mods.terrafirmacraft.Heating.addRecipe("tfc_salmon", <minecraft:fish:1>, <minecraft:cooked_fish:1>, 190, 480);
+
+

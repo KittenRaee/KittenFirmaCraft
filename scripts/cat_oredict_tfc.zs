@@ -14,10 +14,6 @@ import crafttweaker.oredict.IOreDictEntry;
     gearAnyBronze.addAll(<ore:gearBronze>);
     gearAnyBronze.addAll(<ore:gearBismuthBronze>);
     gearAnyBronze.addAll(<ore:gearBlackBronze>);
-    recipes.replaceAllOccurences(<tfctech:metal/bronze_gear>, <ore:gearAnyBronze>);
-
-    recipes.replaceAllOccurences(<ore:ingotBronze>, <ore:ingotAnyBronze>);
-    recipes.replaceAllOccurences(<ore:sheetBronze>, <ore:sheetAnyBronze>);
 
 // TFC rods to stick oredict
     val stickIron = <ore:stickIron>;
@@ -167,6 +163,18 @@ import crafttweaker.oredict.IOreDictEntry;
     );
     oreDictPlank.remove(
         <minecraft:planks:*>
+    );
+
+// Remove vanilla Sand from oredict
+    val oreDictSand = <ore:sand>;
+    oreDictSand.remove(
+        <minecraft:sand:*>
+    );
+
+// Remove vanilla Gravel from oredict
+    val oreDictGravel = <ore:sand>;
+    oreDictGravel.remove(
+        <minecraft:gravel>
     );
 
 // Add Glowstone

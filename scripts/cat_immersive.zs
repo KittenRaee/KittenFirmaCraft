@@ -14,6 +14,7 @@ import mods.terrafirmacraft.Anvil;
 import mods.terrafirmacraft.ClayKnapping;
 import mods.terrafirmacraft.Heating;
 import mods.immersiveengineering.BlastFurnace;
+import mods.immersiveengineering.Crusher;
 import mods.unidict.api.newShapedRecipeTemplate;
 
     recipes.remove(<minecraft:string>);
@@ -89,3 +90,6 @@ import mods.unidict.api.newShapedRecipeTemplate;
 // Concrete to TFC
     recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete");
     recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete2");
+
+// Fix Vanilla Crusher
+    Crusher.removeRecipe(<minecraft:sand>);
