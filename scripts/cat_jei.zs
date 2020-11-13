@@ -17,7 +17,7 @@ import mods.jei.JEI;
         <minecraft:iron_ore>,
         <minecraft:coal_ore>,
         <minecraft:log:*>,
-        <minecraft:sponge>,
+        <minecraft:sponge:*>,
         <minecraft:lapis_ore>,
         <minecraft:sandstone:*>,
         <minecraft:gold_block>,
