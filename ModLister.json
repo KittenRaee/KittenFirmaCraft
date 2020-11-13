@@ -448,6 +448,14 @@
     "m": "f50c33975c8b19a37bfe5a1b69c786f9"
   },
   {
+    "n": "InControl",
+    "v": "3.9.18",
+    "f": "incontrol-1.12-3.9.18.jar",
+    "a": "McJty",
+    "u": "",
+    "m": "c30116c55d427d42fef16dc563a728ea"
+  },
+  {
     "n": "Inventory Tweaks",
     "v": "1.63+release.109.220f184",
     "f": "InventoryTweaks-1.63.jar",
@@ -526,6 +534,14 @@
     "a": "MrNerdy42",
     "u": "",
     "m": "c00876e68a57bff1f23d72e881903793"
+  },
+  {
+    "n": "Lapis Stays in the Enchanting Table",
+    "v": "1.1.3",
+    "f": "EnchantingTable-1.12-1.1.3.jar",
+    "a": "crazysnailboy",
+    "u": "https://minecraft.curseforge.com/projects/lapis-stays-in-the-enchanting-table/",
+    "m": "fbfd70a18d887fd9bc08dd25ff91d61a"
   },
   {
     "n": "Let Sleeping Dogs Lie",
@@ -801,11 +817,11 @@
   },
   {
     "n": "TerraFirmaThings",
-    "v": "1.2.2",
-    "f": "terrafirmathings-1.2.2.jar",
+    "v": "1.2.3",
+    "f": "terrafirmathings-1.2.3.jar",
     "a": "Lyeoj",
     "u": "",
-    "m": "31a73a03d11b314f5bc80fe4e1e40014"
+    "m": "55a5c7e61e0d1d74d658ffd670f53bbf"
   },
   {
     "n": "TFC Aged Drinks",
@@ -814,6 +830,14 @@
     "a": "Lumintorious",
     "u": "",
     "m": "0002d0dbbc8dfe0c15a66f7baaaa3f42"
+  },
+  {
+    "n": "TFC Decoration",
+    "v": "1.0.2",
+    "f": "tfc_decoration-1.0.2.jar",
+    "a": "",
+    "u": "",
+    "m": "2e97e2876b55be9d9058ad620dab5a10"
   },
   {
     "n": "TFC Medicinal",
