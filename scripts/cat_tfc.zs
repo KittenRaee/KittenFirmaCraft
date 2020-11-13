@@ -192,7 +192,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
     val oreGlowOre = <ore:glowOre>;
 
     oreIngotRadioactive.add(
-        <tfc:metal/ingot/thorium>
+        <tfc:metal/ingot/thorium>, 
         <tfc:metal/ingot/uranium>
     );
     oreGlowOre.add(
