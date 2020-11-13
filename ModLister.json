@@ -400,6 +400,14 @@
     "m": "f4bdcba26a2f6d3dff66856e47ebbecc"
   },
   {
+    "n": "Hookt",
+    "v": "1.12.2-1.1.0",
+    "f": "hookt-1.12.2-1.1.0.jar",
+    "a": "codetaylor",
+    "u": "",
+    "m": "3d5fa46e57c34bcc7bfceaf6bf118b21"
+  },
+  {
     "n": "iChunUtil",
     "v": "7.2.2",
     "f": "iChunUtil-1.12.2-7.2.2.jar",
@@ -866,10 +874,10 @@
   {
     "n": "TFC Storage",
     "v": "1.0",
-    "f": "TFCStorage-1.0.6.jar",
+    "f": "TFCStorage-1.0.7.jar",
     "a": "Lumintorious",
     "u": "",
-    "m": "a6df882bc67f779dc05e6d59b96ff513"
+    "m": "a723049fe8b67b0732f3d32f4635a564"
   },
   {
     "n": "TFC Tweaker",
