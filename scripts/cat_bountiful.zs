@@ -18,14 +18,6 @@ val spectralSilt = <bountifulbaubles:spectralsilt>;
 # Balloon
 # Reforging Station
 
-// Registry
-    ItemRegistry.registerItemHeat(<minecraft:obsidian>, 0.0125, 1700, true);
-    ItemRegistry.registerItemHeat(<bountifulbaubles:trinketobsidianskull>, 0.0125, 1700, true);
-    ItemRegistry.registerItemHeat(<bountifulbaubles:shieldcobalt>, 0.375, 1500, true);
-    ItemRegistry.registerItemHeat(<bountifulbaubles:ringiron>, 0.35, 1600, true);
-    ItemRegistry.registerItemHeat(<bountifulbaubles:ringoverclocking>, 0.35, 1600, true);
-    ItemRegistry.registerItemHeat(<bountifulbaubles:spectralsilt>, 0.85, 1600, true);
-
 // Iron Ring
     Anvil.addRecipe("bountiful_ironRing", <tfctech:metal/wrought_iron_long_rod>, <bountifulbaubles:ringiron>, 3, "general", "SHRINK_NOT_LAST", "BEND_NOT_LAST", "BEND_LAST");
 // Cobalt Shield
@@ -158,7 +150,7 @@ val spectralSilt = <bountifulbaubles:spectralsilt>;
         [<tfc:food/red_apple>]
     ]);
 // Enchanted apple
-        recipes.addShaped("bountiful_goldenApple2", <minecraft:golden_apple:1>, [
+    recipes.addShaped("bountiful_goldenApple2", <minecraft:golden_apple:1>, [
         [spectralSilt, <tfc:metal/double_sheet/gold>, spectralSilt],
         [<tfc:metal/double_sheet/gold>, <minecraft:golden_apple:0>, <tfc:metal/double_sheet/gold>],
         [spectralSilt, <tfc:metal/double_sheet/gold>, spectralSilt]

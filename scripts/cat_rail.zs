@@ -1,5 +1,5 @@
 #author KittenRaee
-#priority 99
+#priority 9
 #modloaded railcraft
 #modloaded tfc
 #modloaded tfctech
@@ -35,29 +35,25 @@ import mods.immersiveengineering.MetalPress;
 
 
 // Stone Tie
-    // Knapping
-
-StoneKnapping.addRecipe("stoneTie_single", [<railcraft:tie:1>], ["all"], "xxxxx");
-StoneKnapping.addRecipe("stoneTie_double", [<railcraft:tie:1>*2], ["all"], "xxxxx", "     ", "xxxxx");
-StoneKnapping.addRecipe("stoneTie_tripple", [<railcraft:tie:1>*3], ["all"], "xxxxx", "     ", "xxxxx", "     ", "xxxxx");
-
-    // IE Press
-MetalPress.addRecipe(<railcraft:tie:1>, <ore:rock>, <immersiveengineering:mold:2>, 20);
-
+    StoneKnapping.addRecipe("stoneTie_single", [<railcraft:tie:1>], ["all"], "xxxxx");
+    StoneKnapping.addRecipe("stoneTie_double", [<railcraft:tie:1>*2], ["all"], "xxxxx", "     ", "xxxxx");
+    StoneKnapping.addRecipe("stoneTie_tripple", [<railcraft:tie:1>*3], ["all"], "xxxxx", "     ", "xxxxx", "     ", "xxxxx");
+    MetalPress.addRecipe(<railcraft:tie:1>, <ore:rock>, <immersiveengineering:mold:2>, 20);
 
 // Wooden Tie
-    // Remove recipe
-recipes.remove(
-    <railcraft:tie:0>, 
-    true
-);
-
-    // Barrel
-Barrel.addRecipe("creosote_tie", <ore:lumber> * 4, <liquid:creosote> * 250, <railcraft:tie:0> * 4, 8);
+    recipes.remove(
+        <railcraft:tie:0>, 
+        true
+    );
+    Barrel.addRecipe("creosote_tie", <ore:lumber> * 4, <liquid:creosote> * 250, <railcraft:tie:0> * 4, 8);
 
 // Removes
+    JEI.removeAndHide(<railcraft:gear:*>);
+    recipes.removeByRecipeName("railcraft:cart_steel");
+    recipes.removeByRecipeName("railcraft:cart_bronze");
 
-recipes.remove(<railcraft:tool_magnifying_glass>, false);
-JEI.removeAndHide(<railcraft:gear:*>);
-recipes.removeByRecipeName("railcraft:cart_steel");
-recipes.removeByRecipeName("railcraft:cart_bronze");
+// Replace RC bronze with any bronze
+    recipes.replaceAllOccurences(<tfctech:metal/bronze_gear>, <ore:gearAnyBronze>);
+    recipes.replaceAllOccurences(<ore:ingotBronze>, <ore:ingotAnyBronze>);
+    recipes.replaceAllOccurences(<ore:sheetBronze>, <ore:sheetAnyBronze>);
+
