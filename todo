@@ -74,6 +74,9 @@
     Revolver Parts
     HOP Graphite
     Casings
+    Chem Thrower
+    Railgun
+    Skyhook
     Air Tank
     Lubrication System
     Augers
@@ -110,13 +113,29 @@
     Runes
     Whistle
 // Railcraft
-    Crowbar
-    Item Loader/Unloader
-    Signal Label
-    Golden Ticket
     Cart Detectors | empty, mob, player, animal, age, empty, routing, tank, advanced, train, locomotive
     Tunnel Bore
     Track Cart
+    Locomotives
+    Crowbar
+    Magnifying Glass
+    Rails
+    Loader/Unloader
+    Bore Heads
+    Charge Coils
+    Electrodes
+    World Spikes
+    Tank stuff
+    Powders
+    Label
+    Circuits
+    Boiler Firebox
+    Strenghtened Glass
+    Spike Maul
+    Track Parts
+    Tuner
+    Ticket
 // Other mods
     Base Wrench
     Miner's Ring
+    Compact Porkchop
