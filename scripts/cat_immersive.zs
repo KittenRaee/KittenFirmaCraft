@@ -93,3 +93,4 @@ import mods.unidict.api.newShapedRecipeTemplate;
 
 // Fix Vanilla Crusher
     Crusher.removeRecipe(<minecraft:sand>);
+    Crusher.removeRecipe(<minecraft:gravel>);
