@@ -49,6 +49,22 @@ import mods.jei.JEI;
         <minecraft:log2:*>,
         <minecraft:acacia_stairs>,
         <minecraft:dark_oak_stairs>,
+        <minecraft:red_sandstone:*>,
+        <minecraft:end_bricks>,
+        <minecraft:red_nether_brick>,
+        <minecraft:sapling:*>,
+        <minecraft:leaves:*>,
+        <minecraft:tallgrass:*>,
+        <minecraft:deadbush>,
+        <minecraft:yellow_flower>,
+        <minecraft:red_flower:*>,
+        <minecraft:brown_mushroom>,
+        <minecraft:red_mushroom>,
+        <minecraft:chest>,
+        <minecraft:furnace>,
+        <minecraft:cactus>,
+        <minecraft:fence>,
+        <minecraft:monster_egg:*>,
     ] as IItemStack[];
 // Bibliocraft
 

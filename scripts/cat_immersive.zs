@@ -68,7 +68,7 @@ import mods.unidict.api.newShapedRecipeTemplate;
     ]);
     #<immersiveposts:postbase>  <ore:brick>  <ore:cobblestone>
 
-// Coke brick
+// Bricks
     recipes.remove(<immersiveengineering:stone_decoration>);
     recipes.addShaped("coke_brick_tfc", <immersiveengineering:stone_decoration>, [
         [<tfc:ceramics/fire_clay>,  <tfc:mortar>,            <tfc:ceramics/fire_clay>],
@@ -81,6 +81,12 @@ import mods.unidict.api.newShapedRecipeTemplate;
         [<tfc:ceramics/fire_clay>,  <tfc:mortar>,          <tfc:ceramics/fire_clay>],
         [<tfc:mortar>,              <tfc:fire_bricks>,     <tfc:mortar>],
         [<tfc:ceramics/fire_clay>,  <tfc:mortar>,          <tfc:ceramics/fire_clay>]
+    ]);
+
+    recipes.remove(<immersiveengineering:stone_decoration:10>);
+    recipes.addShaped("kiln_brick_tfc", <immersiveengineering:stone_decoration:10>, [
+        [<tfc:ceramics/fire_clay>, <ore:brickSedimentary>],
+        [<ore:brickSedimentary>, <tfc:ceramics/fire_clay>]
     ]);
 
 // Remove Gunpowder

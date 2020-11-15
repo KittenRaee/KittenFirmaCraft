@@ -172,10 +172,21 @@ import crafttweaker.oredict.IOreDictEntry;
     );
 
 // Remove vanilla Gravel from oredict
-    val oreDictGravel = <ore:sand>;
+    val oreDictGravel = <ore:gravel>;
     oreDictGravel.remove(
         <minecraft:gravel>
     );
+
+// Remove vanilla Chest from oredict
+    val oreDictChest = <ore:chest>;
+    oreDictChest.remove(
+        <minecraft:chest>
+    );
+        val oreDictChest2 = <ore:chestWood>;
+    oreDictChest2.remove(
+        <minecraft:chest>
+    );
+
 
 // Add Glowstone
     val oreIngotRadioactive = <ore:ingotRadioactive>;
