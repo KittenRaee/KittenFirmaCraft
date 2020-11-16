@@ -817,11 +817,11 @@
   },
   {
     "n": "TerraFirmaCraft",
-    "v": "1.7.6.164",
-    "f": "TerraFirmaCraft-MC1.12.2-1.7.6.164.jar",
+    "v": "1.7.7.165",
+    "f": "TerraFirmaCraft-MC1.12.2-1.7.7.165.jar",
     "a": "Dries007, AlcatrazEscapee, Bunsan, et. al.",
     "u": "https://tng.terrafirmacraft.com/Main_Page",
-    "m": "16e80a3f01f1c4ab147d5cc8e9b81aa5"
+    "m": "4c4f1fafc76cd22d2900efc94c1a9ccd"
   },
   {
     "n": "TerraFirmaThings",
@@ -850,10 +850,10 @@
   {
     "n": "TFC Medicinal",
     "v": "1.0.0",
-    "f": "TFCMedicinal-1.0.4.jar",
+    "f": "TFCMedicinal-1.0.5.jar",
     "a": "Lumintorious",
     "u": "",
-    "m": "042f515332391084750263ed73ccf0ad"
+    "m": "aa2a09ac0f83e7c53a7345dd8f362934"
   },
   {
     "n": "TFC Metallum",
@@ -865,11 +865,11 @@
   },
   {
     "n": "TFC Rocks+",
-    "v": "1.3.4",
-    "f": "tfc_rocksplus-1.3.4.jar",
+    "v": "1.3.5",
+    "f": "tfc_rocksplus-1.3.5.jar",
     "a": "Mrthomas20121",
     "u": "https://github.com/Mrthomas20121/TFC_rockplus",
-    "m": "a899485602f59414c768f3df8a34fb71"
+    "m": "8d8878a87b52547158771140ef0e4d22"
   },
   {
     "n": "TFC Storage",
