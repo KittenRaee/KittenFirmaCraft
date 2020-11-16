@@ -96,3 +96,16 @@ val rockTypes = [
 // Random TFC Fixes
     recipes.replaceAllOccurences(<tfc:brass_mechanisms>, <tfctech:metal/brass_gear>);
     recipes.replaceAllOccurences(<tfc:metal/rod/wrought_iron>, <ore:stickIron>);
+
+// Anvil
+    recipes.addShaped("tfc_anvilVanilla", <minecraft:anvil>, [
+        [<tfc:metal/double_sheet/steel>, <tfc:metal/double_sheet/steel>, <tfc:metal/double_sheet/steel>],
+        [null, <tfc:metal/double_ingot/wrought_iron>, null],
+        [<tfc:metal/double_ingot/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>]
+    ]);
+    recipes.remove(<railcraft:anvil>);
+    recipes.addShaped("tfc_anvilRailcraft", <railcraft:anvil>, [
+        [<tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>],
+        [null, <tfc:metal/double_ingot/steel>, null],
+        [<tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>]
+    ]);

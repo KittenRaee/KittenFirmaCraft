@@ -45,3 +45,4 @@ config/jei/bookmarks.ini
 config/pregenerator/PregenConfig.cfg
 ~$ModList.xlsx
 screenshots/*
+options.txt

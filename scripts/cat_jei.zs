@@ -69,7 +69,7 @@ import mods.jei.JEI;
 // Bibliocraft
 
 // Bountiful Baubles
-
+    JEI.hide(<bountifulbaubles:modifierbook>);
 // Comforts
 
 // Debark

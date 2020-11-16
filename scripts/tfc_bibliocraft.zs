@@ -36,13 +36,9 @@ var bibliocraft_remove_recipes = [
     <bibliocraft:paintingcanvas:*>,
     <bibliocraft:handdrill:*>,
     <bibliocraft:tapemeasure:*>,
-//
-//   
     <bibliocraft:swordpedestal>,
     <bibliocraft:bibliochase:*>,
     <bibliocraft:tape:*>,
-//    <bibliocraft:cookiejar:*>,
-//    <bibliocraft:dinnerplate:*>,
     <bibliocraft:printingpress:*>,
     <bibliocraft:typesettingtable:*>,
     <bibliocraft:framingboard:*>,

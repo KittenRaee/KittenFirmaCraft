@@ -14,12 +14,14 @@ val wormholePot = <bountifulbaubles:potionwormhole>;
 val spectralSilt = <bountifulbaubles:spectralsilt>;
 
 // TODO
-# Miner's Ring
-# Balloon
-# Reforging Station
+# Miner's Ring          ✓
+# Balloon               ✓
+# Reforging Station     ✓
 
 // Iron Ring
     Anvil.addRecipe("bountiful_ironRing", <tfctech:metal/wrought_iron_long_rod>, <bountifulbaubles:ringiron>, 3, "general", "SHRINK_NOT_LAST", "BEND_NOT_LAST", "BEND_LAST");
+// Miner's Ring
+    Welding.addRecipe("bountiful_minerBauble", <bountifulbaubles:ringiron>, <tfc:metal/pick_head/wrought_iron>, <baubles:ring>, 3);
 // Cobalt Shield
     Welding.addRecipe("bountiful_cobaltShield", <tfc:metal/shield/cobalt>, <tfc:metal/double_ingot/electrum>, <bountifulbaubles:shieldcobalt>.withTag({HideFlags: 2}), 3);
 // Obsidian Skull
@@ -160,4 +162,14 @@ val spectralSilt = <bountifulbaubles:spectralsilt>;
         [<tfc:metal/sheet/gold>],
         [spectralSilt],
         [<tfc:food/carrot>]
+    ]);
+// Baloon
+    recipes.addShaped("bountiful_baloon", <bountifulbaubles:trinketballoon>, [
+        [<tfc:glue>, <minecraft:leather>, <tfc:glue>],
+        [<minecraft:leather>, spectralSilt, <minecraft:leather>],
+        [<tfc:glue>, <minecraft:leather>, <tfc:glue>]
+    ]);
+// Reforging Station
+    recipes.addShapeless("bountiful_station", <bountifulbaubles:reforger>, [
+        <tfc:metal/anvil/wrought_iron>, <ore:craftingTableWood>, <tfc:ceramics/fired/large_vessel>, spectralSilt
     ]);

@@ -12,7 +12,7 @@
 "minecraft:web": [],
 "tfc:peat":[]
 },
-"1.33,2,true": {
+"1.1,2,true": {
 "minecraft:grass_path": [],
 "minecraft:plank": [],
 "minecraft:oak_stairs": [],
@@ -277,7 +277,7 @@
 "tfc:double_slab/cobble/shale": [],
 "tfc:double_slab/cobble/slate": []
 },
-"1.5,2,true": {
+"1.25,2,true": {
 "minecraft:crafting_table": [],
 "minecraft:furnace": [],
 "minecraft:dispenser": [],
@@ -410,7 +410,7 @@
 "tfc:double_slab/bricks/shale": [],
 "tfc:double_slab/bricks/slate": []
 },
-"1.67,2,true": {
+"1.33,2,true": {
 "minecraft:hopper": [],
 "minecraft:lapis_block": [],
 "minecraft:iron_block": [],
@@ -521,7 +521,7 @@
 "tfc:double_slab/smooth/shale": [],
 "tfc:double_slab/smooth/slate": []
 },
-"2,2,true": {
+"1.5,2,true": {
 "minecraft:magma": [],
 "minecraft:cactus": [],
 "tfc:plants/barrel_cactus": [],
@@ -530,7 +530,7 @@
 "minecraft:gold_block": [],
 "tfc:fire_bricks": []
 },
-"2.5,2,true": {
+"1.67.5,2,true": {
 "minecraft:diamond_block": [],
 "minecraft:beacon": []
 }
