@@ -1,0 +1,48 @@
+{
+    "priority": 9,
+    "rules": [
+        {
+            "debug": true,
+            "match": {
+                "drops": {
+                    "drops": [
+                        "minecraft:bow:*",
+                        "minecraft:enchanted_book:*",
+                        "minecraft:fishing_rod:*",
+                        "minecraft:name_tag",
+                        "minecraft:saddle",
+                        "minecraft:waterlilly",
+                        "minecraft:bowl",
+                        "minecraft:leather",
+                        "minecraft:leather_boots:*",
+                        "minecraft:rotten_flesh",
+                        "minecraft:stick",
+                        "minecraft:string",
+                        "minecraft:potion:*",
+                        "minecraft:bone",
+                        "minecraft:dye:*",
+                        "minecraft:tripwire_hook"
+                    ]
+                },
+                "angler": {
+                    "heldItemMainHand": {
+                        "items": [
+                            "minecraft:fishing_rod:*"
+                        ]
+                    }
+                }
+            },
+            "replaceStrategy": "REPLACE_ITEMS",
+            "dropStrategy": "UNIQUE",
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "jaff:fish_bones:0"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

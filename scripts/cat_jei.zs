@@ -87,7 +87,13 @@ import mods.jei.JEI;
 // Immersive Tech
 
 // JAFF
-
+    val jaffHide = [
+        <jaff:iron_hook>,
+        <jaff:wooden_fishing_rod>,
+        <jaff:iron_fishing_rod>,
+        <jaff:golden_fishing_rod>,
+        <jaff:diamond_fishing_rod>
+    ]as IItemStack[];
 // Quark
 
 // Railcraft
@@ -110,7 +116,12 @@ import mods.jei.JEI;
 
 // TFC Waterflasks
 
+// loops
 for i in vanillaHide {
 #   JEI.removeAndHide(i);
     JEI.hide(i);    
+}
+for i in jaffHide {
+    JEI.removeAndHide(i);
+#   JEI.hide(i);    
 }

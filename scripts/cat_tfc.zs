@@ -109,3 +109,7 @@ val rockTypes = [
         [null, <tfc:metal/double_ingot/steel>, null],
         [<tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>]
     ]);
+
+// Fishbones Fix
+    recipes.removeShapeless(<minecraft:dye:15>, [<jaff:fish_bones>]);
+    Quern.addRecipe("quern_fishBones", <jaff:fish_bones>, <minecraft:dye:15> * 2);
