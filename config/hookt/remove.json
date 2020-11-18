@@ -36,9 +36,26 @@
             "dropStrategy": "UNIQUE",
             "drops": [
                 {
+                    "selector" : {
+                        "weight" : {
+                            "value": 190
+                        }
+                    },
                     "item": {
                         "items": [
                             "jaff:fish_bones:0"
+                        ]
+                    }
+                },
+                {
+                    "selector" : {
+                        "weight" : {
+                            "value": 2
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:name_tag"
                         ]
                     }
                 }
