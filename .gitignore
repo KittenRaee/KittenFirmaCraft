@@ -47,3 +47,4 @@ config/pregenerator/PregenConfig.cfg
 screenshots/*
 options.txt
 *.old
+journeymap/config/5.7/journeymap.fullmap.config

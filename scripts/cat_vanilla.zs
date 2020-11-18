@@ -4,10 +4,12 @@
 import mods.terrafirmacraft.ItemRegistry;
 
 // Register fish
-	ItemRegistry.registerItemHeat(<minecraft:fish>, 0.85, 480, true);
-	ItemRegistry.registerItemHeat(<minecraft:fish:1>, 0.85, 480, true);
-	ItemRegistry.registerItemHeat(<minecraft:fish:2>, 0.85, 480, true);
-	ItemRegistry.registerItemHeat(<minecraft:fish:3>, 0.85, 480, true);
+	ItemRegistry.registerItemHeat(<minecraft:fish>, 0.85, 480, false);
+	ItemRegistry.registerItemHeat(<minecraft:fish:1>, 0.85, 480, false);
+	ItemRegistry.registerItemHeat(<minecraft:fish:2>, 0.85, 480, false);
+	ItemRegistry.registerItemHeat(<minecraft:fish:3>, 0.85, 480, false);
+    ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.00, 480, true);
+	ItemRegistry.registerItemHeat(<minecraft:cooked_fish:1>, 0.00, 480, true);
 
     ItemRegistry.registerFood(<minecraft:fish>,          0, 1.0, 0.0, 12.5, 0, 0, 0, 1.0, 0);
     ItemRegistry.registerFood(<minecraft:fish:1>,        0, 1.0, 0.0, 12.5, 0, 0, 0, 1.0, 0);
