@@ -337,11 +337,19 @@
   },
   {
     "n": "Fantastic Lib",
-    "v": "1.12.2.039",
-    "f": "FantasticLib-1.12.2.039.jar",
+    "v": "1.12.2.040",
+    "f": "FantasticLib-1.12.2.040.jar",
     "a": "Laike_Endaril",
     "u": "",
-    "m": "a8dcd85b3b1210af29a45e38ae808650"
+    "m": "3255e8739d9cc3389440a5e341e052c7"
+  },
+  {
+    "n": "Farseek",
+    "v": "2.5.1",
+    "f": "Farseek-1.12-2.5.1.jar",
+    "a": "delvr",
+    "u": "https://www.curseforge.com/minecraft/mc-mods/farseek",
+    "m": "bd3c9c224b8b8d968db3dde02678d5e9"
   },
   {
     "n": "FastWorkbench",
@@ -800,6 +808,14 @@
     "m": "e29a0cae708598ecd76e451682acefda"
   },
   {
+    "n": "Streams",
+    "v": "0.4.9",
+    "f": "Streams-1.12-0.4.9.jar",
+    "a": "delvr",
+    "u": "https://www.curseforge.com/minecraft/mc-mods/streams",
+    "m": "9516ca506e012abb7f6ca19b5aa3f5f4"
+  },
+  {
     "n": "SwingThroughGrass",
     "v": "1.12.2-1.2.3",
     "f": "stg-1.12.2-1.2.3.jar",
@@ -817,11 +833,11 @@
   },
   {
     "n": "TerraFirmaCraft",
-    "v": "1.7.7.165",
-    "f": "TerraFirmaCraft-MC1.12.2-1.7.7.165.jar",
+    "v": "1.7.8.166",
+    "f": "TerraFirmaCraft-MC1.12.2-1.7.8.166.jar",
     "a": "Dries007, AlcatrazEscapee, Bunsan, et. al.",
     "u": "https://tng.terrafirmacraft.com/Main_Page",
-    "m": "4c4f1fafc76cd22d2900efc94c1a9ccd"
+    "m": "956cb247368a540c0a9890d6ea569a53"
   },
   {
     "n": "TerraFirmaThings",
