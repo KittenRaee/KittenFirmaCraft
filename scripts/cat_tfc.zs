@@ -10,42 +10,6 @@ import mods.terrafirmacraft.Welding;
 import mods.terrafirmacraft.Quern;
 import mods.unidict.api.newShapedRecipeTemplate;
 
-val rockTypes = [
-    "granite",
-    "diorite",
-    "gabbro",
-    "shale",
-    "claystone",
-    "rocksalt",
-    "limestone",
-    "conglomerate",
-    "dolomite",
-    "chert",
-    "chalk",
-    "rhyolite",
-    "basalt",
-    "andesite",
-    "dacite",
-    "quartzite",
-    "slate",
-    "phyllite",
-    "schist",
-    "gneiss",
-    "marble",
-    "blaimorite",
-    "boninite",
-    "carbonatite",
-    "foidolite",
-    "arkose",
-    "jaspillite",
-    "travertine",
-    "wackestone",
-    "blueschist",
-    "greenschist",
-    "cataclasite",
-    "mylonite",
-] as string[]; 
-
 // CAST IRON
     <minecraft:iron_ingot>.displayName = "Cast Iron Ingot";
     recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_iron>);
