@@ -5,6 +5,7 @@
 #modloaded tfcmedicinal
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.terrafirmacraft.Barrel;
 import mods.terrafirmacraft.ItemRegistry;
 import mods.terrafirmacraft.Welding;
 import mods.terrafirmacraft.Quern;
@@ -77,3 +78,10 @@ import mods.unidict.api.newShapedRecipeTemplate;
 // Fishbones Fix
     recipes.removeShapeless(<minecraft:dye:15>, [<jaff:fish_bones>]);
     Quern.addRecipe("quern_fishBones", <jaff:fish_bones>, <minecraft:dye:15> * 2);
+
+// Add alt mud recipe
+    for i, name in scripts.lists.rocks.TFC_namesList {
+        Barrel.removeRecipe(scripts.lists.rocks.TFC_wetMudList[i], null);
+        Barrel.addRecipe("mud_gravel_" + name, scripts.lists.rocks.TFC_gravelList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8);
+        Barrel.addRecipe("mud_dirt_" + name, scripts.lists.rocks.TFC_dirtList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8);
+    }

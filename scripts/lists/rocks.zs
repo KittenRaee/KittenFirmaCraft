@@ -2,10 +2,11 @@
 #priority 99
 #modloaded tfc
 #modloaded tfc_decoration
+import crafttweaker.item.IItemStack;
 
 // For use in other scripts
 // ------------------------
-// scrips.cat_listTFC.[val]
+// scrips.Lists.rocks.[static]
 // ------------------------
 // General Purpose
 //      TFC_namesList
@@ -25,7 +26,7 @@
 //      TFC_wetMudList
 //      TFC_dryMudList
 
-val TFC_rawList = [
+static TFC_rawList as IItemStack[] = [
     <tfc:raw/granite>,
     <tfc:raw/diorite>,
     <tfc:raw/gabbro>,
@@ -59,9 +60,9 @@ val TFC_rawList = [
     <tfc:raw/greenschist>,
     <tfc:raw/cataclasite>,
     <tfc:raw/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_smoothList = [
+static TFC_smoothList as IItemStack[] = [
     <tfc:smooth/granite>,
     <tfc:smooth/diorite>,
     <tfc:smooth/gabbro>,
@@ -95,9 +96,9 @@ val TFC_smoothList = [
     <tfc:smooth/greenschist>,
     <tfc:smooth/cataclasite>,
     <tfc:smooth/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_cobbleList = [
+static TFC_cobbleList as IItemStack[] = [
     <tfc:cobble/granite>,
     <tfc:cobble/diorite>,
     <tfc:cobble/gabbro>,
@@ -131,9 +132,9 @@ val TFC_cobbleList = [
     <tfc:cobble/greenschist>,
     <tfc:cobble/cataclasite>,
     <tfc:cobble/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_bricksList = [
+static TFC_bricksList as IItemStack[] = [
     <tfc:bricks/granite>,
     <tfc:bricks/diorite>,
     <tfc:bricks/gabbro>,
@@ -167,9 +168,9 @@ val TFC_bricksList = [
     <tfc:bricks/greenschist>,
     <tfc:bricks/cataclasite>,
     <tfc:bricks/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_sandList = [
+static TFC_sandList as IItemStack[] = [
     <tfc:sand/granite>,
     <tfc:sand/diorite>,
     <tfc:sand/gabbro>,
@@ -203,9 +204,9 @@ val TFC_sandList = [
     <tfc:sand/greenschist>,
     <tfc:sand/cataclasite>,
     <tfc:sand/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_gravelList = [
+static TFC_gravelList as IItemStack[] = [
     <tfc:gravel/granite>,
     <tfc:gravel/diorite>,
     <tfc:gravel/gabbro>,
@@ -239,9 +240,9 @@ val TFC_gravelList = [
     <tfc:gravel/greenschist>,
     <tfc:gravel/cataclasite>,
     <tfc:gravel/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_dirtList = [
+static TFC_dirtList as IItemStack[] = [
     <tfc:dirt/granite>,
     <tfc:dirt/diorite>,
     <tfc:dirt/gabbro>,
@@ -277,7 +278,7 @@ val TFC_dirtList = [
     <tfc:dirt/mylonite>
 ] as IItemStack[];
 
-val TFC_claylList = [
+static TFC_claylList as IItemStack[] = [
     <tfc:clay/granite>,
     <tfc:clay/diorite>,
     <tfc:clay/gabbro>,
@@ -311,9 +312,9 @@ val TFC_claylList = [
     <tfc:clay/greenschist>,
     <tfc:clay/cataclasite>,
     <tfc:clay/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_cobbleMossList = [
+static TFC_cobbleMossList as IItemStack[] = [
     <tfc_decoration:mossy_cobble/granite>,
     <tfc_decoration:mossy_cobble/diorite>,
     <tfc_decoration:mossy_cobble/gabbro>,
@@ -347,9 +348,9 @@ val TFC_cobbleMossList = [
     <tfc_decoration:mossy_cobble/greenschist>,
     <tfc_decoration:mossy_cobble/cataclasite>,
     <tfc_decoration:mossy_cobble/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_brickMossList = [
+static TFC_brickMossList as IItemStack[] = [
     <tfc_decoration:mossy_brick/granite>,
     <tfc_decoration:mossy_brick/diorite>,
     <tfc_decoration:mossy_brick/gabbro>,
@@ -383,9 +384,9 @@ val TFC_brickMossList = [
     <tfc_decoration:mossy_brick/greenschist>,
     <tfc_decoration:mossy_brick/cataclasite>,
     <tfc_decoration:mossy_brick/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_brickCrackList = [
+static TFC_brickCrackList as IItemStack[] = [
     <tfc_decoration:cracked_brick/granite>,
     <tfc_decoration:cracked_brick/diorite>,
     <tfc_decoration:cracked_brick/gabbro>,
@@ -419,9 +420,9 @@ val TFC_brickCrackList = [
     <tfc_decoration:cracked_brick/greenschist>,
     <tfc_decoration:cracked_brick/cataclasite>,
     <tfc_decoration:cracked_brick/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_wetMudList = [
+static TFC_wetMudList as IItemStack[] = [
     <tfc_decoration:wet_mud/granite>,
     <tfc_decoration:wet_mud/diorite>,
     <tfc_decoration:wet_mud/gabbro>,
@@ -455,9 +456,9 @@ val TFC_wetMudList = [
     <tfc_decoration:wet_mud/greenschist>,
     <tfc_decoration:wet_mud/cataclasite>,
     <tfc_decoration:wet_mud/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_dryMudList = [
+static TFC_dryMudList as IItemStack[] = [
     <tfc_decoration:mud/granite>,
     <tfc_decoration:mud/diorite>,
     <tfc_decoration:mud/gabbro>,
@@ -491,9 +492,9 @@ val TFC_dryMudList = [
     <tfc_decoration:mud/greenschist>,
     <tfc_decoration:mud/cataclasite>,
     <tfc_decoration:mud/mylonite>
-] as IItemStack;
+] as IItemStack[];
 
-val TFC_namesList = [
+static TFC_namesList as string[] = [
     "granite",
     "diorite",
     "gabbro",

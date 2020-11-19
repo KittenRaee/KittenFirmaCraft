@@ -408,7 +408,8 @@
 "tfc:double_slab/bricks/rocksalt": [],
 "tfc:double_slab/bricks/schist": [],
 "tfc:double_slab/bricks/shale": [],
-"tfc:double_slab/bricks/slate": []
+"tfc:double_slab/bricks/slate": [],
+"tfc_decoration:mud/bricks": []
 },
 "1.5,2,true": {
 "minecraft:hopper": [],

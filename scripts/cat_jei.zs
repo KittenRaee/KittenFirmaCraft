@@ -67,25 +67,46 @@ import mods.jei.JEI;
         <minecraft:monster_egg:*>,
     ] as IItemStack[];
 // Bibliocraft
+    val biblioHide = [
 
+    ]as IItemStack[];
 // Bountiful Baubles
-    JEI.hide(<bountifulbaubles:modifierbook>);
+    val bountifulHide = [
+        <bountifulbaubles:modifierbook>
+    ]as IItemStack[];
 // Comforts
+    val comfortsHide = [
 
+    ]as IItemStack[];
 // Debark
-
+    val debarkHide = [
+        <debark:debarked_log_minecraft_log>,
+        <debark:debarked_log_minecraft_log2>
+    ]as IItemStack[];
 // Engineer's Decor
+    val engineersDecorHide = [
 
+    ]as IItemStack[];
 // Fairy Lights
+    val fairyLightsHide = [
 
+    ]as IItemStack[];
 // Immersive Engineering
+    val immersiveEngineeringHide = [
 
+    ]as IItemStack[];
 // Immersive Petroleum
+    val immersivePetroleumHide = [
 
+    ]as IItemStack[];
 // Immersive Posts
+    val immersivePostsHide = [
 
+    ]as IItemStack[];
 // Immersive Tech
+    val immersiveTechHide = [
 
+    ]as IItemStack[];
 // JAFF
     val jaffHide = [
         <jaff:iron_hook>,
@@ -95,33 +116,56 @@ import mods.jei.JEI;
         <jaff:diamond_fishing_rod>
     ]as IItemStack[];
 // Quark
+    val quarkHide = [
 
+    ]as IItemStack[];
 // Railcraft
+    val railcraftHide = [
 
+    ]as IItemStack[];
 // Signpost
+    val signpostHide = [
 
+    ]as IItemStack[];
 // TFC Aged Drinks
+    val tfcAgedHide = [
 
+    ]as IItemStack[];
 // TFC Decoration
+    val tfcDecorationHide = [
 
+    ]as IItemStack[];
 // TFC Medicinal
+    val tfcMedicinalHide = [
 
+    ]as IItemStack[];
 // TFC Storage
+    val tfcStorageHide = [
 
+    ]as IItemStack[];
 // TFC Tech
+    val tfcTechHide = [
 
+    ]as IItemStack[];
 // TFC 
+    val tfcHide = [
 
+    ]as IItemStack[];
 // TFC Things
+    val tfcThingsHide = [
 
+    ]as IItemStack[];
 // TFC Waterflasks
+    val tfcWaterflasksHide = [
 
+    ]as IItemStack[];
 // loops
-for i in vanillaHide {
-#   JEI.removeAndHide(i);
-    JEI.hide(i);    
-}
-for i in jaffHide {
-    JEI.removeAndHide(i);
-#   JEI.hide(i);    
-}
+    for i in vanillaHide {
+    #   JEI.removeAndHide(i);
+        JEI.hide(i);    
+    }
+
+    for i in jaffHide {
+        JEI.removeAndHide(i);
+    #   JEI.hide(i);    
+    }
