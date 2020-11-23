@@ -7,10 +7,11 @@ import crafttweaker.liquid.ILiquidStack;
 # comments
 # dyeable comforts
 
-
+// remove vanilla comforts
 recipes.remove(<comforts:hammock:*>, false);
 recipes.remove(<comforts:sleeping_bag:*>, false);
 
+// plain copmforts
 recipes.addShaped(
     "tfc_sleepingbag",
     <comforts:sleeping_bag>,
@@ -40,10 +41,11 @@ recipes.addShapeless(
     [<comforts:sleeping_bag:0>, blue_dye]
 );
 
-
+// remove dye
 Barrel.addRecipe("tfc_hammock_clear", <comforts:hammock:*>, <liquid:lye> * 125, <comforts:hammock:0>, null, 1);
 Barrel.addRecipe("tfc_bag_clear", <comforts:sleeping_bag:*>, <liquid:lye> * 125, <comforts:sleeping_bag:0>, null, 1);
 
+// dyeing
 val colourList = [
     "white",        
     "orange",       

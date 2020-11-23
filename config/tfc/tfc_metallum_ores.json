@@ -51,7 +51,7 @@
     "height": 12,
     "shape": "cluster",
     "rarity": 65,
-    "minimum_height": 5,
+    "minimum_height": 48,
     "maximum_height": 128,
     "density": 85,
     "base_rocks": [
@@ -91,15 +91,14 @@
     "width": 12,
     "height": 12,
     "shape": "cluster",
-    "rarity": 40,
+    "rarity": 80,
     "minimum_height": 5,
     "maximum_height": 128,
     "density": 55,
     "base_rocks": [
       "tfc:igneous_extrusive",
       "tfc:igneous_intrusive",
-      "tfc:sedimentary",
-      "tfc:metamorphic"
+      "tfc:sedimentary"
     ]
   },
   "surface_zircon": {
@@ -108,15 +107,15 @@
     "width": 12,
     "height": 12,
     "shape": "cluster",
-    "rarity": 40,
+    "rarity": 85,
     "minimum_height": 128,
     "maximum_height": 140,
     "density": 55,
     "base_rocks": [
       "tfc:igneous_extrusive",
       "tfc:igneous_intrusive",
-      "tfc:sedimentary",
-      "tfc:metamorphic"
+      "tfc:sedimentary"
+      
     ]
   },
   "magnesite": {
@@ -220,8 +219,8 @@
     "width": 5,
     "height": 15,
     "shape": "cluster",
-    "rarity": 80,
-    "minimum_height": 5,
+    "rarity": 180,
+    "minimum_height": 64,
     "maximum_height": 128,
     "density": 60,
     "base_rocks": [
