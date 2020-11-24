@@ -721,6 +721,9 @@
                 <magentaShulkerBox id="magenta_shulker_box"/>
                 <orangeShulkerBox id="orange_shulker_box"/>
             </chests>
+            <workbenches>
+                <workbench oreDictName="craftingTableWood"/>
+            </workbenches>
             <beacon id="beacon"/>
             <anvil id="anvil"/>
             <jukebox id="jukebox"/>

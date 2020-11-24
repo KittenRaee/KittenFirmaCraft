@@ -6,6 +6,7 @@
 ====== [ SETTINGS ] ======
 
 D LOCKED
+A1 workbenches
 
 ======== [ GETTING STARTED ] ========
 
