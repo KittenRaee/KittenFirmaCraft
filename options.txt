@@ -25,8 +25,8 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:false
-enableVsync:false
+fullscreen:true
+enableVsync:true
 useVbo:false
 hideServerAddress:false
 advancedItemTooltips:true
@@ -85,6 +85,12 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_quark.keybind.dropoff:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -104,12 +110,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.death_history:22
@@ -162,7 +162,7 @@ key_key.journeymap.zoom_in:0
 key_key.journeymap.zoom_out:0
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_preset:0
-key_key.journeymap.create_waypoint:48:CONTROL
+key_key.journeymap.create_waypoint:50:CONTROL
 key_key.journeymap.toggle_waypoints:44:CONTROL
 key_key.journeymap.fullscreen_create_waypoint:48
 key_key.journeymap.fullscreen_chat_position:46
