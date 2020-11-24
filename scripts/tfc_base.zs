@@ -23,6 +23,7 @@ recipes.addShaped(
         [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]
     ]
 );
+recipes.addShapeless("tfc_clay_balls", <minecraft:clay_ball> * 9, [<minecraft:clay>]);
 
 // Add heat capacity to clay block
 ItemRegistry.registerItemHeat(

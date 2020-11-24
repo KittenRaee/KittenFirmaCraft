@@ -85,3 +85,9 @@ import mods.unidict.api.newShapedRecipeTemplate;
         Barrel.addRecipe("mud_gravel_" + name, scripts.lists.rocks.TFC_gravelList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8);
         Barrel.addRecipe("mud_dirt_" + name, scripts.lists.rocks.TFC_dirtList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8);
     }
+
+// Add moss recipes
+    for i, name in scripts.lists.rocks.TFC_namesList {
+        Barrel.addRecipe("moss_cobble_" + name, scripts.lists.rocks.TFC_cobbleList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_cobbleMossList[i] * 4, null, 8);
+        Barrel.addRecipe("moss_bricks_" + name, scripts.lists.rocks.TFC_bricksList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_brickMossList[i] * 4, null, 8);
+    }
