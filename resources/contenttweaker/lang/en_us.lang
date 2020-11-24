@@ -1,0 +1,91 @@
+
+#Metal block
+tile.contenttweaker.blockbismuth.name=Block of Bismuth
+tile.contenttweaker.blockbismuth_bronze.name=Block of Bismuth Bronze
+tile.contenttweaker.blockblack_bronze.name=Block of Black Bronze
+tile.contenttweaker.blockbrass.name=Block of Brass
+tile.contenttweaker.blockbronze.name=Block of Bronze
+tile.contenttweaker.blockcopper.name=Block of Copper
+tile.contenttweaker.blockgold.name=Block of Gold
+tile.contenttweaker.blocklead.name=Block of Lead
+tile.contenttweaker.blocknickel.name=Block of Nickel
+tile.contenttweaker.blockrose_gold.name=Block of Rose Gold
+tile.contenttweaker.blocksilver.name=Block of Silver
+tile.contenttweaker.blocktin.name=Block of Tin
+tile.contenttweaker.blockzinc.name=Block of Zinc
+tile.contenttweaker.blocksterling_silver.name=Block of Sterling Silver
+tile.contenttweaker.blockwrought_iron.name=Block of Wrought Iron
+tile.contenttweaker.blocksteel.name=Block of Steel
+tile.contenttweaker.blockplatinum.name=Block of Platinum
+tile.contenttweaker.blockblack_steel.name=Block of Black Steel
+tile.contenttweaker.blockblue_steel.name=Block of Blue Steel
+tile.contenttweaker.blockred_steel.name=Block of Red Steel
+
+#5 units crushed ore
+item.contenttweaker.native_copper5.name=Crushed Native Copper
+item.contenttweaker.native_gold5.name=Crushed Native Gold
+item.contenttweaker.native_platinum5.name=Crushed Native Platinum
+item.contenttweaker.hematite5.name=Crushed Hematite
+item.contenttweaker.native_silver5.name=Crushed Native Silver
+item.contenttweaker.cassiterite5.name=Crushed Cassiterite
+item.contenttweaker.galena5.name=Crushed Galena
+item.contenttweaker.bismuthinite5.name=Crushed Bismuthinite
+item.contenttweaker.garnierite5.name=Crushed Garnierite
+item.contenttweaker.malachite5.name=Crushed Malachite
+item.contenttweaker.magnetite5.name=Crushed Magnetite
+item.contenttweaker.limonite5.name=Crushed Limonite
+item.contenttweaker.sphalerite5.name=Crushed Sphalerite
+item.contenttweaker.tetrahedrite5.name=Crushed Tetrahedrite
+
+item.contenttweaker.bauxite5.name=Crushed Bauxite
+item.contenttweaker.cobaltite5.name=Crushed Cobaltite
+item.contenttweaker.native_ardite5.name=Crushed Native Ardite
+item.contenttweaker.native_osmium5.name=Crushed Native Osmium
+item.contenttweaker.stibnite5.name=Crushed Stibnite
+item.contenttweaker.wolframite5.name=Crushed Wolframite
+
+#25 units crushed ore
+item.contenttweaker.native_copper25.name=Crushed Native Copper
+item.contenttweaker.native_gold25.name=Crushed Native Gold
+item.contenttweaker.native_platinum25.name=Crushed Native Platinum
+item.contenttweaker.hematite25.name=Crushed Hematite
+item.contenttweaker.native_silver25.name=Crushed Native Silver
+item.contenttweaker.cassiterite25.name=Crushed Cassiterite
+item.contenttweaker.galena25.name=Crushed Galena
+item.contenttweaker.bismuthinite25.name=Crushed Bismuthinite
+item.contenttweaker.garnierite25.name=Crushed Garnierite
+item.contenttweaker.malachite25.name=Crushed Malachite
+item.contenttweaker.magnetite25.name=Crushed Magnetite
+item.contenttweaker.limonite25.name=Crushed Limonite
+item.contenttweaker.sphalerite25.name=Crushed Sphalerite
+item.contenttweaker.tetrahedrite25.name=Crushed Tetrahedrite
+
+item.contenttweaker.bauxite25.name=Crushed Bauxite
+item.contenttweaker.cobaltite25.name=Crushed Cobaltite
+item.contenttweaker.native_ardite25.name=Crushed Native Ardite
+item.contenttweaker.native_osmium25.name=Crushed Native Osmium
+item.contenttweaker.stibnite25.name=Crushed Stibnite
+item.contenttweaker.wolframite25.name=Crushed Wolframite
+
+#50 units crushed ore
+item.contenttweaker.native_copper50.name=Crushed Native Copper
+item.contenttweaker.native_gold50.name=Crushed Native Gold
+item.contenttweaker.native_platinum50.name=Crushed Native Platinum
+item.contenttweaker.hematite50.name=Crushed Hematite
+item.contenttweaker.native_silver50.name=Crushed Native Silver
+item.contenttweaker.cassiterite50.name=Crushed Cassiterite
+item.contenttweaker.galena50.name=Crushed Galena
+item.contenttweaker.bismuthinite50.name=Crushed Bismuthinite
+item.contenttweaker.garnierite50.name=Crushed Garnierite
+item.contenttweaker.malachite50.name=Crushed Malachite
+item.contenttweaker.magnetite50.name=Crushed Magnetite
+item.contenttweaker.limonite50.name=Crushed Limonite
+item.contenttweaker.sphalerite50.name=Crushed Sphalerite
+item.contenttweaker.tetrahedrite50.name=Crushed Tetrahedrite
+
+item.contenttweaker.bauxite50.name=Crushed Bauxite
+item.contenttweaker.cobaltite50.name=Crushed Cobaltite
+item.contenttweaker.native_ardite50.name=Crushed Native Ardite
+item.contenttweaker.native_osmium50.name=Crushed Native Osmium
+item.contenttweaker.stibnite50.name=Crushed Stibnite
+item.contenttweaker.wolframite50.name=Crushed Wolframite
