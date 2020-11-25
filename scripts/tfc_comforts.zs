@@ -1,49 +1,53 @@
-#modloaded comforts
+#author KittenRaee
+#priority 0
 #modloaded tfc
+#modloaded comforts
+
+// Crates recipes for comforts.
+// Mod required : comforts
+// Scripts required : ~
+
 import mods.terrafirmacraft.Barrel;
 import crafttweaker.liquid.ILiquidStack;
 
-// TODO
-# comments
-# dyeable comforts
+
 
 // remove vanilla comforts
 recipes.remove(<comforts:hammock:*>, false);
 recipes.remove(<comforts:sleeping_bag:*>, false);
 
 // plain copmforts
-recipes.addShaped(
-    "tfc_sleepingbag",
-    <comforts:sleeping_bag>,
-    [
-        [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>],
-    ]
-);
+    recipes.addShaped(
+        "tfc_sleepingbag",
+        <comforts:sleeping_bag>,
+        [
+            [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>],
+        ]
+    );
 
-recipes.addShaped(
-    "tfc_hammock",
-    <comforts:hammock>,
-    [
-        [<ore:stickWood>, <ore:string>, <ore:stickWood>],
-        [<ore:stickWood>, <ore:clothHighQuality>, <ore:stickWood>],
-        [<ore:stickWood>, <ore:string>, <ore:stickWood>]
-    ]
-);
-var blue_dye = <ore:dyeBlue>;
-recipes.addShapeless(
-    "tfc_blue_hammock",
-    <comforts:hammock:11>,
-    [<comforts:hammock:0>, blue_dye]
-);
-recipes.addShapeless(
-    "tfc_blue_sleepingbag",
-    <comforts:sleeping_bag:11>,
-    [<comforts:sleeping_bag:0>, blue_dye]
-);
+    recipes.addShaped(
+        "tfc_hammock",
+        <comforts:hammock>,
+        [
+            [<ore:stickWood>, <ore:string>, <ore:stickWood>],
+            [<ore:stickWood>, <ore:clothHighQuality>, <ore:stickWood>],
+            [<ore:stickWood>, <ore:string>, <ore:stickWood>]
+        ]
+    );
 
 // remove dye
-Barrel.addRecipe("tfc_hammock_clear", <comforts:hammock:*>, <liquid:lye> * 125, <comforts:hammock:0>, null, 1);
-Barrel.addRecipe("tfc_bag_clear", <comforts:sleeping_bag:*>, <liquid:lye> * 125, <comforts:sleeping_bag:0>, null, 1);
+    Barrel.addRecipe(
+        "tfc_hammock_clear",
+        <comforts:hammock:*>, <liquid:lye> * 125,
+        <comforts:hammock:0>, null,
+        1
+    );
+    Barrel.addRecipe(
+        "tfc_bag_clear",
+        <comforts:sleeping_bag:*>, <liquid:lye> * 125,
+        <comforts:sleeping_bag:0>, null,
+        1
+    );
 
 // dyeing
 val colourList = [
@@ -84,10 +88,20 @@ val dyesList = [
     <liquid:black_dye>
 ] as ILiquidStack[];
 
-val hammockDef = <comforts:hammock>.definition;
-val bagDef = <comforts:sleeping_bag>.definition;
+    val hammockDef = <comforts:hammock>.definition;
+    val bagDef = <comforts:sleeping_bag>.definition;
 
-for i, name in colourList {
-    Barrel.addRecipe("tfc_hammock_" + name, <comforts:hammock:0>, dyesList[i] * 125, hammockDef.makeStack(i), null, 1);
-    Barrel.addRecipe("tfc_bag_" + name, <comforts:sleeping_bag:0>, dyesList[i] * 125, bagDef.makeStack(i), null, 1);
-}
+    for i, name in colourList {
+        Barrel.addRecipe(
+            "tfc_hammock_" + name,
+            <comforts:hammock:0>, dyesList[i] * 125,
+            hammockDef.makeStack(i), null,
+            1
+        );
+        Barrel.addRecipe(
+            "tfc_bag_" + name,
+            <comforts:sleeping_bag:0>, dyesList[i] * 125,
+            bagDef.makeStack(i), null,
+            1
+        );
+    }

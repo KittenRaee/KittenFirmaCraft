@@ -16,6 +16,7 @@ import mods.terrafirmacraft.Heating;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.Crusher;
 import mods.unidict.api.newShapedRecipeTemplate;
+import mods.immersiveengineering.CokeOven;
 
     recipes.remove(<minecraft:string>);
 
@@ -29,6 +30,10 @@ import mods.unidict.api.newShapedRecipeTemplate;
 // Wrought Iron to Steel
     BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <ore:ingotWroughtIron>, 2000, <immersiveengineering:material:7>);
 
+// Bitum coal to coke
+    CokeOven.removeRecipe(<immersiveengineering:material:6>);
+    CokeOven.addRecipe(<immersiveengineering:material:6>, 2, <tfc:ore/bituminous_coal>, 2000);
+
 // Remove IE tools
     recipes.remove(<immersiveengineering:pickaxe_steel>, false);
     recipes.remove(<immersiveengineering:shovel_steel>, false);
@@ -40,19 +45,25 @@ import mods.unidict.api.newShapedRecipeTemplate;
     recipes.remove(<immersiveengineering:tool:0>, false);
     recipes.remove(<immersiveengineering:tool:1>, false);
 
+    recipes.addShapeless(
+        "tfc_cot_stick",
+        <contenttweaker:engineeredstick>,
+        [<ore:stickWood>, <ore:leather>]
+    );
+
     recipes.addShaped(
         "tfc_ie_hammer",
         <immersiveengineering:tool:0>,
         [
             [<tfc:metal/hammer_head/wrought_iron>],
-            [<ore:stickTreatedWood>]
+            [<contenttweaker:engineeredstick>]
         ]
     );
     recipes.addShaped(
         "tfc_ie_cutters",
         <immersiveengineering:tool:1>,
         [[<tfc:metal/knife_blade/wrought_iron>, <tfc:metal/knife_blade/wrought_iron>],
-         [<ore:stickTreatedWood>, <ore:stickTreatedWood>]]
+         [<contenttweaker:engineeredstick>, <contenttweaker:engineeredstick>]]
     );
 
 // Remove IE wires
