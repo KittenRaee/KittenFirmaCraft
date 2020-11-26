@@ -6,6 +6,7 @@ HighCarbonSteel
 
 Platinum
 	stripPlatinum
+	blockPlatinum
 	boltPlatinum
 	stickLongPlatinum
 	stickPlatinum
@@ -24,6 +25,7 @@ Platinum
 Tin
 	sleeveTin
 	stripTin
+	blockTin
 	boltTin
 	stickLongTin
 	stickTin
@@ -126,6 +128,7 @@ Osmium
 
 Zinc
 	stripZinc
+	blockZinc
 	boltZinc
 	stickLongZinc
 	stickZinc
@@ -180,6 +183,7 @@ Iron
 
 RoseGold
 	stripRoseGold
+	blockRoseGold
 	boltRoseGold
 	stickLongRoseGold
 	stickRoseGold
@@ -217,6 +221,7 @@ Aluminium
 
 Bronze
 	stripBronze
+	blockBronze
 	boltBronze
 	stickLongBronze
 	stickBronze
@@ -263,6 +268,7 @@ Constantan
 Brass
 	sleeveBrass
 	stripBrass
+	blockBrass
 	boltBrass
 	stickLongBrass
 	stickBrass

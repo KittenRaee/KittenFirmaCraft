@@ -11,6 +11,8 @@ import mods.terrafirmacraft.Welding;
 import mods.terrafirmacraft.Quern;
 import mods.unidict.api.newShapedRecipeTemplate;
 
+furnace.removeAll();
+
 // CAST IRON
     <minecraft:iron_ingot>.displayName = "Cast Iron Ingot";
     recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_iron>);

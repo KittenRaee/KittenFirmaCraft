@@ -5,6 +5,7 @@ DoubleAnyBronze
 RedSteel
 	bucketRedSteel
 	stripRedSteel
+	blockRedSteel
 	boltRedSteel
 	stickLongRedSteel
 	stickRedSteel
@@ -38,10 +39,12 @@ Bismuth
 	ingotBismuth
 
 Unknown
+	blockUnknown
 	ingotUnknown
 
 RoseGold
 	stripRoseGold
+	blockRoseGold
 	boltRoseGold
 	stickLongRoseGold
 	stickRoseGold
@@ -101,6 +104,7 @@ DoubleHslaSteel
 
 Platinum
 	stripPlatinum
+	blockPlatinum
 	boltPlatinum
 	stickLongPlatinum
 	stickPlatinum
@@ -263,6 +267,7 @@ Zircaloy
 Tin
 	sleeveTin
 	stripTin
+	blockTin
 	boltTin
 	stickLongTin
 	stickTin
@@ -430,6 +435,7 @@ Osmium
 
 Zinc
 	stripZinc
+	blockZinc
 	boltZinc
 	stickLongZinc
 	stickZinc
@@ -502,6 +508,7 @@ DoubleMagnesiumDiboride
 	ingotDoubleMagnesiumDiboride
 
 AnyBronze
+	blockAnyBronze
 	sheetAnyBronze
 	scrapAnyBronze
 	gearAnyBronze
@@ -511,6 +518,7 @@ AnyBronze
 
 SterlingSilver
 	stripSterlingSilver
+	blockSterlingSilver
 	boltSterlingSilver
 	stickLongSterlingSilver
 	stickSterlingSilver
@@ -541,6 +549,7 @@ DoubleBlackBronze
 BlueSteel
 	bucketBlueSteel
 	stripBlueSteel
+	blockBlueSteel
 	boltBlueSteel
 	stickLongBlueSteel
 	stickBlueSteel
@@ -831,6 +840,7 @@ Silver
 BlackSteel
 	drawPlateBlackSteel
 	stripBlackSteel
+	blockBlackSteel
 	boltBlackSteel
 	stickLongBlackSteel
 	stickBlackSteel
@@ -853,6 +863,7 @@ WroughtIron
 	rodWroughtIron
 	drawPlateWroughtIron
 	stripWroughtIron
+	blockWroughtIron
 	boltWroughtIron
 	stickLongWroughtIron
 	stickWroughtIron
@@ -952,6 +963,7 @@ DoubleArdite
 
 Bronze
 	stripBronze
+	blockBronze
 	boltBronze
 	stickLongBronze
 	stickBronze
@@ -1012,6 +1024,7 @@ DoubleAluminiumBrass
 Brass
 	sleeveBrass
 	stripBrass
+	blockBrass
 	boltBrass
 	stickLongBrass
 	stickBrass

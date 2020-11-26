@@ -11,11 +11,11 @@ bobView:true
 anaglyph3d:false
 maxFps:150
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["[1.12.2] Vanilla 1.15.2.zip","TFC_1.15_v8.zip","TFC Connected 0.2.zip","TFC-TNG Soft Paths.zip"]
+resourcePacks:["[1.12.2] Vanilla 1.15.2.zip","TFC_1.15_v8.zip","TFC Connected 0.2.zip","TFC-TNG Soft Paths.zip","CAT"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

@@ -85,7 +85,7 @@ import mods.jei.JEI;
         <minecraft:lime_shulker_box>,
         <minecraft:pink_shulker_box>,
         <minecraft:gray_shulker_box>,
-        <minecraft:light_gray_shulker_box>,
+        <minecraft:silver_shulker_box>,
         <minecraft:cyan_shulker_box>,
         <minecraft:purple_shulker_box>,
         <minecraft:blue_shulker_box>,
@@ -98,6 +98,8 @@ import mods.jei.JEI;
         <minecraft:chorus_flower>,
         <minecraft:chorus_fruit>,
         <minecraft:chorus_plant>,
+
+        <minecraft:shulker_shell>
     ] as IItemStack[];
 // Bibliocraft
     val biblioHide = [
@@ -105,7 +107,8 @@ import mods.jei.JEI;
     ]as IItemStack[];
 // Bountiful Baubles
     val bountifulHide = [
-        <bountifulbaubles:modifierbook>
+        <bountifulbaubles:modifierbook>,
+        <bountifulbaubles:trinketshulkerheart>
     ]as IItemStack[];
 // Comforts
     val comfortsHide = [

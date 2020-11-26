@@ -1,0 +1,6 @@
+tile.immersiveengineering.stone_device.alloy_smelter.name=Ceramic Kiln
+desc.immersiveengineering.info.multiblock.IE:AlloySmelter=Ceramic Kiln
+ie.manual.entry.alloysmelter.name=Ceramic Kiln
+ie.manual.entry.alloysmelter.subtext=No more hay pits!
+ie.manual.entry.alloysmelter0=The Ceramic Kiln is a simple furnace made out of heat resistant bricks. Within it, temperatures are high enough to allow ceramics to be fired in controlled and more convenient manner. No more putting your raw pottery in a hole to fire it!
+ie.manual.entry.alloysmelter1=To form the Kiln, arrange 8 of the Kiln Bricks in a 2x2x2 cube, as shown above, and rightclick one of the sides' blocks with an Engineer's Hammer.
