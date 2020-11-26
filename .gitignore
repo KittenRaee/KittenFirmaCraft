@@ -39,7 +39,6 @@ config/jei/worldSettings.cfg
 journeymap/*
 mineraltracker/*
 config/fantasticlib/*
-*.disabled
 WailaErrorOutput.txt
 config/jei/bookmarks.ini
 config/pregenerator/PregenConfig.cfg
@@ -48,6 +47,5 @@ screenshots/*
 options.txt
 journeymap/config/5.7/journeymap.fullmap.config
 options.txt
-mineraltracker/sp@New World.samples2
-mineraltracker/sp@New World.samples2
+mineraltracker/*
 options.txt
