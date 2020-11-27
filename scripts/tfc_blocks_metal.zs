@@ -1,7 +1,10 @@
-// Author : Alice in Game
+#author KittenRaee
+#priority 0
+#modloaded tfc
+
 // Add metal blocks of TFC metal, using TFC metal sheet texture
-// Mod required : -
-// Scripts required : TFC Metal Block CT
+// Mod required : ~
+// Scripts required : tfc_blocks_metal
 
 import mods.terrafirmacraft.ItemRegistry;
 import mods.terrafirmacraft.Welding;

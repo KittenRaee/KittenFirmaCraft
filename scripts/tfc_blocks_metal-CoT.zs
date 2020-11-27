@@ -1,7 +1,9 @@
-// Author : Alice in Game
+#author KittenRaee
+#priority 0
+
 // Add metal blocks of TFC metal, using TFC metal sheet texture
-// Mod required : -
-// Scripts required : TFC Metal Block
+// Mod required : ~
+// Scripts required : tfc_blocks_metal
 
 #loader contenttweaker
 
