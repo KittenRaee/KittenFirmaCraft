@@ -21,6 +21,92 @@ tile.contenttweaker.blockblack_steel.name=Block of Black Steel
 tile.contenttweaker.blockblue_steel.name=Block of Blue Steel
 tile.contenttweaker.blockred_steel.name=Block of Red Steel
 
+#Sheetmetal block
+tile.contenttweaker.blocksheetmetalbismuth.name=Bismuth Sheetmetal
+tile.contenttweaker.blocksheetmetalbismuth_bronze.name=Bismuth Bronze Sheetmetal
+tile.contenttweaker.blocksheetmetalblack_bronze.name=Black Bronze Sheetmetal
+tile.contenttweaker.blocksheetmetalbrass.name=Brass Sheetmetal
+tile.contenttweaker.blocksheetmetalbronze.name=Bronze Sheetmetal
+tile.contenttweaker.blocksheetmetalcopper.name=Copper Sheetmetal
+tile.contenttweaker.blocksheetmetalgold.name=Gold Sheetmetal
+tile.contenttweaker.blocksheetmetallead.name=Lead Sheetmetal
+tile.contenttweaker.blocksheetmetalnickel.name=Nickel Sheetmetal
+tile.contenttweaker.blocksheetmetalrose_gold.name=Rose Gold Sheetmetal
+tile.contenttweaker.blocksheetmetalsilver.name=Silver Sheetmetal
+tile.contenttweaker.blocksheetmetaltin.name=Tin Sheetmetal
+tile.contenttweaker.blocksheetmetalzinc.name=Zinc Sheetmetal
+tile.contenttweaker.blocksheetmetalsterling_silver.name=Sterling Silver Sheetmetal
+tile.contenttweaker.blocksheetmetalwrought_iron.name=Wrought Iron Sheetmetal
+tile.contenttweaker.blocksheetmetalsteel.name=Steel Sheetmetal
+tile.contenttweaker.blocksheetmetalplatinum.name=Platinum Sheetmetal
+tile.contenttweaker.blocksheetmetalblack_steel.name=Black Steel Sheetmetal
+tile.contenttweaker.blocksheetmetalblue_steel.name=Blue Steel Sheetmetal
+tile.contenttweaker.blocksheetmetalred_steel.name=Red Steel Sheetmetal
+
+#Metal block
+tile.contenttweaker.blockantimony.name=Block of Antimony
+tile.contenttweaker.blocklithium.name=Block of Lithium
+tile.contenttweaker.blockconstantan.name=Block of Constantan
+tile.contenttweaker.blockelectrum.name=Block of Elactrum
+tile.contenttweaker.blocknickel_silver.name=Block of Nickel Silver
+tile.contenttweaker.blockred_alloy.name=Block of Red Alloy
+tile.contenttweaker.blockmithril.name=Block of Mithrill
+tile.contenttweaker.blockinvar.name=Block of Invar
+tile.contenttweaker.blockaluminium.name=Block of Aluminium
+tile.contenttweaker.blockaluminium_brass.name=Block of Aluminium Brass
+tile.contenttweaker.blockmagnesium.name=Block of Magnesium
+tile.contenttweaker.blockmanganese.name=Block of Manganase
+tile.contenttweaker.blockboron.name=Block of Boron
+tile.contenttweaker.blockmagnesium_diboride.name=Block of Magnesium Diboride
+tile.contenttweaker.blockthorium.name=Block of Thorium
+tile.contenttweaker.blockuranium.name=Block of Uranium
+tile.contenttweaker.blockardite.name=Block of Ardite
+tile.contenttweaker.blockcobalt.name=Block of Cobalt
+tile.contenttweaker.blockmanyullyn.name=Block of Manyullyn
+tile.contenttweaker.blockhsla_steel.name=Block of HSLA Steel
+tile.contenttweaker.blockferroboron.name=Block of Ferroboron
+tile.contenttweaker.blockberyllium.name=Block of Beryllium
+tile.contenttweaker.blockberyllium_copper.name=Block of Beryllium Copper
+tile.contenttweaker.blockosmium.name=Block of Osmium
+tile.contenttweaker.blocktitanium.name=Block of Titanium
+tile.contenttweaker.blocktungsten.name=Block of Tungsten
+tile.contenttweaker.blocktungsten_steel.name=Block of Tungsten Steel
+tile.contenttweaker.blockzirconium.name=Block of Zirconium
+tile.contenttweaker.blockzircaloy.name=Block of Zircalloy
+tile.contenttweaker.blocktough.name=Block of Tough
+
+#Sheetmetal block
+tile.contenttweaker.blocksheetmetalantimony.name=Antimony Sheetmetal
+tile.contenttweaker.blocksheetmetallithium.name=Lithium Sheetmetal
+tile.contenttweaker.blocksheetmetalconstantan.name=Constantan Sheetmetal
+tile.contenttweaker.blocksheetmetalelectrum.name=Elactrum Sheetmetal
+tile.contenttweaker.blocksheetmetalnickel_silver.name=Nickel Silver Sheetmetal
+tile.contenttweaker.blocksheetmetalred_alloy.name=Red Alloy Sheetmetal
+tile.contenttweaker.blocksheetmetalmithril.name=Mithrill Sheetmetal
+tile.contenttweaker.blocksheetmetalinvar.name=Invar Sheetmetal
+tile.contenttweaker.blocksheetmetalaluminium.name=Aluminium Sheetmetal
+tile.contenttweaker.blocksheetmetalaluminium_brass.name=Aluminium Brass Sheetmetal
+tile.contenttweaker.blocksheetmetalmagnesium.name=Magnesium Sheetmetal
+tile.contenttweaker.blocksheetmetalmanganese.name=Manganase Sheetmetal
+tile.contenttweaker.blocksheetmetalboron.name=Boron Sheetmetal
+tile.contenttweaker.blocksheetmetalmagnesium_diboride.name=Magnesium Diboride Sheetmetal
+tile.contenttweaker.blocksheetmetalthorium.name=Thorium Sheetmetal
+tile.contenttweaker.blocksheetmetaluranium.name=Uranium Sheetmetal
+tile.contenttweaker.blocksheetmetalardite.name=Ardite Sheetmetal
+tile.contenttweaker.blocksheetmetalcobalt.name=Cobalt Sheetmetal
+tile.contenttweaker.blocksheetmetalmanyullyn.name=Manyullyn Sheetmetal
+tile.contenttweaker.blocksheetmetalhsla_steel.name=HSLA Steel Sheetmetal
+tile.contenttweaker.blocksheetmetalferroboron.name=Ferroboron Sheetmetal
+tile.contenttweaker.blocksheetmetalberyllium.name=Beryllium Sheetmetal
+tile.contenttweaker.blocksheetmetalberyllium_copper.name=Beryllium Copper Sheetmetal
+tile.contenttweaker.blocksheetmetalosmium.name=Osmium Sheetmetal
+tile.contenttweaker.blocksheetmetaltitanium.name=Titanium Sheetmetal
+tile.contenttweaker.blocksheetmetaltungsten.name=Tungsten Sheetmetal
+tile.contenttweaker.blocksheetmetaltungsten_steel.name=Tungsten Steel Sheetmetal
+tile.contenttweaker.blocksheetmetalzirconium.name=Zirconium Sheetmetal
+tile.contenttweaker.blocksheetmetalzircaloy.name=Zircalloy Sheetmetal
+tile.contenttweaker.blocksheetmetaltough.name=Tough Sheetmetal
+
 #5 units crushed ore
 item.contenttweaker.native_copper5.name=Crushed Native Copper
 item.contenttweaker.native_gold5.name=Crushed Native Gold
@@ -89,6 +175,3 @@ item.contenttweaker.native_ardite50.name=Crushed Native Ardite
 item.contenttweaker.native_osmium50.name=Crushed Native Osmium
 item.contenttweaker.stibnite50.name=Crushed Stibnite
 item.contenttweaker.wolframite50.name=Crushed Wolframite
-
-// KITTENFIRMACRAFT
-item.contenttweaker.engineeredstick.name=Engineer's Stick

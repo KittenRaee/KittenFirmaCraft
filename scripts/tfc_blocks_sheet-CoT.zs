@@ -36,7 +36,7 @@ val metals = [
 
 
 for item in metals {
-    var blockfactory = VanillaFactory.createBlock("block" + item, <blockmaterial:iron>);
+    var blockfactory = VanillaFactory.createBlock("blocksheetmetal" + item, <blockmaterial:iron>);
     blockfactory.setBlockHardness(5.0);
     blockfactory.setBlockResistance(5.0);
     blockfactory.setToolClass("pickaxe");
