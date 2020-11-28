@@ -1,0 +1,17 @@
+<root>
+   <chest class="net.dries007.tfc.objects.container.ContainerChestTFC" row_size="9" large_chest="false"/> <!-- Chests to show the sorting modes buttons on -->
+   <chest class="net.dries007.tfc.objects.container.ContainerHorseInventoryTFC" row_size="9" large_chest="false"/> <!-- Chests to show the sorting modes buttons on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerLargeVessel" row_size="3" large_chest="false"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerSmallVessel" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerNestBox" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerQuern" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerLogPile" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerCharcoalForge" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerBarrel" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerAnvilTFC" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerBlastFurnace" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerCrucible" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerFirePit" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerInventoryCrafting" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+   <inventory class="net.dries007.tfc.objects.container.ContainerWorkbenchTFC" disable_buttons="true"/> <!-- Other inventories to show just the options button on -->
+</root>
