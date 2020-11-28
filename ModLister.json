@@ -16,14 +16,6 @@
     "m": "a3221919c55f5cae56f1fb902cd159b2"
   },
   {
-    "n": "AppleSkin",
-    "v": "1.0.14",
-    "f": "AppleSkin-mc1.12-1.0.14.jar",
-    "a": "squeek",
-    "u": "",
-    "m": "b435860d5cfa23bc53d3b8e120be91d4"
-  },
-  {
     "n": "Athenaeum",
     "v": "1.12.2-1.19.2",
     "f": "athenaeum-1.12.2-1.19.2.jar",
@@ -280,12 +272,100 @@
     "m": "a8c9290de5639ef38ccd06e5b68fd97b"
   },
   {
+    "n": "Dynamic Lights",
+    "v": "1.4.9",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights Flood Light",
+    "v": "1.0.3",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights on burning",
+    "v": "1.0.7",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights on Creepers",
+    "v": "1.0.6",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights on Flame enchanted Arrows",
+    "v": "1.0.1",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights on ItemEntities",
+    "v": "1.1.0",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights on Mob Equipment",
+    "v": "1.1.0",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights on specified Entities",
+    "v": "1.0.1",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights Other Player Light",
+    "v": "1.0.9",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
+    "n": "Dynamic Lights Player Light",
+    "v": "1.1.3",
+    "f": "DynamicLights-1.12.2.jar",
+    "a": "",
+    "u": "",
+    "m": "bbf46497e737f88bbfeb8cce74fb3099"
+  },
+  {
     "n": "Dynamic Surroundings",
     "v": "3.6.1.0",
     "f": "DynamicSurroundings-1.12.2-3.6.1.0.jar",
     "a": "",
     "u": "https://dynamicsurroundings.readthedocs.io",
     "m": "1a0d50a34941865ff091a492e0612502"
+  },
+  {
+    "n": "Dynamic View Mod",
+    "v": "1.3",
+    "f": "dynviewdist-1.12-1.3.jar",
+    "a": "Someaddons",
+    "u": "https://github.com/ldtteam/DynView/",
+    "m": "52305b1d656d4bff85a7be20f9411146"
   },
   {
     "n": "Elevator Mod",
@@ -704,14 +784,6 @@
     "m": "1d2e5d3998eb79dfff631d85f93629f7"
   },
   {
-    "n": "Phosphor Lighting Engine",
-    "v": "1.12.2-0.2.6",
-    "f": "phosphor-1.12.2-0.2.6+build50-universal.jar",
-    "a": "Angeline (@jellysquid)",
-    "u": "https://minecraft.curseforge.com/projects/phosphor",
-    "m": "9892af4ac4f8ca4222138a245592227c"
-  },
-  {
     "n": "Placebo",
     "v": "1.6.0",
     "f": "Placebo-1.12.2-1.6.0.jar",
@@ -806,14 +878,6 @@
     "a": "Tmtravlr",
     "u": "",
     "m": "e29a0cae708598ecd76e451682acefda"
-  },
-  {
-    "n": "Streams",
-    "v": "0.4.9",
-    "f": "Streams-1.12-0.4.9.jar",
-    "a": "delvr",
-    "u": "https://www.curseforge.com/minecraft/mc-mods/streams",
-    "m": "9516ca506e012abb7f6ca19b5aa3f5f4"
   },
   {
     "n": "SwingThroughGrass",
