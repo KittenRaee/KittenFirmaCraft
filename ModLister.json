@@ -272,86 +272,6 @@
     "m": "a8c9290de5639ef38ccd06e5b68fd97b"
   },
   {
-    "n": "Dynamic Lights",
-    "v": "1.4.9",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights Flood Light",
-    "v": "1.0.3",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights on burning",
-    "v": "1.0.7",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights on Creepers",
-    "v": "1.0.6",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights on Flame enchanted Arrows",
-    "v": "1.0.1",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights on ItemEntities",
-    "v": "1.1.0",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights on Mob Equipment",
-    "v": "1.1.0",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights on specified Entities",
-    "v": "1.0.1",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights Other Player Light",
-    "v": "1.0.9",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
-    "n": "Dynamic Lights Player Light",
-    "v": "1.1.3",
-    "f": "DynamicLights-1.12.2.jar",
-    "a": "",
-    "u": "",
-    "m": "bbf46497e737f88bbfeb8cce74fb3099"
-  },
-  {
     "n": "Dynamic Surroundings",
     "v": "3.6.1.0",
     "f": "DynamicSurroundings-1.12.2-3.6.1.0.jar",
@@ -470,14 +390,6 @@
     "a": "cpw, LexManos, Player",
     "u": "https://github.com/MinecraftForge/FML/wiki",
     "m": ""
-  },
-  {
-    "n": "Fullscreen Windowed",
-    "v": "1.6.0",
-    "f": "FullscreenWindowed-1.12-1.6.0.jar",
-    "a": "Hancin",
-    "u": "https://github.com/hancin/Fullscreen-Windowed-Minecraft",
-    "m": "c7679200bdf1f6cb71361555407a4c7f"
   },
   {
     "n": "Hardcore Darkness",
@@ -961,11 +873,11 @@
   },
   {
     "n": "TFC Tweaker",
-    "v": "1.0.2",
-    "f": "tfctweaker-1.0.2.jar",
-    "a": "",
+    "v": "1.0.3",
+    "f": "tfctweaker-1.0.3.jar",
+    "a": "Mrthomas20121",
     "u": "",
-    "m": "04088f5167fc4b74008256f4b49bd722"
+    "m": "7bb26bb1721c85a920dfad74fa87a1c9"
   },
   {
     "n": "TFCTech Unofficial",

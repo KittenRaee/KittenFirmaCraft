@@ -90,6 +90,13 @@ furnace.removeAll();
 
 // Add moss recipes
     for i, name in scripts.lists.rocks.TFC_namesList {
+        Barrel.removeRecipe(scripts.lists.rocks.TFC_cobbleMossList[i], null);
+        Barrel.removeRecipe(scripts.lists.rocks.TFC_brickMossList[i], null);
         Barrel.addRecipe("moss_cobble_" + name, scripts.lists.rocks.TFC_cobbleList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_cobbleMossList[i] * 4, null, 8);
         Barrel.addRecipe("moss_bricks_" + name, scripts.lists.rocks.TFC_bricksList[i] * 4, <liquid:fresh_water> * 250, scripts.lists.rocks.TFC_brickMossList[i] * 4, null, 8);
     }
+
+// Borax fix
+    Quern.removeRecipe(<tfc:metal/dust/boron>);
+    Quern.addRecipe("tfc_boraxFluxFix", <tfc:ore/borax>, <tfc:powder/flux> * 4);
+

@@ -49,3 +49,4 @@ journeymap/config/5.7/journeymap.fullmap.config
 options.txt
 mineraltracker/*
 options.txt
+*.disabled

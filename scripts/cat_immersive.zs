@@ -81,18 +81,20 @@ import mods.immersiveengineering.CokeOven;
     #<immersiveposts:postbase>  <ore:brick>  <ore:cobblestone>
 
 // Bricks
+    val fireBrick = <tfc:ceramics/fired/fire_brick>;
+
     recipes.remove(<immersiveengineering:stone_decoration>);
     recipes.addShaped("coke_brick_tfc", <immersiveengineering:stone_decoration>, [
-        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,            <tfc:ceramics/fire_clay>],
+        [fireBrick,  <tfc:mortar>,            fireBrick],
         [<tfc:mortar>,              <ore:stoneMetamorphic>,  <tfc:mortar>],
-        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,            <tfc:ceramics/fire_clay>]
+        [fireBrick,  <tfc:mortar>,            fireBrick]
     ]);
 
     recipes.remove(<immersiveengineering:stone_decoration:1>);
     recipes.addShaped("blast_brick_tfc", <immersiveengineering:stone_decoration:1>, [
-        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,          <tfc:ceramics/fire_clay>],
+        [fireBrick,  <tfc:mortar>,          fireBrick],
         [<tfc:mortar>,              <tfc:fire_bricks>,     <tfc:mortar>],
-        [<tfc:ceramics/fire_clay>,  <tfc:mortar>,          <tfc:ceramics/fire_clay>]
+        [fireBrick,  <tfc:mortar>,          fireBrick]
     ]);
 
     recipes.remove(<immersiveengineering:stone_decoration:10>);
