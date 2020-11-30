@@ -11,34 +11,6 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
-
-setWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType id
-    Notes:
-        Sets the WorldType id.
-
-setDimID:
-    Arguments:
-        int
-    Usage:
-        dimension id
-    Notes:
-        Sets the dimension id.
-
-setBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id. Can be an int or String.
-
 setGeneratorOptions:
     Arguments:
         String
@@ -54,6 +26,34 @@ setItem:
         item data
     Notes:
         Sets the required item.
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+setDimID:
+    Arguments:
+        int
+    Usage:
+        dimension id
+    Notes:
+        Sets the dimension id.
 
 setCount:
     Arguments:

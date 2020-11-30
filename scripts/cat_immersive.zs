@@ -1,5 +1,5 @@
 #author KittenRaee
-#priority 9
+#priority 0
 #modloaded immersiveengineering
 #modloaded immersiveposts
 #modloaded tfc
@@ -84,14 +84,14 @@ import mods.immersiveengineering.CokeOven;
     val fireBrick = <tfc:ceramics/fired/fire_brick>;
 
     recipes.remove(<immersiveengineering:stone_decoration>);
-    recipes.addShaped("coke_brick_tfc", <immersiveengineering:stone_decoration>, [
+    recipes.addShaped("coke_brick_tfc", <immersiveengineering:stone_decoration> * 4, [
         [fireBrick,  <tfc:mortar>,            fireBrick],
         [<tfc:mortar>,              <ore:stoneMetamorphic>,  <tfc:mortar>],
         [fireBrick,  <tfc:mortar>,            fireBrick]
     ]);
 
     recipes.remove(<immersiveengineering:stone_decoration:1>);
-    recipes.addShaped("blast_brick_tfc", <immersiveengineering:stone_decoration:1>, [
+    recipes.addShaped("blast_brick_tfc", <immersiveengineering:stone_decoration:1> * 4, [
         [fireBrick,  <tfc:mortar>,          fireBrick],
         [<tfc:mortar>,              <tfc:fire_bricks>,     <tfc:mortar>],
         [fireBrick,  <tfc:mortar>,          fireBrick]

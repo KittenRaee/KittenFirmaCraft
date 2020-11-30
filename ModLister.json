@@ -392,6 +392,14 @@
     "m": ""
   },
   {
+    "n": "Fullscreen Windowed",
+    "v": "1.6.0",
+    "f": "FullscreenWindowed-1.12-1.6.0.jar",
+    "a": "Hancin",
+    "u": "https://github.com/hancin/Fullscreen-Windowed-Minecraft",
+    "m": "c7679200bdf1f6cb71361555407a4c7f"
+  },
+  {
     "n": "Hardcore Darkness",
     "v": "2.0",
     "f": "HardcoreDarkness-MC1.12.2-2.0.jar",

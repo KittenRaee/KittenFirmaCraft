@@ -27,10 +27,6 @@ getPartnerData:
     Notes:
         Returns the EntityData object for the partner so functions can be called on it.
 
-getChildData:
-    Notes:
-        Returns the EntityData object for the child so functions can be called on it.
-
 setChildType:
     Arguments:
         String
@@ -38,6 +34,10 @@ setChildType:
         entity type
     Notes:
         Sets the child entity type.
+
+getChildData:
+    Notes:
+        Returns the EntityData object for the child so functions can be called on it.
 
 setCount:
     Arguments:

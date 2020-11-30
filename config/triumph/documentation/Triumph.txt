@@ -11,29 +11,13 @@ printDefaultConfigs:
     Notes:
         Used to set whether Triumph should print default config files. This will replace files. Always backup first!
 
-pageOrder:
-    Arguments:
-        String array
-    Usage:
-        Array of root advancement resource location
-    Notes:
-        Forces an order for advancement pages in the gui. Any not added to this array are ordered alphabetically.
-
-allowDragging:
+printDocumentation:
     Arguments:
         boolean
     Default Values:
-        false
-    Notes:
-        Sets whether advancements can be dragged around in the gui. End positions will be saved to script files when the mouse button is released, but advancements must be reloaded to refresh positions after the gui is closed.
-
-keepAdvancements:
-    Arguments:
-        String array
-    Default Values:
         true
     Notes:
-        Used to set advancements that should be kept. Can contain both mod ids and advancement ids. If anything is set in this array, everything else will be removed.
+        Used to set whether Triumph should print config documentation.
 
 removeVanillaAdvancements:
     Arguments:
@@ -42,14 +26,6 @@ removeVanillaAdvancements:
         true
     Notes:
         Used to set whether Triumph should remove vanilla advancements.
-
-printDocumentation:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Used to set whether Triumph should print config documentation.
 
 forceReloadFunctions:
     Arguments:
@@ -73,7 +49,31 @@ removeModAdvancements:
     Notes:
         Used to set whether Triumph should remove mod advancements.
 
+allowDragging:
+    Arguments:
+        boolean
+    Default Values:
+        false
+    Notes:
+        Sets whether advancements can be dragged around in the gui. End positions will be saved to script files when the mouse button is released, but advancements must be reloaded to refresh positions after the gui is closed.
+
+pageOrder:
+    Arguments:
+        String array
+    Usage:
+        Array of root advancement resource location
+    Notes:
+        Forces an order for advancement pages in the gui. Any not added to this array are ordered alphabetically.
+
 useNewParentCompletionCriteriaNames:
     Notes:
         Tells the mod to use the new naming scheme for parent completion criteria generated with 'setRequiresParents()', instead of the old one. 'Completed Title' vs 'completedParent1'
+
+keepAdvancements:
+    Arguments:
+        String array
+    Default Values:
+        true
+    Notes:
+        Used to set advancements that should be kept. Can contain both mod ids and advancement ids. If anything is set in this array, everything else will be removed.
 

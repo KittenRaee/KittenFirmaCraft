@@ -4,14 +4,6 @@ multiblock.
 
 
 
-setMultiblock:
-    Arguments:
-        String
-    Usage:
-        multiblock id
-    Notes:
-        Sets the id for the multiblock this trigger will be triggerd by the formation of.
-
 setItem:
     Arguments:
         ItemBlockData
@@ -19,6 +11,14 @@ setItem:
         item data
     Notes:
         Sets the required item.
+
+setMultiblock:
+    Arguments:
+        String
+    Usage:
+        multiblock id
+    Notes:
+        Sets the id for the multiblock this trigger will be triggerd by the formation of.
 
 setCount:
     Arguments:

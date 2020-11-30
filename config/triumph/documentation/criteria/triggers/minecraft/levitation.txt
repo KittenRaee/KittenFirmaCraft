@@ -2,6 +2,14 @@ These are the functions which can be called on a minecraft:levitation criteria t
 
 
 
+setDurationMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max duration.
+
 getDistanceData:
     Notes:
         Returns the DistanceData object so functions can be called on it.
@@ -21,14 +29,6 @@ setDurationMax:
         max
     Notes:
         Sets the max duration.
-
-setDurationMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max duration.
 
 setCount:
     Arguments:

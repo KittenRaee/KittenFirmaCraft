@@ -10,13 +10,29 @@ setVisible:
     Notes:
         Sets if the effect is visible.
 
-setDurationMin:
+setAmplifierMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        min
+        min, max
     Notes:
-        Sets the min duration for the effect.
+        Sets the min and max amplifier for the effect.
+
+setDurationMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max duration for the effect.
+
+setAmbient:
+    Arguments:
+        boolean
+    Usage:
+        true/false
+    Notes:
+        Sets if the effect is ambient.
 
 setAmplifierMax:
     Arguments:
@@ -25,6 +41,14 @@ setAmplifierMax:
         max
     Notes:
         Sets the max amplifier for the effect.
+
+setDurationMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min duration for the effect.
 
 setDurationMax:
     Arguments:
@@ -41,28 +65,4 @@ setAmplifierMin:
         min
     Notes:
         Sets the min amplifier for the effect.
-
-setAmbient:
-    Arguments:
-        boolean
-    Usage:
-        true/false
-    Notes:
-        Sets if the effect is ambient.
-
-setDurationMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max duration for the effect.
-
-setAmplifierMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max amplifier for the effect.
 

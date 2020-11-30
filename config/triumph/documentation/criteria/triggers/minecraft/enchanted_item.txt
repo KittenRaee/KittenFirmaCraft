@@ -3,13 +3,13 @@ trigger.
 
 
 
-setLevelsMax:
+setItem:
     Arguments:
-        float
+        ItemBlockData
     Usage:
-        max
+        item data
     Notes:
-        Sets the max level for the enchantment.
+        Sets the required item.
 
 setLevelsMin:
     Arguments:
@@ -27,13 +27,13 @@ setLevelsMinMax:
     Notes:
         Sets the min and max level for the enchantment.
 
-setItem:
+setLevelsMax:
     Arguments:
-        ItemBlockData
+        float
     Usage:
-        item data
+        max
     Notes:
-        Sets the required item.
+        Sets the max level for the enchantment.
 
 setCount:
     Arguments:

@@ -12,7 +12,7 @@ setDescription("Acquire flint")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(104,113)
+setPos(80,65)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
@@ -27,7 +27,7 @@ criteria.addItem(<minecraft:flint>)
 addRewardRecipe("minecraft:ender_eye")
 
 //Adds a function to fire upon completion. Any number of these can be added.
-//addRewardFunction("triumph:happy_birthday")
+addRewardFunction("triumph:happy_birthday")
 
 //Sets the experience to reward upon completion. This can only be set once.
 setRewardExperience(42)
@@ -36,4 +36,4 @@ setRewardExperience(42)
 addRewardSkillable("mining", 1)
 
 //Adds an item to be rewarded upon completion. Only one of these can be set currently.
-//setRewardItem(<minecraft:stick, nbt:{ench:[{lvl:1s,id:51s}],display:{Name:"The Stick of Truth"}}>)
+setRewardItem(<minecraft:stick, nbt:{ench:[{lvl:1s,id:51s}],display:{Name:"The Stick of Truth"}}>)

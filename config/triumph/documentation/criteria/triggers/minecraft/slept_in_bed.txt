@@ -10,9 +10,13 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-getLocationData:
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
     Notes:
-        Returns the LocationData object so functions can be called on it.
+        Sets the generator options string.
 
 setWorldType:
     Arguments:
@@ -22,13 +26,9 @@ setWorldType:
     Notes:
         Sets the WorldType id.
 
-setDimID:
-    Arguments:
-        int
-    Usage:
-        dimension id
+getLocationData:
     Notes:
-        Sets the dimension id.
+        Returns the LocationData object so functions can be called on it.
 
 setBiome:
     Arguments:
@@ -38,13 +38,13 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
-setGeneratorOptions:
+setDimID:
     Arguments:
-        String
+        int
     Usage:
-        generator string
+        dimension id
     Notes:
-        Sets the generator options string.
+        Sets the dimension id.
 
 setCount:
     Arguments:

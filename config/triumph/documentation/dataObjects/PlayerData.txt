@@ -2,6 +2,14 @@ These are the functions which can be called on an PlayerData object.
 
 
 
+setEquipmentSlotEmpty:
+    Arguments:
+        String
+    Usage:
+        slot
+    Notes:
+        Requires the provided slot be empty. Slot options are "mainhand", "offhand", "feet", "legs", "chest", "head".
+
 setGamestage:
     Arguments:
         String
@@ -9,14 +17,6 @@ setGamestage:
         gamestage
     Notes:
         Sets the required gamestage for the player.
-
-setUUID:
-    Arguments:
-        String
-    Usage:
-        UUID
-    Notes:
-        Sets the required UUID for the player.
 
 setEquipmentSlot:
     Arguments:
@@ -30,13 +30,13 @@ getInventoryData:
     Notes:
         Returns the InventoryData object for the player
 
-setEquipmentSlotEmpty:
+setUUID:
     Arguments:
         String
     Usage:
-        slot
+        UUID
     Notes:
-        Requires the provided slot be empty. Slot options are "mainhand", "offhand", "feet", "legs", "chest", "head".
+        Sets the required UUID for the player.
 
 setName:
     Arguments:
@@ -46,14 +46,6 @@ setName:
     Notes:
         Sets the required name for the entity.
 
-setFeature:
-    Arguments:
-        String
-    Usage:
-        feature id
-    Notes:
-        Sets the feature id. Used for things like structures.
-
 setType:
     Arguments:
         String
@@ -62,13 +54,25 @@ setType:
     Notes:
         Sets the entity type.
 
+setFeature:
+    Arguments:
+        String
+    Usage:
+        feature id
+    Notes:
+        Sets the feature id. Used for things like structures.
+
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
+
 getDistanceData:
     Notes:
         Returns the DistanceData object so functions can be called on it.
-
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
 
 setDimensionType:
     Arguments:
@@ -78,14 +82,6 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-setScoreboard:
-    Arguments:
-        String, Float, Float
-    Usage:
-        score name, min score, max score
-    Notes:
-        Sets a required scoreboard score.
-
 setWorldType:
     Arguments:
         String
@@ -94,13 +90,9 @@ setWorldType:
     Notes:
         Sets the WorldType id.
 
-setDimID:
-    Arguments:
-        int
-    Usage:
-        dimension id
+getLocationData:
     Notes:
-        Sets the dimension id.
+        Returns the LocationData object so functions can be called on it.
 
 setBiome:
     Arguments:
@@ -110,11 +102,19 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
-setGeneratorOptions:
+setDimID:
     Arguments:
-        String
+        int
     Usage:
-        generator string
+        dimension id
     Notes:
-        Sets the generator options string.
+        Sets the dimension id.
+
+setScoreboard:
+    Arguments:
+        String, Float, Float
+    Usage:
+        score name, min score, max score
+    Notes:
+        Sets a required scoreboard score.
 

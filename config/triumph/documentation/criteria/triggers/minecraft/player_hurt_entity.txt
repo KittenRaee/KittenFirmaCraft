@@ -3,6 +3,10 @@ trigger.
 
 
 
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
+
 setEntityType:
     Arguments:
         String
@@ -14,10 +18,6 @@ setEntityType:
 getDamageData:
     Notes:
         Returns the DamageData object so functions can be called on it.
-
-getEntityData:
-    Notes:
-        Returns the EntityData object so functions can be called on it.
 
 setCount:
     Arguments:
