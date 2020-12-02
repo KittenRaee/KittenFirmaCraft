@@ -51,3 +51,4 @@ mineraltracker/*
 options.txt
 *.disabled
 config/moresoundconfig.cfg
+shaderpacks/*

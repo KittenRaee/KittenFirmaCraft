@@ -1,5 +1,5 @@
-#Mon Nov 30 23:26:44 CET 2020
-shaderPack=SEUS Renewed TNG v1.0.1
+#Thu Dec 03 00:09:41 CET 2020
+shaderPack=BSL_v7.2.01pre1.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
@@ -7,8 +7,8 @@ renderResMul=1.4142135
 shadowResMul=0.70710677
 handDepthMul=0.0625
 cloudShadow=false
-oldHandLight=true
-oldLighting=true
+oldHandLight=default
+oldLighting=default
 tweakBlockDamage=false
 shadowClipFrustrum=true
 TexMinFilB=0
