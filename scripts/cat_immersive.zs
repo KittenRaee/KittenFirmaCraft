@@ -30,10 +30,11 @@ import mods.immersiveengineering.CokeOven;
 
 // Wrought Iron to Steel
     BlastFurnace.addRecipe(<tfc:metal/ingot/steel>, <ore:ingotWroughtIron>, 2000, <immersiveengineering:material:7>);
+    BlastFurnace.addRecipe(<contenttweaker:blocksteel>, <contenttweaker:blockwrought_iron>, 2000, <immersiveengineering:material:7> * 8);
 
 // Bitum coal to coke
     CokeOven.removeRecipe(<immersiveengineering:material:6>);
-    CokeOven.addRecipe(<immersiveengineering:material:6>, 2, <tfc:ore/bituminous_coal>, 2000);
+    CokeOven.addRecipe(<immersiveengineering:material:6>, 125, <tfc:ore/bituminous_coal>, 2000);
 
 // Remove IE tools
     recipes.remove(<immersiveengineering:pickaxe_steel>, false);
