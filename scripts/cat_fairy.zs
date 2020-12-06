@@ -3,4 +3,4 @@
 #modloaded fairylights
 
 // Remove Recipes
-    recipes.removeByMod("fairylights");
+    
