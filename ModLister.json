@@ -602,10 +602,10 @@
   {
     "n": "Mineral Tracker",
     "v": "${version}",
-    "f": "MineralTracker-0.9.2.jar",
+    "f": "MineralTracker-0.9.3.jar",
     "a": "LordFokas",
     "u": "https://www.curseforge.com/minecraft/mc-mods/mineral-tracker",
-    "m": "49da9d7f08834c616a26eb9d20723bb1"
+    "m": "eb767964eef082196442e9ce85c50b71"
   },
   {
     "n": "Mod Tweaker",
