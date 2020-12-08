@@ -84,29 +84,22 @@ furnace.removeAll();
 // Add alt mud recipe
 #    for i, name in scripts.lists.rocks.TFC_namesList {
 #        Barrel.removeRecipe(scripts.lists.rocks.TFC_wetMudList[i], null);
-#        Barrel.addRecipe("mud_gravel_" + name, scripts.lists.rocks.TFC_gravelList[i] * 4, #<liquid:fresh_water> * 250, scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8);
-#        Barrel.addRecipe("mud_dirt_" + name, scripts.lists.rocks.TFC_dirtList[i] * 4, #<liquid:fresh_water> * 250, scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8);
+#        Barrel.addRecipe(
+#            "mud_gravel_" + name,
+#            scripts.lists.rocks.TFC_gravelList[i] * 4, <liquid:fresh_water> * 250,
+#            scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8
+#        );
+#        Barrel.addRecipe(
+#            "mud_dirt_" + name,
+#            scripts.lists.rocks.TFC_dirtList[i] * 4, <liquid:fresh_water> * 250,
+#            scripts.lists.rocks.TFC_wetMudList[i] * 4, null, 8
+#        );
 #    }
 
 // Add moss recipes
-    for i, name in scripts.lists.rocks.TFC_namesList {
-        Barrel.removeRecipe(scripts.lists.rocks.TFC_cobbleMossList[i], <liquid:fresh_water> * 50);
-        Barrel.removeRecipe(scripts.lists.rocks.TFC_bricksMossList[i], <liquid:fresh_water> * 50);
-        Barrel.addRecipe(
-            "moss_cobble_" + name,
-            scripts.lists.rocks.TFC_cobbleList[i] * 4, <liquid:fresh_water> * 250,
-            scripts.lists.rocks.TFC_cobbleMossList[i] * 4, null, 8
-        );
-        Barrel.addRecipe(
-            "moss_bricks_" + name,
-            scripts.lists.rocks.TFC_bricksList[i] * 4, <liquid:fresh_water> * 250,
-            scripts.lists.rocks.TFC_bricksMossList[i] * 4, null, 8
-        );
-    }
-
     for type, item in scripts.lists.rocks_new.geoTypes {
-#        Barrel.removeRecipe(item["cobbleMoss"]);
-#        Barrel.removeRecipe(item["bricksMoss"]);
+        Barrel.removeRecipe(item["cobbleMoss"], <liquid:fresh_water> * 50);
+        Barrel.removeRecipe(item["bricksMoss"], <liquid:fresh_water> * 50);
         Barrel.addRecipe(
             "mossify_cobble_" + type,
             item["cobble"] * 4, <liquid:fresh_water> * 250,
@@ -122,7 +115,21 @@ furnace.removeAll();
         recipes.addShapeless("testtest_" + type, <minecraft:diamond>, [item["cobbleMoss"]]);
     }
 
+#    for i, name in scripts.lists.rocks.TFC_namesList {
+#        Barrel.removeRecipe(scripts.lists.rocks.TFC_cobbleMossList[i], <liquid:fresh_water> * 50);
+#        Barrel.removeRecipe(scripts.lists.rocks.TFC_bricksMossList[i], <liquid:fresh_water> * 50);
+#        Barrel.addRecipe(
+#            "moss_cobble_" + name,
+#            scripts.lists.rocks.TFC_cobbleList[i] * 4, <liquid:fresh_water> * 250,
+#            scripts.lists.rocks.TFC_cobbleMossList[i] * 4, null, 8
+#        );
+#        Barrel.addRecipe(
+#            "moss_bricks_" + name,
+#            scripts.lists.rocks.TFC_bricksList[i] * 4, <liquid:fresh_water> * 250,
+#            scripts.lists.rocks.TFC_bricksMossList[i] * 4, null, 8
+#        );
+#    }
+
 // Borax fix
     Quern.removeRecipe(<tfc:metal/dust/boron>);
     Quern.addRecipe("tfc_boraxFluxFix", <tfc:ore/borax>, <tfc:powder/flux> * 4);
-
