@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalelectrum",
-      "particle": "contenttweaker:blocks/blocksheetmetalelectrum"
+      "texture": "contenttweaker:blocks/sheetmetal/electrum",
+      "particle": "contenttweaker:blocks/sheetmetal/electrum"
     },
     "model": "base:storage",
     "uvlock": true,

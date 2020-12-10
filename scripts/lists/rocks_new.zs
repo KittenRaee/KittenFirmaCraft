@@ -2,6 +2,7 @@
 #priority 99
 #modloaded tfc
 #modloaded tfc_decoration
+
 import crafttweaker.item.IItemStack;
 
 static geoTypes as IItemStack[string][string] = {

@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalbismuth_bronze",
-      "particle": "contenttweaker:blocks/blocksheetmetalbismuth_bronze"
+      "texture": "contenttweaker:blocks/sheetmetal/bismuth_bronze",
+      "particle": "contenttweaker:blocks/sheetmetal/bismuth_bronze"
     },
     "model": "base:storage",
     "uvlock": true,

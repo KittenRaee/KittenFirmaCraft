@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockred_alloy",
-      "particle": "contenttweaker:blocks/blockred_alloy"
+      "texture": "tfc:blocks/metal/red_alloy",
+      "particle": "tfc:blocks/metal/red_alloy"
     },
     "model": "base:storage",
     "uvlock": true,

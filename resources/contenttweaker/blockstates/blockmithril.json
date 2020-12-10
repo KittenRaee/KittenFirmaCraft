@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockmithril",
-      "particle": "contenttweaker:blocks/blockmithril"
+      "texture": "tfc:blocks/metal/mithril",
+      "particle": "tfc:blocks/metal/mithril"
     },
     "model": "base:storage",
     "uvlock": true,

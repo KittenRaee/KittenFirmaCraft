@@ -9,6 +9,7 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
+import mods.contenttweaker.ResourceLocation;
 
 val metals = [
     "bismuth",
@@ -41,6 +42,6 @@ for item in metals {
     blockfactory.setBlockResistance(5.0);
     blockfactory.setToolClass("pickaxe");
     blockfactory.setToolLevel(0);
-    blockfactory.setBlockSoundType(<soundtype:metal>);
+    blockfactory.setBlockSoundType(<soundtype:metal>);    
     blockfactory.register();
 }

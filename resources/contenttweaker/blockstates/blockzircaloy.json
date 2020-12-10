@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockzircaloy",
-      "particle": "contenttweaker:blocks/blockzircaloy"
+      "texture": "tfc:blocks/metal/zircaloy",
+      "particle": "tfc:blocks/metal/zircaloy"
     },
     "model": "base:storage",
     "uvlock": true,

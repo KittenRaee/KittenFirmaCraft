@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockmanganese",
-      "particle": "contenttweaker:blocks/blockmanganese"
+      "texture": "tfc:blocks/metal/manganese",
+      "particle": "tfc:blocks/metal/manganese"
     },
     "model": "base:storage",
     "uvlock": true,

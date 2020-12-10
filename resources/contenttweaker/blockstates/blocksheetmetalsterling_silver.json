@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalsterling_silver",
-      "particle": "contenttweaker:blocks/blocksheetmetalsterling_silver"
+      "texture": "contenttweaker:blocks/sheetmetal/sterling_silver",
+      "particle": "contenttweaker:blocks/sheetmetal/sterling_silver"
     },
     "model": "base:storage",
     "uvlock": true,

@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalboron",
-      "particle": "contenttweaker:blocks/blocksheetmetalboron"
+      "texture": "contenttweaker:blocks/sheetmetal/boron",
+      "particle": "contenttweaker:blocks/sheetmetal/boron"
     },
     "model": "base:storage",
     "uvlock": true,

@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockinvar",
-      "particle": "contenttweaker:blocks/blockinvar"
+      "texture": "tfc:blocks/metal/invar",
+      "particle": "tfc:blocks/metal/invar"
     },
     "model": "base:storage",
     "uvlock": true,

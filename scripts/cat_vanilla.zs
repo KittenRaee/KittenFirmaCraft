@@ -116,5 +116,48 @@ import mods.dropt.Dropt;
             [[glowdust, glowdust],
             [glowdust, glowdust]]
         );
+    // Nether blocks
+        // Netherrack → cat_tfc
+        val nether_brick = <minecraft:nether_brick>;
+        val netherStairs = <minecraft:nether_brick_stairs>;
+        val brickNether = <minecraft:netherbrick>;
+        val mortar = <tfc:mortar>;
 
-print("lava: " + (<liquid:lava>.luminosity));
+        recipes.addShaped(
+            "catFix_nether_brick",
+            nether_brick * 2,
+            [[brickNether, mortar,      brickNether],
+             [mortar,      brickNether, mortar],
+             [brickNether, mortar,      brickNether]]
+        );
+        recipes.addShapedMirrored(
+            "kittenFix_nether_brick_restaired",
+            <minecraft:nether_brick_stairs> * 8,
+            [[nether_brick, null,        null],
+             [nether_brick, nether_brick, null],
+             [nether_brick, nether_brick, nether_brick]]
+        );
+        recipes.addShapeless(
+            "kittenFix_nether_brick_unstaired",
+            nether_brick * 3,
+            [netherStairs, netherStairs, netherStairs, netherStairs]
+        );
+
+    // Block Of Emerald
+        val emeraldGem = <tfc:gem/emerald:2>;
+        recipes.addShaped(
+            "catFix_emeraldBlock",
+            <minecraft:emerald_block>,
+            [[emeraldGem, emeraldGem, emeraldGem],
+             [emeraldGem, emeraldGem, emeraldGem],
+             [emeraldGem, emeraldGem, emeraldGem]]
+        );
+    // Block of Coal
+    val coalGem = <tfc:ore/bituminous_coal>;
+        recipes.addShaped(
+            "catFix_coalBlock",
+            <minecraft:coal_block>,
+            [[coalGem, coalGem, coalGem],
+             [coalGem, coalGem, coalGem],
+             [coalGem, coalGem, coalGem]]
+        );

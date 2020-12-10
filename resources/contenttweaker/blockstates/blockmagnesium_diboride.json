@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockmagnesium_diboride",
-      "particle": "contenttweaker:blocks/blockmagnesium_diboride"
+      "texture": "tfc:blocks/metal/magnesium_diboride",
+      "particle": "tfc:blocks/metal/magnesium_diboride"
     },
     "model": "base:storage",
     "uvlock": true,

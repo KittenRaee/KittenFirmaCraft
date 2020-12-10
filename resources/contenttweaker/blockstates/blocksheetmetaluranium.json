@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetaluranium",
-      "particle": "contenttweaker:blocks/blocksheetmetaluranium"
+      "texture": "contenttweaker:blocks/sheetmetal/uranium",
+      "particle": "contenttweaker:blocks/sheetmetal/uranium"
     },
     "model": "base:storage",
     "uvlock": true,

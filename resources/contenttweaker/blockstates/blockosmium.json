@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockosmium",
-      "particle": "contenttweaker:blocks/blockosmium"
+      "texture": "tfc:blocks/metal/osmium",
+      "particle": "tfc:blocks/metal/osmium"
     },
     "model": "base:storage",
     "uvlock": true,

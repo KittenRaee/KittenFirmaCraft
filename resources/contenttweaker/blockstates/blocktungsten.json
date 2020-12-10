@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocktungsten",
-      "particle": "contenttweaker:blocks/blocktungsten"
+      "texture": "tfc:blocks/metal/tungsten",
+      "particle": "tfc:blocks/metal/tungsten"
     },
     "model": "base:storage",
     "uvlock": true,

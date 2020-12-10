@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalantimony",
-      "particle": "contenttweaker:blocks/blocksheetmetalantimony"
+      "texture": "contenttweaker:blocks/sheetmetal/antimony",
+      "particle": "contenttweaker:blocks/sheetmetal/antimony"
     },
     "model": "base:storage",
     "uvlock": true,

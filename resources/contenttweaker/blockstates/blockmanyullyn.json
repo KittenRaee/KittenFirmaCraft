@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockmanyullyn",
-      "particle": "contenttweaker:blocks/blockmanyullyn"
+      "texture": "tfc:blocks/metal/manyullyn",
+      "particle": "tfc:blocks/metal/manyullyn"
     },
     "model": "base:storage",
     "uvlock": true,

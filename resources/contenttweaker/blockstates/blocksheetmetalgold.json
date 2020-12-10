@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalgold",
-      "particle": "contenttweaker:blocks/blocksheetmetalgold"
+      "texture": "contenttweaker:blocks/sheetmetal/gold",
+      "particle": "contenttweaker:blocks/sheetmetal/gold"
     },
     "model": "base:storage",
     "uvlock": true,

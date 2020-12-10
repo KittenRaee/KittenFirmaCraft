@@ -177,4 +177,4 @@ item.contenttweaker.stibnite50.name=Crushed Stibnite
 item.contenttweaker.wolframite50.name=Crushed Wolframite
 
 item.contenttweaker.engineeredstick.name=Upholstered Handle
-fluid.red_juice.name=Redstone Slush
+fluid.red_juice=Redstone Slush

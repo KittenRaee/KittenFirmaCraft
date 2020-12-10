@@ -1,7 +1,9 @@
 #author KittenRaee
+#norun
 #priority 99
 #modloaded tfc
 #modloaded tfctech
+
 import crafttweaker.item.IItemStack;
 
 static metalsUseful as IItemStack[string][string] = {

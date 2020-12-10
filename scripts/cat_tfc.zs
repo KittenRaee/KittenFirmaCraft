@@ -3,6 +3,7 @@
 #modloaded tfc
 #modloaded tfctech
 #modloaded tfcmedicinal
+
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.terrafirmacraft.Barrel;
@@ -81,6 +82,23 @@ furnace.removeAll();
     recipes.removeShapeless(<minecraft:dye:15>, [<jaff:fish_bones>]);
     Quern.addRecipe("quern_fishBones", <jaff:fish_bones>, <minecraft:dye:15> * 2);
 
+// Borax fix
+    Quern.removeRecipe(<tfc:metal/dust/boron>);
+    Quern.addRecipe("tfc_boraxFluxFix", <tfc:ore/borax>, <tfc:powder/flux> * 4);
+
+// Red Juice
+    val redJuice = <liquid:red_juice>;
+    Barrel.addRecipe(
+        "red_juice_powder",
+        <minecraft:redstone>, <liquid:hot_water> * 50,
+        redJuice * 50, 1
+    );
+    Barrel.addRecipe(
+        "red_juice_block",
+        <minecraft:redstone_block>, <liquid:hot_water> * 500,
+        redJuice * 500, 1
+    );
+
 // Add alt mud recipe
 #    for i, name in scripts.lists.rocks.TFC_namesList {
 #        Barrel.removeRecipe(scripts.lists.rocks.TFC_wetMudList[i], null);
@@ -96,8 +114,9 @@ furnace.removeAll();
 #        );
 #    }
 
-// Add moss recipes
+
     for type, item in scripts.lists.rocks_new.geoTypes {
+    // Add moss recipes
         Barrel.removeRecipe(item["cobbleMoss"], <liquid:fresh_water> * 50);
         Barrel.removeRecipe(item["bricksMoss"], <liquid:fresh_water> * 50);
         Barrel.addRecipe(
@@ -112,8 +131,29 @@ furnace.removeAll();
             item["bricksMoss"] * 4, null,
             8
         );
-        recipes.addShapeless("testtest_" + type, <minecraft:diamond>, [item["cobbleMoss"]]);
+    // Netherrack
+        Barrel.addRecipe(
+            "nether_juice_" + type,
+            item["sandstone"], redJuice * 250,
+            <minecraft:netherrack>, null,
+            16
+        );
+    // Nether Brick
+        Barrel.addRecipe(
+            "netherbrick_" + type,
+            item["brick"], redJuice * 50,
+            <minecraft:netherbrick>, null,
+            16
+        );
     }
+
+// Nether Wart
+    Barrel.addRecipe(
+        "catFix_nether_wart",
+        <minecraft:fermented_spider_eye>, redJuice * 250,
+        <minecraft:nether_wart>, null,
+        72 
+    );
 
 #    for i, name in scripts.lists.rocks.TFC_namesList {
 #        Barrel.removeRecipe(scripts.lists.rocks.TFC_cobbleMossList[i], <liquid:fresh_water> * 50);
@@ -129,19 +169,3 @@ furnace.removeAll();
 #            scripts.lists.rocks.TFC_bricksMossList[i] * 4, null, 8
 #        );
 #    }
-
-// Borax fix
-    Quern.removeRecipe(<tfc:metal/dust/boron>);
-    Quern.addRecipe("tfc_boraxFluxFix", <tfc:ore/borax>, <tfc:powder/flux> * 4);
-
-// Red Juice
-    Barrel.addRecipe(
-        "red_juice_powder",
-        <minecraft:redstone>, <liquid:hot_water> * 50,
-        <liquid:red_juice> * 50, 1
-    );
-    Barrel.addRecipe(
-        "red_juice_block",
-        <minecraft:redstone_block>, <liquid:hot_water> * 500,
-        <liquid:red_juice> * 500, 1
-    );

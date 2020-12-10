@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalaluminium_brass",
-      "particle": "contenttweaker:blocks/blocksheetmetalaluminium_brass"
+      "texture": "contenttweaker:blocks/sheetmetal/aluminium_brass",
+      "particle": "contenttweaker:blocks/sheetmetal/aluminium_brass"
     },
     "model": "base:storage",
     "uvlock": true,

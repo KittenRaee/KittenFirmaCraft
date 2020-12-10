@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalardite",
-      "particle": "contenttweaker:blocks/blocksheetmetalardite"
+      "texture": "contenttweaker:blocks/sheetmetal/ardite",
+      "particle": "contenttweaker:blocks/sheetmetal/ardite"
     },
     "model": "base:storage",
     "uvlock": true,

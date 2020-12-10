@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blocksheetmetalthorium",
-      "particle": "contenttweaker:blocks/blocksheetmetalthorium"
+      "texture": "contenttweaker:blocks/sheetmetal/thorium",
+      "particle": "contenttweaker:blocks/sheetmetal/thorium"
     },
     "model": "base:storage",
     "uvlock": true,

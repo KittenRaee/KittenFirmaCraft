@@ -98,6 +98,13 @@ import mods.jei.JEI;
         <minecraft:chorus_flower>,
         <minecraft:chorus_fruit>,
         <minecraft:chorus_plant>,
+        <minecraft:red_sandstone_stairs>,
+        <minecraft:stone_slab2>,
+        <minecraft:purpur_block>,
+        <minecraft:purpur_pillar>,
+        <minecraft:purpur_stairs>,
+        <minecraft:purpur_slab>,
+        <minecraft:nether_wart_block>,
 
         <minecraft:shulker_shell>
     ] as IItemStack[];

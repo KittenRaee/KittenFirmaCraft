@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockrose_gold",
-      "particle": "contenttweaker:blocks/blockrose_gold"
+      "texture": "tfc:blocks/metal/rose_gold",
+      "particle": "tfc:blocks/metal/rose_gold"
     },
     "model": "base:storage",
     "uvlock": true,

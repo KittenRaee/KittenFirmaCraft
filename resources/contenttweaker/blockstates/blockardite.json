@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockardite",
-      "particle": "contenttweaker:blocks/blockardite"
+      "texture": "tfc:blocks/metal/ardite",
+      "particle": "tfc:blocks/metal/ardite"
     },
     "model": "base:storage",
     "uvlock": true,

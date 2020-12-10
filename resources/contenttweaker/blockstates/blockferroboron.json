@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockferroboron",
-      "particle": "contenttweaker:blocks/blockferroboron"
+      "texture": "tfc:blocks/metal/ferroboron",
+      "particle": "tfc:blocks/metal/ferroboron"
     },
     "model": "base:storage",
     "uvlock": true,

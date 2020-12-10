@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blockplatinum",
-      "particle": "contenttweaker:blocks/blockplatinum"
+      "texture": "tfc:blocks/metal/platinum",
+      "particle": "tfc:blocks/metal/platinum"
     },
     "model": "base:storage",
     "uvlock": true,
