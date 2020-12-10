@@ -11,19 +11,28 @@ val ban_dye = [
     <minecraft:stained_glass:*>,
     <minecraft:stained_hardened_clay:*>,
     <minecraft:bed:*>,
-    <bibliocraft:swordpedestal:*>,
     <tfc:ceramics/unfired/vessel_glazed:*>,
     <quark:colored_item_frame:*>,
     <railcraft:glass:*>,
     <railcraft:reinforced_concrete:*>,
+    <railcraft:tank_iron_gauge:*>,
+    <railcraft:tank_iron_valve:*>,
+    <railcraft:tank_iron_wall:*>,
+    <railcraft:tank_steel_gauge:*>,
+    <railcraft:tank_steel_valve:*>,
+    <railcraft:tank_steel_wall:*>,
 ] as IItemStack[];
 
 val add_dye = [
-    <bibliocraft:swordpedestal>,
-    <tfc:ceramics/unfired/vessel_glazed>,
-    <quark:colored_item_frame>,
-    <railcraft:glass>,
-    <railcraft:reinforced_concrete>,
+    <quark:colored_item_frame:*>,
+    <railcraft:glass:*>,
+    <railcraft:reinforced_concrete:*>,
+    <railcraft:tank_iron_gauge:*>,
+    <railcraft:tank_iron_valve:*>,
+    <railcraft:tank_iron_wall:*>,
+    <railcraft:tank_steel_gauge:*>,
+    <railcraft:tank_steel_valve:*>,
+    <railcraft:tank_steel_wall:*>,
 ] as IItemStack[];
 
 val dyesList = [
@@ -58,7 +67,8 @@ for item in ban_dye {
 for i, item in add_dye {
     var itemDef = item.definition;
     for d, dye in dyesList {
-        var counter = (5 * i) + d;
+        var counter = (16 * i) + d;
+        var counter2 = (16 * i) + d + 1000;
         Barrel.addRecipe(
             "dyed" + counter + "item",
             itemDef.makeStack(0), dye * 125,
@@ -66,4 +76,26 @@ for i, item in add_dye {
             1
         );
     }
+    Barrel.addRecipe(
+        "undyed" + i + "item",
+        item, <liquid:lye> * 125,
+        itemDef.makeStack(0), null,
+        1
+    );
 }
+
+var vesselDef = <tfc:ceramics/unfired/vessel_glazed>.definition;
+for d, dye in dyesList {
+    Barrel.addRecipe(
+        "dyed" + d + "vessel",
+        <tfc:ceramics/unfired/vessel>, dye * 125,
+        vesselDef.makeStack(15 - d), null,
+        1
+    );
+}
+Barrel.addRecipe(
+    "undyed" + "vessel",
+    <tfc:ceramics/unfired/vessel_glazed:*>, <liquid:lye> * 125,
+    <tfc:ceramics/unfired/vessel>, null,
+    1
+);
