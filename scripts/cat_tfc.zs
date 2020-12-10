@@ -133,3 +133,15 @@ furnace.removeAll();
 // Borax fix
     Quern.removeRecipe(<tfc:metal/dust/boron>);
     Quern.addRecipe("tfc_boraxFluxFix", <tfc:ore/borax>, <tfc:powder/flux> * 4);
+
+// Red Juice
+    Barrel.addRecipe(
+        "red_juice_powder",
+        <minecraft:redstone>, <liquid:hot_water> * 50,
+        <liquid:red_juice> * 50, 1
+    );
+    Barrel.addRecipe(
+        "red_juice_block",
+        <minecraft:redstone_block>, <liquid:hot_water> * 500,
+        <liquid:red_juice> * 500, 1
+    );
