@@ -45,7 +45,7 @@ reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
 mainHand:left
-attackIndicator:1
+attackIndicator:2
 showSubtitles:true
 realmsNotifications:false
 enableWeakAttacks:false
@@ -114,6 +114,11 @@ key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.betterfoliage.gui:66
 key_key.death_history:22
+key_key.ping:47
+key_ping.key.alert:75
+key_ping.key.mine:76
+key_ping.key.look:77
+key_ping.key.goto:72
 key_Camera left:203:ALT
 key_Camera right:205:ALT
 key_Camera closer:200:ALT
@@ -148,6 +153,10 @@ key_Options Gui:0
 key_key.cofh.multimode:0
 key_key.colytra.toggle.desc:34
 key_invtweaks.key.sort:19
+key_key.itemzoom.toggle:44:SHIFT
+key_key.itemzoom.hold:0
+key_key.itemzoom.zoom.in:0
+key_key.itemzoom.zoom.out:0
 key_keywizard.keybind.openKeyboardWizard:65
 key_options.narrator:0
 key_keybind.railcraft.loco.reverse:73
