@@ -161,3 +161,20 @@ import mods.dropt.Dropt;
              [coalGem, coalGem, coalGem],
              [coalGem, coalGem, coalGem]]
         );
+    // Slime block
+    recipes.addShaped(
+        "catFix_slimeBlock",
+        <minecraft:slime>,
+        [[<ore:slimeball>, <ore:slimeball>],
+        [<ore:slimeball>, <ore:slimeball>]]
+    );
+    // Cobweb
+    recipes.addShaped(
+        "catFix_cobweb",
+        <minecraft:web>,
+        [[<minecraft:string>, null, <minecraft:string>],
+        [null, <tfc:glue>, null],
+        [<minecraft:string>, null, <minecraft:string>]]
+    );
+    // Torch
+    recipes.remove(<minecraft:torch>);

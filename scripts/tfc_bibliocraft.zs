@@ -832,7 +832,7 @@ import mods.terrafirmacraft.Heating;
     recipes.addShapeless(
         "tfc_stickBundle_to_framing_sheet",
         <bibliocraft:framingsheet>,
-        [<tfc:stick_bundle>, <ore:slimeball>, <tfc:stick_bundle>]
+        [<tfc:stick_bunch>, <ore:slimeball>, <tfc:stick_bunch>]
     );
     recipes.addShapeless(
         "tfc_lumber_to_framing_board",

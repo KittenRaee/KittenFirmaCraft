@@ -8,6 +8,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.terrafirmacraft.Barrel;
 import mods.terrafirmacraft.ItemRegistry;
+import mods.terrafirmacraft.LeatherKnapping;
 import mods.terrafirmacraft.Welding;
 import mods.terrafirmacraft.Quern;
 import mods.unidict.api.newShapedRecipeTemplate;
@@ -155,17 +156,29 @@ furnace.removeAll();
         72 
     );
 
-#    for i, name in scripts.lists.rocks.TFC_namesList {
-#        Barrel.removeRecipe(scripts.lists.rocks.TFC_cobbleMossList[i], <liquid:fresh_water> * 50);
-#        Barrel.removeRecipe(scripts.lists.rocks.TFC_bricksMossList[i], <liquid:fresh_water> * 50);
-#        Barrel.addRecipe(
-#            "moss_cobble_" + name,
-#            scripts.lists.rocks.TFC_cobbleList[i] * 4, <liquid:fresh_water> * 250,
-#            scripts.lists.rocks.TFC_cobbleMossList[i] * 4, null, 8
-#        );
-#        Barrel.addRecipe(
-#            "moss_bricks_" + name,
-#            scripts.lists.rocks.TFC_bricksList[i] * 4, <liquid:fresh_water> * 250,
-#            scripts.lists.rocks.TFC_bricksMossList[i] * 4, null, 8
-#        );
-#    }
+// Backpack Stuff
+    recipes.remove(<wearablebackpacks:backpack>);
+    LeatherKnapping.addRecipe(
+        "backpackSiding",
+        <contenttweaker:backpacksiding> * 2,
+        " X X ",
+        "XX XX",
+        "XX XX",
+        "XX XX",
+        "X   X"
+    );
+    LeatherKnapping.addRecipe(
+        "backpackShell",
+        <contenttweaker:backpackshell>,
+        " XXX ",
+        "X   X",
+        "XXxXX",
+        "XX XX",
+        "XXXXX"
+    );
+    recipes.addShaped(
+        "backpack_craft",
+        <wearablebackpacks:backpack>,
+        [[null, <tfc:metal/ingot/gold>, null],
+        [<contenttweaker:backpacksiding>, <contenttweaker:backpackshell>, <contenttweaker:backpacksiding>]]
+    );

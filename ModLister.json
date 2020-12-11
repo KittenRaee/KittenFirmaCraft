@@ -480,6 +480,14 @@
     "m": "1e2e33e5710394252abc4b014bc3dcbd"
   },
   {
+    "n": "Item Zoom",
+    "v": "1.11",
+    "f": "itemzoom_1.12.2-1.11.jar",
+    "a": "mezz",
+    "u": "https://minecraft.curseforge.com/projects/itemzoom/",
+    "m": "b1561486f9cdc305c50a7b7237b4317c"
+  },
+  {
     "n": "JEI Integration",
     "v": "1.6.0",
     "f": "jeiintegration_1.12.2-1.6.0.jar",
@@ -710,6 +718,14 @@
     "a": "Tfarecnim",
     "u": "",
     "m": "1d2e5d3998eb79dfff631d85f93629f7"
+  },
+  {
+    "n": "Ping",
+    "v": "1.4.5",
+    "f": "Ping-1.12.2-1.4.5.jar",
+    "a": "dmillerw, Girafi",
+    "u": "http://minecraft.curseforge.com/projects/ping",
+    "m": "0e8311f92a716cee436dbfc8d47bae6e"
   },
   {
     "n": "Placebo",
