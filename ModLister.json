@@ -841,11 +841,11 @@
   },
   {
     "n": "TerraFirmaCraft",
-    "v": "1.7.9.167",
-    "f": "TerraFirmaCraft-MC1.12.2-1.7.9.167.jar",
+    "v": "1.7.10.168",
+    "f": "TerraFirmaCraft-MC1.12.2-1.7.10.168.jar",
     "a": "Dries007, AlcatrazEscapee, Bunsan, et. al.",
     "u": "https://tng.terrafirmacraft.com/Main_Page",
-    "m": "a13180412445984873499b81b5145491"
+    "m": "f83fbe9f61c38efbcc0912ed8e07ab5c"
   },
   {
     "n": "TerraFirmaThings",
@@ -945,11 +945,11 @@
   },
   {
     "n": "UniDict",
-    "v": "1.12.2-2.9.9",
-    "f": "UniDict-1.12.2-2.9.9.jar",
+    "v": "1.12.2-3.0.2",
+    "f": "UniDict-1.12.2-3.0.2.jar",
     "a": "WanionCane",
     "u": "http://minecraft.curseforge.com/projects/unidict",
-    "m": "8815527e93aa9bd2e571172cd0a77a9a"
+    "m": "abac93abb0f3d22c64ba866d7f456325"
   },
   {
     "n": "Unlimited Chisel Works",
