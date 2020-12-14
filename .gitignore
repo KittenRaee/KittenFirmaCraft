@@ -46,11 +46,8 @@ config/pregenerator/PregenConfig.cfg
 screenshots/*
 options.txt
 journeymap/config/5.7/journeymap.fullmap.config
-options.txt
 mineraltracker/*
-options.txt
 *.disabled
 config/moresoundconfig.cfg
-shaderpacks/*
-options.txt
-options.txt
+shaderpacks/*.zip
+shaderpacks/*.txt

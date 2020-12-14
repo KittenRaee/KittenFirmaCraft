@@ -369,11 +369,11 @@
   },
   {
     "n": "FoamFix",
-    "v": "0.10.10-1.12.2",
-    "f": "foamfix-0.10.10-1.12.2.jar",
+    "v": "0.10.11-1.12.2",
+    "f": "foamfix-0.10.11-1.12.2.jar",
     "a": "asiekierka",
     "u": "http://asie.pl/Projects/Minecraft/Mods/FoamFix",
-    "m": "bba94f1ee252fcfbd2d52779f5c2f2b1"
+    "m": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
   },
   {
     "n": "FoamFixCore",
@@ -874,10 +874,10 @@
   {
     "n": "TFC Medicinal",
     "v": "1.0.0",
-    "f": "TFCMedicinal-1.0.5.jar",
+    "f": "TFCMedicinal-1.0.6.jar",
     "a": "Lumintorious",
     "u": "",
-    "m": "aa2a09ac0f83e7c53a7345dd8f362934"
+    "m": "706487de76a0b672f10dc841e4514829"
   },
   {
     "n": "TFC Metallum",

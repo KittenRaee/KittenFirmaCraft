@@ -132,6 +132,15 @@ furnace.removeAll();
             item["bricksMoss"] * 4, null,
             8
         );
+    // Fix Mud
+        recipes.remove(
+            item["mud_ball"]
+        );
+        recipes.addShapeless(
+            "mud_ball_" + type,
+            item["mud_ball"],
+            [item["dirt"], <tfc:straw>, <minecraft:clay_ball>]
+        );
     // Netherrack
         Barrel.addRecipe(
             "nether_juice_" + type,
