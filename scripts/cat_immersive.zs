@@ -303,7 +303,7 @@ import mods.immersiveengineering.CokeOven;
         },
         "jug" : {
             "unfired" : <tfc:ceramics/unfired/jug>,
-            "fired" : <tfc:ceramics/fired/fire_brick>
+            "fired" : <tfc:ceramics/fired/jug>
         },
         "brick" : {
             "unfired" : <tfc:ceramics/unfired/clay_brick>,
