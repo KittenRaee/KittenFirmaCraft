@@ -7,8 +7,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
-import mods.terrafirmacraft.StoneKnapping;
+import mods.terrafirmacraft.Anvil;
 import mods.terrafirmacraft.Barrel;
+import mods.terrafirmacraft.StoneKnapping;
 import mods.jei.JEI;
 import mods.immersiveengineering.MetalPress;
 
@@ -33,6 +34,7 @@ import mods.immersiveengineering.MetalPress;
     } as IItemStack[string];
     JEI.removeAndHide(<railcraft:rail:2>, true);
 
+    recipes.replaceAllOccurences(<minecraft:furnace>, <tfctech:smeltery_firebox>);
 
 // Stone Tie
     StoneKnapping.addRecipe("stoneTie_single", [<railcraft:tie:1>], ["all"], "xxxxx");
@@ -53,7 +55,42 @@ import mods.immersiveengineering.MetalPress;
     recipes.removeByRecipeName("railcraft:cart_bronze");
 
 // Replace RC bronze with any bronze
+    recipes.replaceAllOccurences(<railcraft:gear:2>, <ore:gearSteel>);
     recipes.replaceAllOccurences(<tfctech:metal/bronze_gear>, <ore:gearAnyBronze>);
     recipes.replaceAllOccurences(<ore:ingotBronze>, <ore:ingotAnyBronze>);
     recipes.replaceAllOccurences(<ore:sheetBronze>, <ore:sheetAnyBronze>);
 
+// Carts
+    recipes.addShaped(
+        "railcraft_chestCart",
+        <minecraft:chest_minecart>,
+        [
+            [<ore:chest>],
+            [<minecraft:minecart>]
+        ]
+    );
+    recipes.remove(<railcraft:bore>);
+
+// Tools
+    recipes.remove(<railcraft:tool_crowbar_iron>);
+    recipes.remove(<railcraft:tool_crowbar_steel>);
+    Anvil.addRecipe(
+        "railcraft_crowbarIron",
+        <tfc:metal/double_ingot/wrought_iron>,
+        <railcraft:tool_crowbar_iron>,
+        3,
+        "tools",
+        "BEND_LAST",
+        "HIT_NOT_LAST",
+        "DRAW_NOT_LAST"
+    );
+    Anvil.addRecipe(
+        "railcraft_crowbarsTEEL",
+        <tfc:metal/double_ingot/steel>,
+        <railcraft:tool_crowbar_steel>,
+        4,
+        "tools",
+        "BEND_LAST",
+        "HIT_NOT_LAST",
+        "DRAW_NOT_LAST"
+    );
