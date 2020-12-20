@@ -27,14 +27,13 @@ ItemRegistry.registerItemSize(<minecraft:hardened_clay>, 'HUGE', 'MEDIUM');
         'tfc_clay_block',
         <minecraft:clay>,
         [
-            [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-            [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>],
-            [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]
+            [<minecraft:clay_ball>, <minecraft:clay_ball>],
+            [<minecraft:clay_ball>, <minecraft:clay_ball>]
         ]
     );
     recipes.addShapeless(
-        "tfc_cley_ball",
-        <minecraft:clay_ball> * 9,
+        "tfc_clay_ball",
+        <minecraft:clay_ball> * 4,
         [<minecraft:clay>]
     );
 

@@ -120,7 +120,6 @@ import mods.jei.JEI;
         <minecraft:acacia_door>,
         <minecraft:dark_oak_door>,
 <minecraft:boat>,
-<minecraft:chest_minecart>,
 <minecraft:furnace_minecart>,
 <minecraft:carrot_on_a_stick>,
 <minecraft:command_block_minecart>,
