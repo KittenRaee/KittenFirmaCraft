@@ -9,7 +9,7 @@ import mods.terrafirmacraft.ItemRegistry;
 
 // Vanilla
     ItemRegistry.registerItemSize(<minecraft:anvil>, "HUGE", "VERY_HEAVY");
-    ItemRegistry.registerItemSize(<railcraft:anvil>, "HUGE", "VERY_HEAVY");
+#    ItemRegistry.registerItemSize(<railcraft:anvil>, "HUGE", "VERY_HEAVY");
 
 // Bibliocraft
 // Bountiful Baubles

@@ -72,12 +72,16 @@ furnace.removeAll();
         [null, <tfc:metal/double_ingot/wrought_iron>, null],
         [<tfc:metal/double_ingot/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>]
     ]);
-    recipes.remove(<railcraft:anvil>);
-    recipes.addShaped("tfc_anvilRailcraft", <railcraft:anvil>, [
-        [<tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>],
-        [null, <tfc:metal/double_ingot/steel>, null],
-        [<tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>]
-    ]);
+#    recipes.remove(<railcraft:anvil>);
+#    recipes.addShaped(
+#        "tfc_anvilRailcraft",
+#        <railcraft:anvil>,
+#        [
+#            [<tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>],
+#            [null, <tfc:metal/double_ingot/steel>, null],
+#            [<tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>]
+#        ]
+#    );
 
 // Fishbones Fix
     recipes.removeShapeless(<minecraft:dye:15>, [<jaff:fish_bones>]);
