@@ -465,11 +465,11 @@
   },
   {
     "n": "Immersive Technology",
-    "v": "1.8.90",
-    "f": "MCTImmersiveTechnology-1.12.2-1.8.90.jar",
+    "v": "1.8.91",
+    "f": "MCTImmersiveTechnology-1.12.2-1.8.91.jar",
     "a": "TGstyle, Kurtchekov",
     "u": "https://www.curseforge.com/minecraft/mc-mods/mct-immersive-technology",
-    "m": "5957a15402362e63daccfb5742615a4c"
+    "m": "63403a7cfe382df63a82e35accda82c3"
   },
   {
     "n": "InControl",
@@ -758,14 +758,6 @@
     "a": "Vazkii, wiiv",
     "u": "http://www.vazkii.us",
     "m": "dfcfa70d244f0435a5ff2b28037a324b"
-  },
-  {
-    "n": "Railcraft",
-    "v": "12.0.0",
-    "f": "railcraft-12.0.0.jar",
-    "a": "CovertJaguar",
-    "u": "http://railcraft.info/",
-    "m": "b6f0592e8f5c24d07fe065f1c97c8fda"
   },
   {
     "n": "Rebind Narrator",
