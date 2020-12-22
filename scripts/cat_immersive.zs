@@ -36,6 +36,7 @@ import mods.immersiveengineering.CokeOven;
 // Bitum coal to coke
     CokeOven.removeRecipe(<immersiveengineering:material:6>);
     CokeOven.addRecipe(<immersiveengineering:material:6>, 125, <tfc:ore/bituminous_coal>, 2000);
+    CokeOven.addRecipe(<immersiveengineering:material:6>, 125, <tfc:ore/lignite>, 2000);
 
 // Remove IE tools
     recipes.remove(<immersiveengineering:pickaxe_steel>, false);

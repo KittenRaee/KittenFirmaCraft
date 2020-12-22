@@ -20,7 +20,7 @@ furnace.removeAll();
     recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_iron>);
 
 // Coal coke in forge
-    ItemRegistry.registerFuel(<ore:fuelCoke>, 3600, 1550, true, true);
+    ItemRegistry.registerFuel(<ore:fuelCoke>, 4400, 1500, true, true);
 
 // Add Glowstone
     Quern.addRecipe("glowstoneGrind", <ore:glowOre>, <minecraft:glowstone_dust> * 4);

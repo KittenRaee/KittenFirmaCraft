@@ -231,9 +231,9 @@ import mods.jei.JEI;
 
     ]as IItemStack[];
 // Railcraft
-    val railcraftHide = [
-
-    ]as IItemStack[];
+#    val railcraftHide = [
+#
+#    ]as IItemStack[];
 // Signpost
     val signpostHide = [
 
