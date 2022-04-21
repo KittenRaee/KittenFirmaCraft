@@ -20,23 +20,23 @@ furnace.removeAll();
     recipes.replaceAllOccurences(<minecraft:iron_ingot>, <tfc:metal/ingot/wrought_iron>);
 
 // Coal coke in forge
-    ItemRegistry.registerFuel(<ore:fuelCoke>, 3600, 1550, true, true);
+    ItemRegistry.registerFuel(<ore:fuelCoke>, 4400, 1500, true, true);
 
 // Add Glowstone
     Quern.addRecipe("glowstoneGrind", <ore:glowOre>, <minecraft:glowstone_dust> * 4);
 
 // Remove blocks
-    recipes.removeShapeless(<immersiveengineering:metal:*>, [<immersiveengineering:storage:*>]); 
+#    recipes.removeShapeless(<immersiveengineering:metal:*>, [<immersiveengineering:storage:*>]); 
     // ingots
-    recipes.replaceAllOccurences(<minecraft:iron_block>, <tfc:metal/double_ingot/wrought_iron>); 
+#    recipes.replaceAllOccurences(<minecraft:iron_block>, <tfc:metal/double_ingot/wrought_iron>); 
     // iron
-    recipes.replaceAllOccurences(<immersiveengineering:storage:2>, <tfc:metal/double_ingot/lead>); 
+#    recipes.replaceAllOccurences(<immersiveengineering:storage:2>, <tfc:metal/double_ingot/lead>); 
     // lead
-    recipes.replaceAllOccurences(<railcraft:metal:5>, <tfc:metal/double_ingot/lead>);
+#    recipes.replaceAllOccurences(<railcraft:metal:5>, <tfc:metal/double_ingot/lead>);
     // leadRC
-    recipes.replaceAllOccurences(<immersiveengineering:storage:0>, <tfc:metal/double_ingot/copper>); 
+#    recipes.replaceAllOccurences(<immersiveengineering:storage:0>, <tfc:metal/double_ingot/copper>); 
     // copper
-    recipes.replaceAllOccurences(<immersiveengineering:storage:8>, <tfc:metal/double_ingot/steel>);  
+#    recipes.replaceAllOccurences(<immersiveengineering:storage:8>, <tfc:metal/double_ingot/steel>);  
     // steel
 
 // Remove Nuggets
@@ -72,12 +72,16 @@ furnace.removeAll();
         [null, <tfc:metal/double_ingot/wrought_iron>, null],
         [<tfc:metal/double_ingot/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>, <tfc:metal/double_ingot/wrought_iron>]
     ]);
-    recipes.remove(<railcraft:anvil>);
-    recipes.addShaped("tfc_anvilRailcraft", <railcraft:anvil>, [
-        [<tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>],
-        [null, <tfc:metal/double_ingot/steel>, null],
-        [<tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>]
-    ]);
+#    recipes.remove(<railcraft:anvil>);
+#    recipes.addShaped(
+#        "tfc_anvilRailcraft",
+#        <railcraft:anvil>,
+#        [
+#            [<tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>, <tfc:metal/double_sheet/black_steel>],
+#            [null, <tfc:metal/double_ingot/steel>, null],
+#            [<tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>, <tfc:metal/double_ingot/steel>]
+#        ]
+#    );
 
 // Fishbones Fix
     recipes.removeShapeless(<minecraft:dye:15>, [<jaff:fish_bones>]);
@@ -131,6 +135,15 @@ furnace.removeAll();
             item["bricks"] * 4, <liquid:fresh_water> * 250,
             item["bricksMoss"] * 4, null,
             8
+        );
+    // Fix Mud
+        recipes.remove(
+            item["mud_ball"]
+        );
+        recipes.addShapeless(
+            "mud_ball_" + type,
+            item["mud_ball"],
+            [item["dirt"], <tfc:straw>, <minecraft:clay_ball>]
         );
     // Netherrack
         Barrel.addRecipe(

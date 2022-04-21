@@ -16,6 +16,22 @@
     "m": "a3221919c55f5cae56f1fb902cd159b2"
   },
   {
+    "n": "Aqueducts",
+    "v": "0.3",
+    "f": "Aqueducts-0.3.jar",
+    "a": "BordListian",
+    "u": "",
+    "m": "561b2c3fc5e9aaf2e7071eae6d7fe615"
+  },
+  {
+    "n": "AstikorCarts",
+    "v": "1.12.2-0.1.2.7",
+    "f": "astikorcarts-1.12.2-0.1.2.7.jar",
+    "a": "MennoMax",
+    "u": "",
+    "m": "af7be118e58fb1e205c33a7587a77eef"
+  },
+  {
     "n": "Athenaeum",
     "v": "1.12.2-1.19.2",
     "f": "athenaeum-1.12.2-1.19.2.jar",
@@ -129,11 +145,11 @@
   },
   {
     "n": "Chunk Pregenerator",
-    "v": "2.1",
-    "f": "Chunk Pregenerator V1.12-2.4E.jar",
+    "v": "2.5.0",
+    "f": "Chunk Pregenerator-V1.12-2.5.0.jar",
     "a": "",
     "u": "",
-    "m": "13754308a5072489e72551378c31f8f3"
+    "m": "ff8408c9b5e00c8eea3663a33465a5e0"
   },
   {
     "n": "CoFH Core",
@@ -202,10 +218,10 @@
   {
     "n": "CraftTweaker JEI Support",
     "v": "2.0.3",
-    "f": "CraftTweaker2-1.12-4.1.20.586.jar",
+    "f": "CraftTweaker2-1.12-4.1.20.618.jar",
     "a": "",
     "u": "",
-    "m": "52f1edbedf131a7afb0d7801ffcb53cc"
+    "m": "b44e6d90134f8f6cef88487d0152a372"
   },
   {
     "n": "CraftTweaker Utils",
@@ -218,18 +234,18 @@
   {
     "n": "CraftTweaker2",
     "v": "4.1.20",
-    "f": "CraftTweaker2-1.12-4.1.20.586.jar",
+    "f": "CraftTweaker2-1.12-4.1.20.618.jar",
     "a": "StanHebben, Jaredlll08",
     "u": "http://minetweaker3.powerofbytes.com",
-    "m": "52f1edbedf131a7afb0d7801ffcb53cc"
+    "m": "b44e6d90134f8f6cef88487d0152a372"
   },
   {
     "n": "CT-GUI",
     "v": "1.0.0",
-    "f": "CraftTweaker2-1.12-4.1.20.586.jar",
+    "f": "CraftTweaker2-1.12-4.1.20.618.jar",
     "a": "",
     "u": "",
-    "m": "52f1edbedf131a7afb0d7801ffcb53cc"
+    "m": "b44e6d90134f8f6cef88487d0152a372"
   },
   {
     "n": "CTM",
@@ -337,11 +353,11 @@
   },
   {
     "n": "Fantastic Lib",
-    "v": "1.12.2.043",
-    "f": "FantasticLib-1.12.2.043.jar",
+    "v": "1.12.2.044",
+    "f": "FantasticLib-1.12.2.044.jar",
     "a": "Laike_Endaril",
     "u": "",
-    "m": "f27653c148bff959fc3429894e0566d5"
+    "m": "0150dc976574c643cd49d1b41ab89c84"
   },
   {
     "n": "Farseek",
@@ -369,11 +385,11 @@
   },
   {
     "n": "FoamFix",
-    "v": "0.10.10-1.12.2",
-    "f": "foamfix-0.10.10-1.12.2.jar",
+    "v": "0.10.11-1.12.2",
+    "f": "foamfix-0.10.11-1.12.2.jar",
     "a": "asiekierka",
     "u": "http://asie.pl/Projects/Minecraft/Mods/FoamFix",
-    "m": "bba94f1ee252fcfbd2d52779f5c2f2b1"
+    "m": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
   },
   {
     "n": "FoamFixCore",
@@ -457,11 +473,11 @@
   },
   {
     "n": "Immersive Technology",
-    "v": "1.8.90",
-    "f": "MCTImmersiveTechnology-1.12.2-1.8.90.jar",
+    "v": "1.8.93",
+    "f": "MCTImmersiveTechnology-1.12.2-1.8.93.jar",
     "a": "TGstyle, Kurtchekov",
     "u": "https://www.curseforge.com/minecraft/mc-mods/mct-immersive-technology",
-    "m": "5957a15402362e63daccfb5742615a4c"
+    "m": "b110793b068cef2e73f6088fc1753571"
   },
   {
     "n": "InControl",
@@ -649,11 +665,11 @@
   },
   {
     "n": "MoreTweaker",
-    "v": "1.0.16",
-    "f": "MoreTweaker-1.0.16.jar",
+    "v": "1.0.19",
+    "f": "MoreTweaker-1.0.19.jar",
     "a": "noeppi_noeppi",
     "u": "",
-    "m": "ff4b7a0d4f37e564c5ee4b0d485ae5a4"
+    "m": "96c2097d78f61b5f0d648f934b8d1a04"
   },
   {
     "n": "Morpheus",
@@ -705,11 +721,11 @@
   },
   {
     "n": "OversizedItemInStorageArea",
-    "v": "2.2.0",
-    "f": "OversizedItemInStorageArea-2.2.0.jar",
+    "v": "2.2.1",
+    "f": "OversizedItemInStorageArea-2.2.1.jar",
     "a": "DoubleDoorDev, Claycorp",
     "u": "",
-    "m": "47db98378736e4337d4a1a5bca53c143"
+    "m": "c35f76d08a7bb48b11d477ce105feebf"
   },
   {
     "n": "Paths",
@@ -750,14 +766,6 @@
     "a": "Vazkii, wiiv",
     "u": "http://www.vazkii.us",
     "m": "dfcfa70d244f0435a5ff2b28037a324b"
-  },
-  {
-    "n": "Railcraft",
-    "v": "12.0.0",
-    "f": "railcraft-12.0.0.jar",
-    "a": "CovertJaguar",
-    "u": "http://railcraft.info/",
-    "m": "b6f0592e8f5c24d07fe065f1c97c8fda"
   },
   {
     "n": "Rebind Narrator",
@@ -841,19 +849,19 @@
   },
   {
     "n": "TerraFirmaCraft",
-    "v": "1.7.10.168",
-    "f": "TerraFirmaCraft-MC1.12.2-1.7.10.168.jar",
+    "v": "1.7.17.175",
+    "f": "TerraFirmaCraft-MC1.12.2-1.7.17.175.jar",
     "a": "Dries007, AlcatrazEscapee, Bunsan, et. al.",
     "u": "https://tng.terrafirmacraft.com/Main_Page",
-    "m": "f83fbe9f61c38efbcc0912ed8e07ab5c"
+    "m": "1d143fa701216b78e1955147911d611e"
   },
   {
     "n": "TerraFirmaThings",
-    "v": "1.3.2",
-    "f": "terrafirmathings-1.3.2.jar",
+    "v": "1.3.3",
+    "f": "terrafirmathings-1.3.4.jar",
     "a": "Lyeoj",
     "u": "",
-    "m": "9863c15f6deffb325b8f3fc9e23544a4"
+    "m": "dba3e0ac50f745de9c4dd6694c727b4d"
   },
   {
     "n": "TFC Aged Drinks",
@@ -865,19 +873,19 @@
   },
   {
     "n": "TFC Decoration",
-    "v": "1.0.4",
-    "f": "tfc_decoration-1.0.4.jar",
+    "v": "1.0.7",
+    "f": "tfc_decoration-1.0.7.jar",
     "a": "",
     "u": "",
-    "m": "82c12d72057798aa0806209ba8bd0619"
+    "m": "a9889d705ea23e5ae762cca5c363d87d"
   },
   {
     "n": "TFC Medicinal",
     "v": "1.0.0",
-    "f": "TFCMedicinal-1.0.5.jar",
+    "f": "TFCMedicinal-1.0.6.jar",
     "a": "Lumintorious",
     "u": "",
-    "m": "aa2a09ac0f83e7c53a7345dd8f362934"
+    "m": "706487de76a0b672f10dc841e4514829"
   },
   {
     "n": "TFC Metallum",
@@ -905,19 +913,19 @@
   },
   {
     "n": "TFC Tweaker",
-    "v": "1.0.3",
-    "f": "tfctweaker-1.0.3.jar",
+    "v": "1.0.6",
+    "f": "tfctweaker-1.0.6.jar",
     "a": "Mrthomas20121",
     "u": "",
-    "m": "7bb26bb1721c85a920dfad74fa87a1c9"
+    "m": "99b75ff046b3c6d892ef326c9c19386a"
   },
   {
     "n": "TFCTech Unofficial",
-    "v": "1.2.15",
-    "f": "TFCTech-Unofficial-MC1.12.2-1.2.15.jar",
+    "v": "1.2.16",
+    "f": "TFCTech-Unofficial-MC1.12.2-1.2.16.jar",
     "a": "DisasterMoo, Abdyman",
     "u": "https://github.com/TFC-Metallum/TFCTech",
-    "m": "00a48b69850d684ae9450949f4c6a75e"
+    "m": "34ec0e7b0d0da37927f407e98a49a882"
   },
   {
     "n": "Time4TFC",
@@ -945,11 +953,11 @@
   },
   {
     "n": "UniDict",
-    "v": "1.12.2-3.0.2",
-    "f": "UniDict-1.12.2-3.0.2.jar",
+    "v": "1.12.2-3.0.3",
+    "f": "UniDict-1.12.2-3.0.3.jar",
     "a": "WanionCane",
     "u": "http://minecraft.curseforge.com/projects/unidict",
-    "m": "abac93abb0f3d22c64ba866d7f456325"
+    "m": "8bf121b84c6739cf8e293d5b06eecead"
   },
   {
     "n": "Unlimited Chisel Works",

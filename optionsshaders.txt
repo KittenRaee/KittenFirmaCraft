@@ -1,4 +1,4 @@
-#Fri Dec 11 17:43:59 CET 2020
+#Sat Dec 26 16:34:55 CET 2020
 shaderPack=BSL_v7.2.01pre1.zip
 antialiasingLevel=0
 normalMapEnabled=true

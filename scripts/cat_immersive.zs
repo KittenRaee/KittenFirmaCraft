@@ -16,6 +16,7 @@ import mods.terrafirmacraft.Heating;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.MetalPress;
 import mods.unidict.api.newShapedRecipeTemplate;
 import mods.immersiveengineering.CokeOven;
 
@@ -35,6 +36,7 @@ import mods.immersiveengineering.CokeOven;
 // Bitum coal to coke
     CokeOven.removeRecipe(<immersiveengineering:material:6>);
     CokeOven.addRecipe(<immersiveengineering:material:6>, 125, <tfc:ore/bituminous_coal>, 2000);
+    CokeOven.addRecipe(<immersiveengineering:material:6>, 125, <tfc:ore/lignite>, 2000);
 
 // Remove IE tools
     recipes.remove(<immersiveengineering:pickaxe_steel>, false);
@@ -303,7 +305,7 @@ import mods.immersiveengineering.CokeOven;
         },
         "jug" : {
             "unfired" : <tfc:ceramics/unfired/jug>,
-            "fired" : <tfc:ceramics/fired/fire_brick>
+            "fired" : <tfc:ceramics/fired/jug>
         },
         "brick" : {
             "unfired" : <tfc:ceramics/unfired/clay_brick>,
@@ -321,4 +323,27 @@ import mods.immersiveengineering.CokeOven;
 
     for item, state in recipesToAddAlloySmelter {
         AlloySmelter.addRecipe(state["fired"], state["unfired"], <tfc:powder/flux> * 2, 1200);
+    }
+// Metal Press stuff
+    val moldPlate = <immersiveengineering:mold:0>;
+    val moldGear = <immersiveengineering:mold:1>;
+    val moldRod = <immersiveengineering:mold:2>;
+    val moldCasing = <immersiveengineering:mold:3>;
+    val moldWire = <immersiveengineering:mold:4>;
+    val mold2x2 = <immersiveengineering:mold:5>;
+    val mold3x3 = <immersiveengineering:mold:6>;
+    val moldUnpack = <immersiveengineering:mold:7>;
+
+    MetalPress.removeRecipeByMold(moldGear);
+
+
+    for type, item in scripts.lists.metals.aesTypes {
+#        MetalPress.removeRecipe(item["gear"]);
+        MetalPress.addRecipe(
+            item["rackwheel"],
+            item["double_ingot"],
+            moldGear,
+            2000,
+            16
+        );
     }

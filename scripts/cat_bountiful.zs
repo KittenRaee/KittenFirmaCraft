@@ -88,7 +88,7 @@ val spectralSilt = <bountifulbaubles:spectralsilt>;
               .matchBlocks([i])
               .replaceStrategy("ADD")
               .addDrop(Dropt.drop()
-                  .selector(Dropt.weight(187)) // drops nothing if selected
+                  .selector(Dropt.weight(19987)) // drops nothing if selected
               )
               .addDrop(Dropt.drop()
                   .selector(Dropt.weight(13))
